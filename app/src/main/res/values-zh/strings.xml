@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">DashDiet</string>
+    <string name="app_tagline">健康饮食，健康生活</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">首页</string>
+    <string name="nav_recipes">食谱</string>
+    <string name="nav_meal_plan">膳食计划</string>
+    <string name="nav_profile">个人中心</string>
+
+    <!-- Auth Screen -->
+    <string name="auth_welcome">欢迎使用 DashDiet</string>
+    <string name="auth_subtitle">您的 DASH 饮食指南，助您拥有更健康的心脏和生活</string>
+    <string name="auth_sign_in_google">使用 Google 登录</string>
+    <string name="auth_sign_in_apple">使用 Apple 登录</string>
+    <string name="auth_skip">以访客身份继续</string>
+    <string name="auth_terms">登录即表示您同意我们的服务条款和隐私政策</string>
+    <string name="auth_signing_in">正在登录…</string>
+    <string name="auth_error">登录失败，请重试。</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">你好，%1$s！</string>
+    <string name="home_greeting_guest">你好！</string>
+    <string name="home_daily_tip">每日 DASH 小贴士</string>
+    <string name="home_featured_recipes">精选食谱</string>
+    <string name="home_categories">分类</string>
+    <string name="home_quick_start">快速开始</string>
+    <string name="home_view_all">查看全部</string>
+    <string name="home_dash_score">您的 DASH 评分</string>
+    <string name="home_what_is_dash">什么是 DASH 饮食？</string>
+    <string name="home_learn_more">了解更多</string>
+
+    <!-- Categories -->
+    <string name="category_breakfast">早餐</string>
+    <string name="category_lunch">午餐</string>
+    <string name="category_dinner">晚餐</string>
+    <string name="category_snacks">零食</string>
+    <string name="category_all">全部</string>
+
+    <!-- Recipe List -->
+    <string name="recipes_title">DASH 食谱</string>
+    <string name="recipes_search">搜索食谱…</string>
+    <string name="recipes_no_results">未找到食谱</string>
+    <string name="recipes_count">%1$d 个食谱</string>
+    <string name="recipes_filter">筛选</string>
+
+    <!-- Recipe Detail -->
+    <string name="recipe_ingredients">食材</string>
+    <string name="recipe_steps">做法</string>
+    <string name="recipe_nutrition">营养信息</string>
+    <string name="recipe_prep_time">准备时间</string>
+    <string name="recipe_cook_time">烹饪时间</string>
+    <string name="recipe_total_time">总时间</string>
+    <string name="recipe_servings">份数</string>
+    <string name="recipe_minutes">%1$d 分钟</string>
+    <string name="recipe_step_number">步骤 %1$d</string>
+    <string name="recipe_add_to_plan">添加到膳食计划</string>
+    <string name="recipe_added_to_plan">已添加到膳食计划！</string>
+
+    <!-- Nutrition Labels -->
+    <string name="nutrition_calories">热量</string>
+    <string name="nutrition_sodium">钠</string>
+    <string name="nutrition_potassium">钾</string>
+    <string name="nutrition_fiber">膳食纤维</string>
+    <string name="nutrition_protein">蛋白质</string>
+    <string name="nutrition_fat">脂肪</string>
+    <string name="nutrition_carbs">碳水化合物</string>
+    <string name="nutrition_cal">%1$d 千卡</string>
+    <string name="nutrition_mg">%1$d 毫克</string>
+    <string name="nutrition_g">%1$d 克</string>
+
+    <!-- Meal Plan -->
+    <string name="meal_plan_title">每周膳食计划</string>
+    <string name="meal_plan_empty">点击 + 添加一餐</string>
+    <string name="meal_plan_add">添加餐食</string>
+    <string name="meal_plan_remove">移除</string>
+    <string name="meal_plan_clear">清除当天</string>
+    <string name="meal_plan_clear_all">清除全部</string>
+    <string name="meal_plan_select_recipe">选择食谱</string>
+    <string name="meal_plan_select_slot">选择用餐时段</string>
+    <string name="meal_plan_daily_total">每日总计</string>
+    <string name="meal_plan_weekly_overview">每周概览</string>
+
+    <!-- Days of Week -->
+    <string name="day_monday">星期一</string>
+    <string name="day_tuesday">星期二</string>
+    <string name="day_wednesday">星期三</string>
+    <string name="day_thursday">星期四</string>
+    <string name="day_friday">星期五</string>
+    <string name="day_saturday">星期六</string>
+    <string name="day_sunday">星期日</string>
+    <string name="day_mon">周一</string>
+    <string name="day_tue">周二</string>
+    <string name="day_wed">周三</string>
+    <string name="day_thu">周四</string>
+    <string name="day_fri">周五</string>
+    <string name="day_sat">周六</string>
+    <string name="day_sun">周日</string>
+
+    <!-- Profile -->
+    <string name="profile_title">个人中心</string>
+    <string name="profile_account">账户</string>
+    <string name="profile_guest">访客用户</string>
+    <string name="profile_sign_out">退出登录</string>
+    <string name="profile_sign_in">登录</string>
+    <string name="profile_settings">设置</string>
+    <string name="profile_language">语言</string>
+    <string name="profile_dark_mode">深色模式</string>
+    <string name="profile_notifications">通知</string>
+    <string name="profile_about">关于 DASH 饮食</string>
+    <string name="profile_version">版本 %1$s</string>
+    <string name="profile_about_app">关于 DashDiet</string>
+    <string name="profile_rate">给我们评分</string>
+    <string name="profile_share">分享应用</string>
+    <string name="profile_privacy">隐私政策</string>
+    <string name="profile_terms">服务条款</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_chinese">中文</string>
+    <string name="lang_hindi">हिन्दी</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_select">选择语言</string>
+
+    <!-- DASH Diet Info -->
+    <string name="dash_info_title">关于 DASH 饮食</string>
+    <string name="dash_info_what">什么是 DASH 饮食？</string>
+    <string name="dash_info_what_desc">DASH 是"终止高血压膳食疗法"（Dietary Approaches to Stop Hypertension）的缩写。它是一种终身健康饮食方式，旨在帮助治疗或预防高血压。</string>
+    <string name="dash_info_benefits">主要益处</string>
+    <string name="dash_info_benefit_1">降低血压</string>
+    <string name="dash_info_benefit_2">降低胆固醇水平</string>
+    <string name="dash_info_benefit_3">改善胰岛素敏感性</string>
+    <string name="dash_info_benefit_4">支持健康体重</string>
+    <string name="dash_info_benefit_5">降低心脏病风险</string>
+    <string name="dash_info_benefit_6">可能降低癌症风险</string>
+    <string name="dash_info_guidelines">DASH 饮食指南</string>
+    <string name="dash_info_guideline_1">多吃水果和蔬菜</string>
+    <string name="dash_info_guideline_2">选择全谷物而非精加工谷物</string>
+    <string name="dash_info_guideline_3">选用脱脂或低脂乳制品</string>
+    <string name="dash_info_guideline_4">选择瘦肉蛋白（鱼、禽肉、豆类）</string>
+    <string name="dash_info_guideline_5">每日钠摄入量限制在2300毫克以内（或1500毫克）</string>
+    <string name="dash_info_guideline_6">减少饱和脂肪和甜食</string>
+    <string name="dash_info_guideline_7">适量食用坚果、种子和豆类</string>
+    <string name="dash_info_daily_servings">每日建议摄入量</string>
+    <string name="dash_info_grains">谷物：6–8 份</string>
+    <string name="dash_info_vegetables">蔬菜：4–5 份</string>
+    <string name="dash_info_fruits">水果：4–5 份</string>
+    <string name="dash_info_dairy">乳制品（低脂）：2–3 份</string>
+    <string name="dash_info_meat">瘦肉/鱼类：不超过 6 份</string>
+    <string name="dash_info_nuts">坚果/种子/豆类：每周 4–5 份</string>
+    <string name="dash_info_fats">油脂：2–3 份</string>
+    <string name="dash_info_sweets">甜食：每周不超过 5 份</string>
+
+    <!-- Daily Tips -->
+    <string name="tip_1">试试用香草和香料代替食盐来调味。</string>
+    <string name="tip_2">每天至少摄入 4–5 份水果和蔬菜。</string>
+    <string name="tip_3">选择全谷物，如糙米、全麦和燕麦。</string>
+    <string name="tip_4">用无盐坚果代替薯片或饼干作为零食。</string>
+    <string name="tip_5">阅读营养标签，选择钠含量较低的食品。</string>
+    <string name="tip_6">每天食用一份低脂乳制品，如酸奶。</string>
+    <string name="tip_7">烤、焙或蒸制食物，避免油炸。</string>
+    <string name="tip_8">喝水代替含糖饮料。</string>
+    <string name="tip_9">在汤和沙拉中加入豆类或扁豆以增加膳食纤维。</string>
+    <string name="tip_10">提前规划您的膳食，以便做出更健康的选择。</string>
+
+    <!-- Common -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="close">关闭</string>
+    <string name="back">返回</string>
+    <string name="loading">加载中…</string>
+    <string name="error_generic">出错了，请重试。</string>
+    <string name="no_connection">无网络连接</string>
+
+    <!-- ==================== RECIPES ==================== -->
+
+    <!-- === BREAKFAST RECIPES === -->
+
+    <!-- 1. Oatmeal with Berries -->
+    <string name="recipe_1_title">鲜莓燕麦粥</string>
+    <string name="recipe_1_desc">有益心脏的燕麦粥，搭配新鲜浆果和蜂蜜。完美的 DASH 饮食早餐。</string>
+    <string name="recipe_1_ing_1">1 杯燕麦片</string>
+    <string name="recipe_1_ing_2">2 杯水或低脂牛奶</string>
+    <string name="recipe_1_ing_3">半杯混合浆果（蓝莓、草莓、覆盆子）</string>
+    <string name="recipe_1_ing_4">1 汤匙蜂蜜</string>
+    <string name="recipe_1_ing_5">四分之一茶匙肉桂粉</string>
+    <string name="recipe_1_ing_6">1 汤匙切碎的核桃</string>
+    <string name="recipe_1_step_1">在锅中将水或牛奶煮沸。</string>
+    <string name="recipe_1_step_2">加入燕麦片，转小火煮 5 分钟，期间偶尔搅拌。</string>
+    <string name="recipe_1_step_3">盛入碗中，放上新鲜浆果。</string>
+    <string name="recipe_1_step_4">淋上蜂蜜，撒上肉桂粉和核桃，趁热食用。</string>
+
+    <!-- 2. Greek Yogurt Parfait -->
+    <string name="recipe_2_title">希腊酸奶杯</string>
+    <string name="recipe_2_desc">低脂希腊酸奶、脆麦片和新鲜水果层层叠加，富含蛋白质的早餐。</string>
+    <string name="recipe_2_ing_1">1 杯低脂希腊酸奶</string>
+    <string name="recipe_2_ing_2">四分之一杯低钠麦片</string>
+    <string name="recipe_2_ing_3">半杯草莓切片</string>
+    <string name="recipe_2_ing_4">四分之一杯蓝莓</string>
+    <string name="recipe_2_ing_5">1 汤匙奇亚籽</string>
+    <string name="recipe_2_ing_6">1 茶匙蜂蜜</string>
+    <string name="recipe_2_step_1">在杯子或碗中加入一半的酸奶。</string>
+    <string name="recipe_2_step_2">铺上一半的麦片和一半的水果。</string>
+    <string name="recipe_2_step_3">用剩余的食材再铺一层。</string>
+    <string name="recipe_2_step_4">顶部撒上奇亚籽，淋上蜂蜜。</string>
+
+    <!-- 3. Whole Grain Toast with Avocado -->
+    <string name="recipe_3_title">全麦牛油果吐司</string>
+    <string name="recipe_3_desc">酥脆的全麦吐司配牛油果泥、番茄和柠檬汁。</string>
+    <string name="recipe_3_ing_1">2 片全麦面包</string>
+    <string name="recipe_3_ing_2">1 个成熟牛油果</string>
+    <string name="recipe_3_ing_3">1 个小番茄，切片</string>
+    <string name="recipe_3_ing_4">半个柠檬的汁</string>
+    <string name="recipe_3_ing_5">少许黑胡椒</string>
+    <string name="recipe_3_ing_6">红辣椒碎（可选）</string>
+    <string name="recipe_3_step_1">将面包片烤至金黄酥脆。</string>
+    <string name="recipe_3_step_2">在碗中将牛油果与柠檬汁和胡椒捣成泥。</string>
+    <string name="recipe_3_step_3">将牛油果泥均匀涂抹在每片吐司上。</string>
+    <string name="recipe_3_step_4">放上番茄片，可选择撒上红辣椒碎。</string>
+
+    <!-- 4. Berry Smoothie Bowl -->
+    <string name="recipe_4_title">浆果思慕雪碗</string>
+    <string name="recipe_4_desc">浓稠顺滑的思慕雪碗，富含抗氧化浆果和营养配料。</string>
+    <string name="recipe_4_ing_1">1 杯冷冻混合浆果</string>
+    <string name="recipe_4_ing_2">1 根香蕉</string>
+    <string name="recipe_4_ing_3">半杯低脂牛奶</string>
+    <string name="recipe_4_ing_4">1 汤匙亚麻籽</string>
+    <string name="recipe_4_ing_5">2 汤匙麦片</string>
+    <string name="recipe_4_ing_6">新鲜水果作装饰</string>
+    <string name="recipe_4_step_1">将冷冻浆果、香蕉和牛奶搅打至浓稠顺滑。</string>
+    <string name="recipe_4_step_2">倒入碗中（应比普通思慕雪更浓稠）。</string>
+    <string name="recipe_4_step_3">放上麦片、亚麻籽和新鲜水果。</string>
+    <string name="recipe_4_step_4">立即用勺子享用。</string>
+
+    <!-- 5. Egg White Omelet -->
+    <string name="recipe_5_title">蔬菜蛋白煎蛋</string>
+    <string name="recipe_5_desc">轻盈蓬松的蛋白煎蛋，搭配丰富多彩的蔬菜，低脂高蛋白。</string>
+    <string name="recipe_5_ing_1">4 个蛋白</string>
+    <string name="recipe_5_ing_2">四分之一杯甜椒丁</string>
+    <string name="recipe_5_ing_3">四分之一杯切碎的菠菜</string>
+    <string name="recipe_5_ing_4">2 汤匙番茄丁</string>
+    <string name="recipe_5_ing_5">2 汤匙低脂奶酪</string>
+    <string name="recipe_5_ing_6">1 茶匙橄榄油</string>
+    <string name="recipe_5_step_1">将蛋白搅打至微微起泡。</string>
+    <string name="recipe_5_step_2">在不粘锅中用中火加热橄榄油。</string>
+    <string name="recipe_5_step_3">倒入蛋白，待边缘凝固后将蔬菜放在一半上。</string>
+    <string name="recipe_5_step_4">将煎蛋对折，撒上奶酪即可食用。</string>
+
+    <!-- 6. Banana Oat Pancakes -->
+    <string name="recipe_6_title">香蕉燕麦煎饼</string>
+    <string name="recipe_6_desc">用全谷物燕麦和成熟香蕉制作的蓬松煎饼，天然甜味，无需额外加糖。</string>
+    <string name="recipe_6_ing_1">1 杯全麦面粉</string>
+    <string name="recipe_6_ing_2">半杯燕麦片</string>
+    <string name="recipe_6_ing_3">1 根成熟香蕉，捣成泥</string>
+    <string name="recipe_6_ing_4">1 杯低脂牛奶</string>
+    <string name="recipe_6_ing_5">1 个鸡蛋</string>
+    <string name="recipe_6_ing_6">1 茶匙泡打粉</string>
+    <string name="recipe_6_step_1">将面粉、燕麦片和泡打粉混合在碗中。</string>
+    <string name="recipe_6_step_2">在另一个碗中混合香蕉泥、牛奶和鸡蛋。</string>
+    <string name="recipe_6_step_3">将湿料拌入干料中，搅拌均匀即可。</string>
+    <string name="recipe_6_step_4">在不粘锅中以中火煎制，冒泡后翻面。搭配新鲜水果食用。</string>
+
+    <!-- 7. Fresh Fruit Salad -->
+    <string name="recipe_7_title">新鲜水果沙拉</string>
+    <string name="recipe_7_desc">色彩缤纷的时令水果搭配清爽的柑橘薄荷汁，富含钾和维生素。</string>
+    <string name="recipe_7_ing_1">1 杯草莓，对半切</string>
+    <string name="recipe_7_ing_2">1 杯蓝莓</string>
+    <string name="recipe_7_ing_3">1 根香蕉，切片</string>
+    <string name="recipe_7_ing_4">1 个橙子，去瓣</string>
+    <string name="recipe_7_ing_5">1 个猕猴桃，切丁</string>
+    <string name="recipe_7_ing_6">新鲜薄荷叶和青柠汁</string>
+    <string name="recipe_7_step_1">清洗并准备好所有水果。</string>
+    <string name="recipe_7_step_2">将所有水果放入大碗中。</string>
+    <string name="recipe_7_step_3">挤入青柠汁，轻轻拌匀。</string>
+    <string name="recipe_7_step_4">用新鲜薄荷叶装饰，冷藏后食用。</string>
+
+    <!-- 8. Granola Bowl -->
+    <string name="recipe_8_title">低钠麦片碗</string>
+    <string name="recipe_8_desc">酥脆的自制低钠麦片搭配干果和种子，配低脂牛奶。</string>
+    <string name="recipe_8_ing_1">半杯低钠麦片</string>
+    <string name="recipe_8_ing_2">1 杯低脂牛奶</string>
+    <string name="recipe_8_ing_3">2 汤匙蔓越莓干</string>
+    <string name="recipe_8_ing_4">1 汤匙南瓜籽</string>
+    <string name="recipe_8_ing_5">1 汤匙葵花籽</string>
+    <string name="recipe_8_ing_6">半根香蕉，切片</string>
+    <string name="recipe_8_step_1">将麦片倒入碗中。</string>
+    <string name="recipe_8_step_2">加入低脂牛奶。</string>
+    <string name="recipe_8_step_3">放上蔓越莓干、种子和香蕉片。</string>
+    <string name="recipe_8_step_4">立即食用以保持酥脆口感。</string>
+
+    <!-- === LUNCH RECIPES === -->
+
+    <!-- 9. Quinoa Vegetable Salad -->
+    <string name="recipe_9_title">藜麦蔬菜沙拉</string>
+    <string name="recipe_9_desc">富含蛋白质的藜麦搭配新鲜蔬菜和清爽的柠檬油醋汁，完美的 DASH 午餐。</string>
+    <string name="recipe_9_ing_1">1 杯煮熟的藜麦</string>
+    <string name="recipe_9_ing_2">半杯黄瓜丁</string>
+    <string name="recipe_9_ing_3">半杯小番茄，对半切</string>
+    <string name="recipe_9_ing_4">四分之一杯红洋葱丁</string>
+    <string name="recipe_9_ing_5">2 汤匙橄榄油</string>
+    <string name="recipe_9_ing_6">1 个柠檬的汁，新鲜欧芹</string>
+    <string name="recipe_9_step_1">按包装说明煮藜麦，放凉备用。</string>
+    <string name="recipe_9_step_2">将放凉的藜麦与黄瓜、番茄和洋葱混合。</string>
+    <string name="recipe_9_step_3">将橄榄油和柠檬汁混合调成酱汁。</string>
+    <string name="recipe_9_step_4">将沙拉与酱汁拌匀，用欧芹装饰。</string>
+
+    <!-- 10. Turkey Lettuce Wrap -->
+    <string name="recipe_10_title">火鸡肉生菜卷</string>
+    <string name="recipe_10_desc">用脆嫩的生菜叶包裹瘦火鸡肉和新鲜蔬菜，低碳水，符合 DASH 饮食。</string>
+    <string name="recipe_10_ing_1">200 克瘦火鸡肉末</string>
+    <string name="recipe_10_ing_2">4 片大黄油生菜叶</string>
+    <string name="recipe_10_ing_3">半杯胡萝卜丝</string>
+    <string name="recipe_10_ing_4">四分之一杯马蹄丁</string>
+    <string name="recipe_10_ing_5">1 汤匙低钠酱油</string>
+    <string name="recipe_10_ing_6">1 茶匙芝麻油、蒜、姜</string>
+    <string name="recipe_10_step_1">将火鸡肉末与蒜和姜一起炒至变色。</string>
+    <string name="recipe_10_step_2">加入胡萝卜、马蹄、酱油和芝麻油，翻炒 2 分钟。</string>
+    <string name="recipe_10_step_3">将生菜叶洗净并拍干。</string>
+    <string name="recipe_10_step_4">将火鸡肉馅舀入生菜杯中即可食用。</string>
+
+    <!-- 11. Lentil Soup -->
+    <string name="recipe_11_title">浓香扁豆汤</string>
+    <string name="recipe_11_desc">温暖人心的扁豆汤，富含膳食纤维和钾。一道符合 DASH 饮食的暖心餐。</string>
+    <string name="recipe_11_ing_1">1 杯干扁豆，洗净</string>
+    <string name="recipe_11_ing_2">4 杯低钠蔬菜高汤</string>
+    <string name="recipe_11_ing_3">1 杯胡萝卜丁</string>
+    <string name="recipe_11_ing_4">1 杯芹菜丁</string>
+    <string name="recipe_11_ing_5">1 个洋葱，切丁</string>
+    <string name="recipe_11_ing_6">2 瓣蒜、孜然、姜黄</string>
+    <string name="recipe_11_step_1">用橄榄油炒洋葱、胡萝卜、芹菜和蒜 5 分钟。</string>
+    <string name="recipe_11_step_2">加入扁豆、高汤、孜然和姜黄，煮沸。</string>
+    <string name="recipe_11_step_3">转小火炖煮 25–30 分钟，直到扁豆变软。</string>
+    <string name="recipe_11_step_4">用胡椒调味，挤入柠檬汁即可食用。</string>
+
+    <!-- 12. Grilled Chicken Salad -->
+    <string name="recipe_12_title">烤鸡胸肉沙拉</string>
+    <string name="recipe_12_desc">新鲜的混合蔬菜搭配烤鸡胸肉、牛油果和清爽的意式醋汁。</string>
+    <string name="recipe_12_ing_1">150 克烤鸡胸肉，切片</string>
+    <string name="recipe_12_ing_2">3 杯混合沙拉蔬菜</string>
+    <string name="recipe_12_ing_3">半个牛油果，切片</string>
+    <string name="recipe_12_ing_4">四分之一杯小番茄</string>
+    <string name="recipe_12_ing_5">2 汤匙意式香醋酱</string>
+    <string name="recipe_12_ing_6">1 汤匙葵花籽</string>
+    <string name="recipe_12_step_1">用香草调味鸡胸肉，烤至全熟后切片。</string>
+    <string name="recipe_12_step_2">在盘中铺好沙拉蔬菜。</string>
+    <string name="recipe_12_step_3">放上鸡肉、牛油果和番茄。</string>
+    <string name="recipe_12_step_4">淋上意式香醋酱，撒上葵花籽。</string>
+
+    <!-- 13. Veggie Buddha Bowl -->
+    <string name="recipe_13_title">蔬菜佛陀碗</string>
+    <string name="recipe_13_desc">色彩丰富的烤蔬菜、鹰嘴豆和糙米，搭配芝麻酱。</string>
+    <string name="recipe_13_ing_1">1 杯煮熟的糙米</string>
+    <string name="recipe_13_ing_2">半杯烤红薯块</string>
+    <string name="recipe_13_ing_3">半杯煮熟的鹰嘴豆</string>
+    <string name="recipe_13_ing_4">半杯蒸西兰花</string>
+    <string name="recipe_13_ing_5">四分之一个牛油果，切片</string>
+    <string name="recipe_13_ing_6">2 汤匙芝麻酱</string>
+    <string name="recipe_13_step_1">煮糙米，将红薯块在 200°C 烤 20 分钟。</string>
+    <string name="recipe_13_step_2">蒸西兰花，加热鹰嘴豆。</string>
+    <string name="recipe_13_step_3">将糙米、蔬菜和鹰嘴豆摆放在碗中。</string>
+    <string name="recipe_13_step_4">放上牛油果片，淋上芝麻酱。</string>
+
+    <!-- 14. Tuna Salad Sandwich -->
+    <string name="recipe_14_title">金枪鱼沙拉三明治</string>
+    <string name="recipe_14_desc">用希腊酸奶代替蛋黄酱的清爽金枪鱼沙拉，配全麦面包。低钠高蛋白。</string>
+    <string name="recipe_14_ing_1">1 罐低钠金枪鱼，沥干</string>
+    <string name="recipe_14_ing_2">2 汤匙原味希腊酸奶</string>
+    <string name="recipe_14_ing_3">四分之一杯芹菜丁</string>
+    <string name="recipe_14_ing_4">1 汤匙红洋葱丁</string>
+    <string name="recipe_14_ing_5">2 片全麦面包</string>
+    <string name="recipe_14_ing_6">生菜叶、黑胡椒</string>
+    <string name="recipe_14_step_1">在碗中混合金枪鱼、希腊酸奶、芹菜和洋葱。</string>
+    <string name="recipe_14_step_2">用黑胡椒调味。</string>
+    <string name="recipe_14_step_3">将混合物涂在全麦面包上。</string>
+    <string name="recipe_14_step_4">放上生菜叶，盖上另一片面包即可食用。</string>
+
+    <!-- 15. Minestrone Soup -->
+    <string name="recipe_15_title">意式蔬菜浓汤</string>
+    <string name="recipe_15_desc">经典的意大利蔬菜汤，搭配豆类和全麦意面。低钠且风味十足。</string>
+    <string name="recipe_15_ing_1">4 杯低钠蔬菜高汤</string>
+    <string name="recipe_15_ing_2">1 罐无盐番茄丁</string>
+    <string name="recipe_15_ing_3">半杯全麦意面</string>
+    <string name="recipe_15_ing_4">半杯红芸豆，洗净</string>
+    <string name="recipe_15_ing_5">1 杯混合蔬菜（西葫芦、胡萝卜、四季豆）</string>
+    <string name="recipe_15_ing_6">意式香草（罗勒、牛至）、蒜</string>
+    <string name="recipe_15_step_1">用橄榄油炒蒜和洋葱，加入混合蔬菜翻炒 3 分钟。</string>
+    <string name="recipe_15_step_2">加入高汤、番茄和香草，煮沸。</string>
+    <string name="recipe_15_step_3">加入意面和豆类，小火煮 10–12 分钟直到意面变软。</string>
+    <string name="recipe_15_step_4">趁热食用，撒上新鲜罗勒。</string>
+
+    <!-- 16. Mediterranean Plate -->
+    <string name="recipe_16_title">地中海拼盘</string>
+    <string name="recipe_16_desc">鹰嘴豆泥、全麦口袋饼、橄榄、蔬菜和羊奶酪的丰富拼盘，充满地中海风味。</string>
+    <string name="recipe_16_ing_1">四分之一杯鹰嘴豆泥</string>
+    <string name="recipe_16_ing_2">1 片全麦口袋饼，切成三角</string>
+    <string name="recipe_16_ing_3">半杯黄瓜片</string>
+    <string name="recipe_16_ing_4">四分之一杯小番茄</string>
+    <string name="recipe_16_ing_5">2 汤匙碎羊奶酪</string>
+    <string name="recipe_16_ing_6">卡拉马塔橄榄、新鲜薄荷</string>
+    <string name="recipe_16_step_1">将鹰嘴豆泥抹在盘中或舀入碗里。</string>
+    <string name="recipe_16_step_2">将口袋饼三角、黄瓜和番茄围绕鹰嘴豆泥摆放。</string>
+    <string name="recipe_16_step_3">加入橄榄，撒上碎羊奶酪。</string>
+    <string name="recipe_16_step_4">用新鲜薄荷装饰后即可食用。</string>
+
+    <!-- === DINNER RECIPES === -->
+
+    <!-- 17. Grilled Salmon -->
+    <string name="recipe_17_title">香草烤三文鱼</string>
+    <string name="recipe_17_desc">富含 Omega-3 的三文鱼，配柠檬和新鲜香草烤制。DASH 饮食的经典晚餐。</string>
+    <string name="recipe_17_ing_1">2 块三文鱼排（每块 150 克）</string>
+    <string name="recipe_17_ing_2">2 汤匙橄榄油</string>
+    <string name="recipe_17_ing_3">1 个柠檬的汁</string>
+    <string name="recipe_17_ing_4">2 瓣蒜，切末</string>
+    <string name="recipe_17_ing_5">新鲜莳萝和欧芹</string>
+    <string name="recipe_17_ing_6">黑胡椒，蒸芦笋搭配食用</string>
+    <string name="recipe_17_step_1">将三文鱼用橄榄油、柠檬汁、蒜和香草腌制 15 分钟。</string>
+    <string name="recipe_17_step_2">将烤架预热至中高温。</string>
+    <string name="recipe_17_step_3">每面烤 4–5 分钟，直到鱼肉可以轻松剥落。</string>
+    <string name="recipe_17_step_4">搭配蒸芦笋和柠檬角食用。</string>
+
+    <!-- 18. Chicken Stir-Fry -->
+    <string name="recipe_18_title">鸡肉蔬菜炒</string>
+    <string name="recipe_18_desc">色彩丰富的瘦鸡肉与脆嫩蔬菜的快炒，配以清爽的姜汁酱。快手且符合 DASH 饮食。</string>
+    <string name="recipe_18_ing_1">200 克鸡胸肉，切薄片</string>
+    <string name="recipe_18_ing_2">1 杯西兰花小朵</string>
+    <string name="recipe_18_ing_3">1 个甜椒，切丝</string>
+    <string name="recipe_18_ing_4">半杯荷兰豆</string>
+    <string name="recipe_18_ing_5">2 汤匙低钠酱油</string>
+    <string name="recipe_18_ing_6">1 茶匙新鲜生姜、蒜、芝麻油</string>
+    <string name="recipe_18_step_1">用芝麻油将鸡肉炒至金黄，取出备用。</string>
+    <string name="recipe_18_step_2">翻炒西兰花、甜椒和荷兰豆 3 分钟。</string>
+    <string name="recipe_18_step_3">将鸡肉回锅，加入酱油、生姜和蒜，翻炒 2 分钟。</string>
+    <string name="recipe_18_step_4">搭配糙米饭或全麦面条食用。</string>
+
+    <!-- 19. Baked Cod -->
+    <string name="recipe_19_title">烤鳕鱼配蔬菜</string>
+    <string name="recipe_19_desc">嫩滑的鳕鱼与小番茄和西葫芦一起烘烤。清淡美味，有益心脏。</string>
+    <string name="recipe_19_ing_1">2 块鳕鱼排（每块 150 克）</string>
+    <string name="recipe_19_ing_2">1 杯小番茄</string>
+    <string name="recipe_19_ing_3">1 根西葫芦，切片</string>
+    <string name="recipe_19_ing_4">2 汤匙橄榄油</string>
+    <string name="recipe_19_ing_5">新鲜百里香和牛至</string>
+    <string name="recipe_19_ing_6">柠檬角、黑胡椒</string>
+    <string name="recipe_19_step_1">将烤箱预热至 200°C。</string>
+    <string name="recipe_19_step_2">将鳕鱼放入烤盘，周围摆放番茄和西葫芦。</string>
+    <string name="recipe_19_step_3">淋上橄榄油，撒上香草和胡椒调味。</string>
+    <string name="recipe_19_step_4">烤 18–20 分钟，直到鱼肉可以轻松剥落。搭配柠檬食用。</string>
+
+    <!-- 20. Turkey Meatballs -->
+    <string name="recipe_20_title">火鸡肉丸配番茄酱</string>
+    <string name="recipe_20_desc">瘦火鸡肉丸搭配自制低钠番茄酱，配全麦意面。</string>
+    <string name="recipe_20_ing_1">300 克瘦火鸡肉末</string>
+    <string name="recipe_20_ing_2">四分之一杯全麦面包屑</string>
+    <string name="recipe_20_ing_3">1 个蛋白</string>
+    <string name="recipe_20_ing_4">2 杯无盐碎番茄</string>
+    <string name="recipe_20_ing_5">意式香草（罗勒、牛至、欧芹）</string>
+    <string name="recipe_20_ing_6">全麦意面、蒜</string>
+    <string name="recipe_20_step_1">将火鸡肉末、面包屑、蛋白和香草混合，搓成肉丸。</string>
+    <string name="recipe_20_step_2">在 190°C 烤 20 分钟。</string>
+    <string name="recipe_20_step_3">将碎番茄与蒜和香草小火煮成番茄酱。</string>
+    <string name="recipe_20_step_4">将肉丸拌入番茄酱中，搭配全麦意面食用。</string>
+
+    <!-- 21. Vegetable Curry -->
+    <string name="recipe_21_title">蔬菜鹰嘴豆咖喱</string>
+    <string name="recipe_21_desc">鹰嘴豆、菠菜和番茄的香浓咖喱，富含膳食纤维和钾。</string>
+    <string name="recipe_21_ing_1">1 罐鹰嘴豆，洗净</string>
+    <string name="recipe_21_ing_2">2 杯新鲜菠菜</string>
+    <string name="recipe_21_ing_3">1 罐无盐番茄丁</string>
+    <string name="recipe_21_ing_4">半杯淡椰奶</string>
+    <string name="recipe_21_ing_5">2 茶匙咖喱粉</string>
+    <string name="recipe_21_ing_6">蒜、姜、姜黄，搭配糙米饭</string>
+    <string name="recipe_21_step_1">用橄榄油炒蒜和姜，加入咖喱粉和姜黄。</string>
+    <string name="recipe_21_step_2">加入番茄和椰奶，小火煮 5 分钟。</string>
+    <string name="recipe_21_step_3">加入鹰嘴豆和菠菜，煮至菠菜变软，约 3 分钟。</string>
+    <string name="recipe_21_step_4">搭配糙米饭食用。</string>
+
+    <!-- 22. Lean Beef Stew -->
+    <string name="recipe_22_title">瘦牛肉根菜炖</string>
+    <string name="recipe_22_desc">嫩滑的瘦牛肉与土豆、胡萝卜和香草慢炖。DASH 风格的暖心家常菜。</string>
+    <string name="recipe_22_ing_1">300 克瘦牛肉炖肉块，切块</string>
+    <string name="recipe_22_ing_2">2 个土豆，切块</string>
+    <string name="recipe_22_ing_3">2 根胡萝卜，切片</string>
+    <string name="recipe_22_ing_4">4 杯低钠牛肉高汤</string>
+    <string name="recipe_22_ing_5">1 杯洋葱丁</string>
+    <string name="recipe_22_ing_6">月桂叶、百里香、蒜、黑胡椒</string>
+    <string name="recipe_22_step_1">用橄榄油大火煎牛肉块至变色，取出备用。</string>
+    <string name="recipe_22_step_2">炒洋葱和蒜，加入高汤、月桂叶和百里香，煮沸。</string>
+    <string name="recipe_22_step_3">放回牛肉，加入土豆和胡萝卜，小火炖 45–60 分钟。</string>
+    <string name="recipe_22_step_4">取出月桂叶，用胡椒调味，趁热食用。</string>
+
+    <!-- 23. Stuffed Bell Peppers -->
+    <string name="recipe_23_title">酿甜椒</string>
+    <string name="recipe_23_desc">色彩缤纷的甜椒中填入糙米、瘦火鸡肉和蔬菜。一道完整的 DASH 饮食餐。</string>
+    <string name="recipe_23_ing_1">4 个甜椒，去顶去籽</string>
+    <string name="recipe_23_ing_2">200 克瘦火鸡肉末</string>
+    <string name="recipe_23_ing_3">1 杯煮熟的糙米</string>
+    <string name="recipe_23_ing_4">半杯无盐番茄丁</string>
+    <string name="recipe_23_ing_5">四分之一杯低脂奶酪</string>
+    <string name="recipe_23_ing_6">孜然、蒜粉、黑胡椒</string>
+    <string name="recipe_23_step_1">烤箱预热至 190°C。将火鸡肉末加入调料炒至变色。</string>
+    <string name="recipe_23_step_2">将火鸡肉与糙米和番茄丁混合。</string>
+    <string name="recipe_23_step_3">将馅料填入甜椒中，放入烤盘，加少许水。</string>
+    <string name="recipe_23_step_4">烤 25–30 分钟，最后 5 分钟撒上奶酪。</string>
+
+    <!-- 24. Herb Roasted Chicken -->
+    <string name="recipe_24_title">香草烤鸡胸</string>
+    <string name="recipe_24_desc">多汁的鸡胸肉搭配新鲜香草烤制，配以烤蔬菜。</string>
+    <string name="recipe_24_ing_1">2 块去骨去皮鸡胸肉</string>
+    <string name="recipe_24_ing_2">2 汤匙橄榄油</string>
+    <string name="recipe_24_ing_3">新鲜迷迭香、百里香和鼠尾草</string>
+    <string name="recipe_24_ing_4">2 杯混合蔬菜（抱子甘蓝、胡萝卜、洋葱）</string>
+    <string name="recipe_24_ing_5">3 瓣蒜</string>
+    <string name="recipe_24_ing_6">黑胡椒、柠檬皮屑</string>
+    <string name="recipe_24_step_1">烤箱预热至 220°C。用橄榄油、香草、蒜和柠檬皮屑涂抹鸡肉。</string>
+    <string name="recipe_24_step_2">蔬菜拌入橄榄油和胡椒，铺在烤盘上。</string>
+    <string name="recipe_24_step_3">将鸡肉放在蔬菜上，烤 25–30 分钟至鸡肉内部达到 75°C。</string>
+    <string name="recipe_24_step_4">静置 5 分钟后切片，搭配烤蔬菜食用。</string>
+
+    <!-- === SNACK RECIPES === -->
+
+    <!-- 25. Hummus and Veggie Sticks -->
+    <string name="recipe_25_title">鹰嘴豆泥配蔬菜条</string>
+    <string name="recipe_25_desc">绵密的自制鹰嘴豆泥搭配脆嫩的蔬菜条。富含膳食纤维和钾的 DASH 零食。</string>
+    <string name="recipe_25_ing_1">1 罐鹰嘴豆，洗净</string>
+    <string name="recipe_25_ing_2">2 汤匙芝麻酱</string>
+    <string name="recipe_25_ing_3">1 个柠檬的汁</string>
+    <string name="recipe_25_ing_4">1 瓣蒜</string>
+    <string name="recipe_25_ing_5">胡萝卜条、芹菜条、黄瓜条</string>
+    <string name="recipe_25_ing_6">红椒粉、橄榄油淋面</string>
+    <string name="recipe_25_step_1">将鹰嘴豆、芝麻酱、柠檬汁、蒜和少许水搅打至顺滑。</string>
+    <string name="recipe_25_step_2">盛入碗中，淋上橄榄油，撒上红椒粉。</string>
+    <string name="recipe_25_step_3">将胡萝卜、芹菜和黄瓜切成条状。</string>
+    <string name="recipe_25_step_4">将鹰嘴豆泥与蔬菜条一起蘸食。</string>
+
+    <!-- 26. Heart-Healthy Trail Mix -->
+    <string name="recipe_26_title">护心什锦坚果</string>
+    <string name="recipe_26_desc">无盐坚果、种子和干果的自制混合。完美的 DASH 饮食零食。</string>
+    <string name="recipe_26_ing_1">四分之一杯无盐杏仁</string>
+    <string name="recipe_26_ing_2">四分之一杯无盐核桃</string>
+    <string name="recipe_26_ing_3">2 汤匙南瓜籽</string>
+    <string name="recipe_26_ing_4">2 汤匙蔓越莓干</string>
+    <string name="recipe_26_ing_5">2 汤匙黑巧克力碎</string>
+    <string name="recipe_26_ing_6">2 汤匙杏干，切碎</string>
+    <string name="recipe_26_step_1">称量好所有食材。</string>
+    <string name="recipe_26_step_2">将所有坚果、种子和干果放入碗中。</string>
+    <string name="recipe_26_step_3">轻轻搅拌使之混合均匀。</string>
+    <string name="recipe_26_step_4">存放在密封容器中，每份约四分之一杯。</string>
+
+    <!-- 27. Apple Slices with Almond Butter -->
+    <string name="recipe_27_title">苹果配杏仁酱</string>
+    <string name="recipe_27_desc">脆爽苹果片搭配天然杏仁酱。简单美味，有益心脏。</string>
+    <string name="recipe_27_ing_1">1 个中等大小的苹果</string>
+    <string name="recipe_27_ing_2">2 汤匙天然杏仁酱</string>
+    <string name="recipe_27_ing_3">少许肉桂粉</string>
+    <string name="recipe_27_ing_4">1 茶匙奇亚籽（可选）</string>
+    <string name="recipe_27_step_1">将苹果洗净去核，切成片。</string>
+    <string name="recipe_27_step_2">将杏仁酱盛入小碟中。</string>
+    <string name="recipe_27_step_3">在杏仁酱上撒上肉桂粉。</string>
+    <string name="recipe_27_step_4">用苹果片蘸杏仁酱享用。</string>
+
+    <!-- 28. Greek Yogurt Dip -->
+    <string name="recipe_28_title">香草希腊酸奶蘸酱</string>
+    <string name="recipe_28_desc">用香草和蒜调味的希腊酸奶，是酸奶油蘸酱的健康替代品。</string>
+    <string name="recipe_28_ing_1">1 杯原味低脂希腊酸奶</string>
+    <string name="recipe_28_ing_2">1 汤匙新鲜莳萝，切碎</string>
+    <string name="recipe_28_ing_3">1 瓣蒜，切末</string>
+    <string name="recipe_28_ing_4">半个柠檬的汁</string>
+    <string name="recipe_28_ing_5">黑胡椒适量</string>
+    <string name="recipe_28_ing_6">全麦饼干或蔬菜条</string>
+    <string name="recipe_28_step_1">在碗中混合酸奶、莳萝、蒜和柠檬汁。</string>
+    <string name="recipe_28_step_2">用黑胡椒调味，搅拌均匀。</string>
+    <string name="recipe_28_step_3">冷藏 30 分钟使风味融合。</string>
+    <string name="recipe_28_step_4">搭配全麦饼干或蔬菜条食用。</string>
+
+    <!-- 29. Mixed Berry Bowl -->
+    <string name="recipe_29_title">混合浆果碗</string>
+    <string name="recipe_29_desc">富含抗氧化物的混合浆果碗，搭配清爽的酸奶淋酱。天然甜美，清新可口。</string>
+    <string name="recipe_29_ing_1">半杯草莓</string>
+    <string name="recipe_29_ing_2">半杯蓝莓</string>
+    <string name="recipe_29_ing_3">半杯覆盆子</string>
+    <string name="recipe_29_ing_4">2 汤匙低脂希腊酸奶</string>
+    <string name="recipe_29_ing_5">1 茶匙蜂蜜</string>
+    <string name="recipe_29_ing_6">新鲜薄荷叶装饰</string>
+    <string name="recipe_29_step_1">将所有浆果洗净并沥干水分。</string>
+    <string name="recipe_29_step_2">将浆果摆入碗中。</string>
+    <string name="recipe_29_step_3">舀一勺希腊酸奶放在上面，淋上蜂蜜。</string>
+    <string name="recipe_29_step_4">用新鲜薄荷叶装饰。</string>
+
+    <!-- 30. Rice Cakes with Toppings -->
+    <string name="recipe_30_title">米饼配各式酱料</string>
+    <string name="recipe_30_desc">酥脆的低钠米饼搭配各种健康的 DASH 风味配料。</string>
+    <string name="recipe_30_ing_1">4 片无盐米饼</string>
+    <string name="recipe_30_ing_2">2 汤匙天然花生酱</string>
+    <string name="recipe_30_ing_3">半根香蕉，切片</string>
+    <string name="recipe_30_ing_4">四分之一个牛油果，捣成泥</string>
+    <string name="recipe_30_ing_5">小番茄，切片</string>
+    <string name="recipe_30_ing_6">低钠百吉饼调味料</string>
+    <string name="recipe_30_step_1">分两种口味：2 片米饼涂花生酱，另外 2 片涂牛油果泥。</string>
+    <string name="recipe_30_step_2">在花生酱米饼上放香蕉片。</string>
+    <string name="recipe_30_step_3">在牛油果米饼上放番茄片和调味料。</string>
+    <string name="recipe_30_step_4">作为美味零食拼盘享用。</string>
+</resources>

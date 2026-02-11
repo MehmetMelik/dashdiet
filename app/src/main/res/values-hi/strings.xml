@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">DashDiet</string>
+    <string name="app_tagline">स्वस्थ भोजन, स्वस्थ जीवन</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">होम</string>
+    <string name="nav_recipes">रेसिपी</string>
+    <string name="nav_meal_plan">भोजन योजना</string>
+    <string name="nav_profile">प्रोफ़ाइल</string>
+
+    <!-- Auth Screen -->
+    <string name="auth_welcome">DashDiet में आपका स्वागत है</string>
+    <string name="auth_subtitle">स्वस्थ हृदय और जीवन के लिए DASH आहार के लिए आपका मार्गदर्शक</string>
+    <string name="auth_sign_in_google">Google से साइन इन करें</string>
+    <string name="auth_sign_in_apple">Apple से साइन इन करें</string>
+    <string name="auth_skip">अतिथि के रूप में जारी रखें</string>
+    <string name="auth_terms">साइन इन करके, आप हमारी सेवा की शर्तों और गोपनीयता नीति से सहमत होते हैं</string>
+    <string name="auth_signing_in">साइन इन हो रहा है…</string>
+    <string name="auth_error">साइन इन विफल हुआ। कृपया पुनः प्रयास करें।</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">नमस्ते, %1$s!</string>
+    <string name="home_greeting_guest">नमस्ते!</string>
+    <string name="home_daily_tip">दैनिक DASH सुझाव</string>
+    <string name="home_featured_recipes">चुनिंदा रेसिपी</string>
+    <string name="home_categories">श्रेणियाँ</string>
+    <string name="home_quick_start">त्वरित शुरुआत</string>
+    <string name="home_view_all">सभी देखें</string>
+    <string name="home_dash_score">आपका DASH स्कोर</string>
+    <string name="home_what_is_dash">DASH आहार क्या है?</string>
+    <string name="home_learn_more">और जानें</string>
+
+    <!-- Categories -->
+    <string name="category_breakfast">नाश्ता</string>
+    <string name="category_lunch">दोपहर का भोजन</string>
+    <string name="category_dinner">रात का खाना</string>
+    <string name="category_snacks">स्नैक्स</string>
+    <string name="category_all">सभी</string>
+
+    <!-- Recipe List -->
+    <string name="recipes_title">DASH रेसिपी</string>
+    <string name="recipes_search">रेसिपी खोजें…</string>
+    <string name="recipes_no_results">कोई रेसिपी नहीं मिली</string>
+    <string name="recipes_count">%1$d रेसिपी</string>
+    <string name="recipes_filter">फ़िल्टर</string>
+
+    <!-- Recipe Detail -->
+    <string name="recipe_ingredients">सामग्री</string>
+    <string name="recipe_steps">निर्देश</string>
+    <string name="recipe_nutrition">पोषण जानकारी</string>
+    <string name="recipe_prep_time">तैयारी का समय</string>
+    <string name="recipe_cook_time">पकाने का समय</string>
+    <string name="recipe_total_time">कुल समय</string>
+    <string name="recipe_servings">परोसने की मात्रा</string>
+    <string name="recipe_minutes">%1$d मिनट</string>
+    <string name="recipe_step_number">चरण %1$d</string>
+    <string name="recipe_add_to_plan">भोजन योजना में जोड़ें</string>
+    <string name="recipe_added_to_plan">भोजन योजना में जोड़ा गया!</string>
+
+    <!-- Nutrition Labels -->
+    <string name="nutrition_calories">कैलोरी</string>
+    <string name="nutrition_sodium">सोडियम</string>
+    <string name="nutrition_potassium">पोटैशियम</string>
+    <string name="nutrition_fiber">फ़ाइबर</string>
+    <string name="nutrition_protein">प्रोटीन</string>
+    <string name="nutrition_fat">वसा</string>
+    <string name="nutrition_carbs">कार्बोहाइड्रेट</string>
+    <string name="nutrition_cal">%1$d kcal</string>
+    <string name="nutrition_mg">%1$d mg</string>
+    <string name="nutrition_g">%1$d g</string>
+
+    <!-- Meal Plan -->
+    <string name="meal_plan_title">साप्ताहिक भोजन योजना</string>
+    <string name="meal_plan_empty">भोजन जोड़ने के लिए + दबाएँ</string>
+    <string name="meal_plan_add">भोजन जोड़ें</string>
+    <string name="meal_plan_remove">हटाएँ</string>
+    <string name="meal_plan_clear">दिन साफ़ करें</string>
+    <string name="meal_plan_clear_all">सब साफ़ करें</string>
+    <string name="meal_plan_select_recipe">एक रेसिपी चुनें</string>
+    <string name="meal_plan_select_slot">भोजन स्लॉट चुनें</string>
+    <string name="meal_plan_daily_total">दैनिक कुल</string>
+    <string name="meal_plan_weekly_overview">साप्ताहिक सारांश</string>
+
+    <!-- Days of Week -->
+    <string name="day_monday">सोमवार</string>
+    <string name="day_tuesday">मंगलवार</string>
+    <string name="day_wednesday">बुधवार</string>
+    <string name="day_thursday">गुरुवार</string>
+    <string name="day_friday">शुक्रवार</string>
+    <string name="day_saturday">शनिवार</string>
+    <string name="day_sunday">रविवार</string>
+    <string name="day_mon">सोम</string>
+    <string name="day_tue">मंगल</string>
+    <string name="day_wed">बुध</string>
+    <string name="day_thu">गुरु</string>
+    <string name="day_fri">शुक्र</string>
+    <string name="day_sat">शनि</string>
+    <string name="day_sun">रवि</string>
+
+    <!-- Profile -->
+    <string name="profile_title">प्रोफ़ाइल</string>
+    <string name="profile_account">खाता</string>
+    <string name="profile_guest">अतिथि उपयोगकर्ता</string>
+    <string name="profile_sign_out">साइन आउट</string>
+    <string name="profile_sign_in">साइन इन</string>
+    <string name="profile_settings">सेटिंग्स</string>
+    <string name="profile_language">भाषा</string>
+    <string name="profile_dark_mode">डार्क मोड</string>
+    <string name="profile_notifications">सूचनाएँ</string>
+    <string name="profile_about">DASH आहार के बारे में</string>
+    <string name="profile_version">संस्करण %1$s</string>
+    <string name="profile_about_app">DashDiet के बारे में</string>
+    <string name="profile_rate">हमें रेट करें</string>
+    <string name="profile_share">ऐप साझा करें</string>
+    <string name="profile_privacy">गोपनीयता नीति</string>
+    <string name="profile_terms">सेवा की शर्तें</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_chinese">中文</string>
+    <string name="lang_hindi">हिन्दी</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_select">भाषा चुनें</string>
+
+    <!-- DASH Diet Info -->
+    <string name="dash_info_title">DASH आहार के बारे में</string>
+    <string name="dash_info_what">DASH आहार क्या है?</string>
+    <string name="dash_info_what_desc">DASH का अर्थ है \"उच्च रक्तचाप रोकने के लिए आहार संबंधी दृष्टिकोण\" (Dietary Approaches to Stop Hypertension)। यह स्वस्थ भोजन का एक आजीवन तरीका है जो उच्च रक्तचाप (हाइपरटेंशन) को रोकने या उसका इलाज करने में मदद करता है।</string>
+    <string name="dash_info_benefits">मुख्य लाभ</string>
+    <string name="dash_info_benefit_1">रक्तचाप कम करता है</string>
+    <string name="dash_info_benefit_2">कोलेस्ट्रॉल स्तर कम करता है</string>
+    <string name="dash_info_benefit_3">इंसुलिन संवेदनशीलता में सुधार करता है</string>
+    <string name="dash_info_benefit_4">स्वस्थ वजन बनाए रखने में सहायक</string>
+    <string name="dash_info_benefit_5">हृदय रोग का जोखिम कम करता है</string>
+    <string name="dash_info_benefit_6">कैंसर का जोखिम कम कर सकता है</string>
+    <string name="dash_info_guidelines">DASH दिशानिर्देश</string>
+    <string name="dash_info_guideline_1">अधिक फल और सब्ज़ियाँ खाएँ</string>
+    <string name="dash_info_guideline_2">परिष्कृत अनाज की जगह साबुत अनाज चुनें</string>
+    <string name="dash_info_guideline_3">वसा रहित या कम वसा वाले डेयरी उत्पाद शामिल करें</string>
+    <string name="dash_info_guideline_4">कम वसा वाला प्रोटीन चुनें (मछली, मुर्गी, फलियाँ)</string>
+    <string name="dash_info_guideline_5">सोडियम को प्रतिदिन 2,300mg (या 1,500mg) तक सीमित रखें</string>
+    <string name="dash_info_guideline_6">संतृप्त वसा और मिठाइयाँ कम करें</string>
+    <string name="dash_info_guideline_7">मेवे, बीज और दालें शामिल करें</string>
+    <string name="dash_info_daily_servings">अनुशंसित दैनिक सर्विंग</string>
+    <string name="dash_info_grains">अनाज: 6–8 सर्विंग</string>
+    <string name="dash_info_vegetables">सब्ज़ियाँ: 4–5 सर्विंग</string>
+    <string name="dash_info_fruits">फल: 4–5 सर्विंग</string>
+    <string name="dash_info_dairy">डेयरी (कम वसा): 2–3 सर्विंग</string>
+    <string name="dash_info_meat">कम वसा वाला मांस/मछली: 6 या कम सर्विंग</string>
+    <string name="dash_info_nuts">मेवे/बीज/दालें: प्रति सप्ताह 4–5</string>
+    <string name="dash_info_fats">वसा/तेल: 2–3 सर्विंग</string>
+    <string name="dash_info_sweets">मिठाइयाँ: प्रति सप्ताह 5 या कम</string>
+
+    <!-- Daily Tips -->
+    <string name="tip_1">स्वाद के लिए नमक की जगह जड़ी-बूटियों और मसालों का उपयोग करें।</string>
+    <string name="tip_2">प्रतिदिन कम से कम 4–5 सर्विंग फल और सब्ज़ियाँ खाने का लक्ष्य रखें।</string>
+    <string name="tip_3">साबुत अनाज जैसे ब्राउन राइस, पूर्ण गेहूँ और जई चुनें।</string>
+    <string name="tip_4">चिप्स या बिस्कुट की जगह बिना नमक वाले मेवे खाएँ।</string>
+    <string name="tip_5">पोषण लेबल पढ़ें और कम सोडियम वाले खाद्य पदार्थ चुनें।</string>
+    <string name="tip_6">हर दिन कम वसा वाले दही जैसे डेयरी उत्पाद की एक सर्विंग शामिल करें।</string>
+    <string name="tip_7">तलने की बजाय भोजन को ग्रिल करें, बेक करें या भाप में पकाएँ।</string>
+    <string name="tip_8">मीठे पेय पदार्थों की जगह पानी पिएँ।</string>
+    <string name="tip_9">अतिरिक्त फ़ाइबर के लिए सूप और सलाद में दालें या राजमा मिलाएँ।</string>
+    <string name="tip_10">स्वस्थ विकल्प चुनने के लिए अपने भोजन की पहले से योजना बनाएँ।</string>
+
+    <!-- Common -->
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="save">सहेजें</string>
+    <string name="delete">हटाएँ</string>
+    <string name="close">बंद करें</string>
+    <string name="back">वापस</string>
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="error_generic">कुछ गलत हो गया। कृपया पुनः प्रयास करें।</string>
+    <string name="no_connection">इंटरनेट कनेक्शन नहीं है</string>
+
+    <!-- ==================== RECIPES ==================== -->
+
+    <!-- === BREAKFAST RECIPES === -->
+
+    <!-- 1. Oatmeal with Berries -->
+    <string name="recipe_1_title">ताज़ी बेरी के साथ दलिया</string>
+    <string name="recipe_1_desc">ताज़ी बेरी और शहद की बूँदों से सजा हृदय-स्वस्थ दलिया। एक आदर्श DASH आहार नाश्ता।</string>
+    <string name="recipe_1_ing_1">1 कप रोल्ड ओट्स</string>
+    <string name="recipe_1_ing_2">2 कप पानी या कम वसा वाला दूध</string>
+    <string name="recipe_1_ing_3">½ कप मिश्रित बेरी (ब्लूबेरी, स्ट्रॉबेरी, रास्पबेरी)</string>
+    <string name="recipe_1_ing_4">1 बड़ा चम्मच शहद</string>
+    <string name="recipe_1_ing_5">¼ छोटा चम्मच दालचीनी</string>
+    <string name="recipe_1_ing_6">1 बड़ा चम्मच कटे हुए अखरोट</string>
+    <string name="recipe_1_step_1">एक बर्तन में पानी या दूध उबालें।</string>
+    <string name="recipe_1_step_2">ओट्स डालें और आँच कम करें। बीच-बीच में हिलाते हुए 5 मिनट पकाएँ।</string>
+    <string name="recipe_1_step_3">एक कटोरे में डालें और ऊपर ताज़ी बेरी रखें।</string>
+    <string name="recipe_1_step_4">शहद की बूँदें डालें, दालचीनी और अखरोट छिड़कें। गरमागरम परोसें।</string>
+
+    <!-- 2. Greek Yogurt Parfait -->
+    <string name="recipe_2_title">ग्रीक योगर्ट पारफ़े</string>
+    <string name="recipe_2_desc">मलाईदार कम वसा वाले ग्रीक योगर्ट, कुरकुरे ग्रेनोला और ताज़े फलों की परतें। प्रोटीन से भरपूर शुरुआत।</string>
+    <string name="recipe_2_ing_1">1 कप कम वसा वाला ग्रीक योगर्ट</string>
+    <string name="recipe_2_ing_2">¼ कप कम सोडियम ग्रेनोला</string>
+    <string name="recipe_2_ing_3">½ कप कटी हुई स्ट्रॉबेरी</string>
+    <string name="recipe_2_ing_4">¼ कप ब्लूबेरी</string>
+    <string name="recipe_2_ing_5">1 बड़ा चम्मच चिया बीज</string>
+    <string name="recipe_2_ing_6">1 छोटा चम्मच शहद</string>
+    <string name="recipe_2_step_1">एक गिलास या कटोरे में आधा योगर्ट डालें।</string>
+    <string name="recipe_2_step_2">आधे ग्रेनोला और आधे फलों की परत लगाएँ।</string>
+    <string name="recipe_2_step_3">बचे हुए सामग्री से परतें दोहराएँ।</string>
+    <string name="recipe_2_step_4">ऊपर चिया बीज और शहद की बूँदें डालें।</string>
+
+    <!-- 3. Whole Grain Toast with Avocado -->
+    <string name="recipe_3_title">साबुत अनाज एवोकाडो टोस्ट</string>
+    <string name="recipe_3_desc">कुरकुरा साबुत अनाज टोस्ट जिस पर मसला हुआ एवोकाडो, टमाटर और नींबू का रस लगा हो।</string>
+    <string name="recipe_3_ing_1">2 स्लाइस साबुत अनाज की ब्रेड</string>
+    <string name="recipe_3_ing_2">1 पका हुआ एवोकाडो</string>
+    <string name="recipe_3_ing_3">1 छोटा टमाटर, कटा हुआ</string>
+    <string name="recipe_3_ing_4">½ नींबू का रस</string>
+    <string name="recipe_3_ing_5">एक चुटकी काली मिर्च</string>
+    <string name="recipe_3_ing_6">लाल मिर्च के टुकड़े (वैकल्पिक)</string>
+    <string name="recipe_3_step_1">ब्रेड के स्लाइस को सुनहरा और कुरकुरा होने तक टोस्ट करें।</string>
+    <string name="recipe_3_step_2">एक कटोरे में एवोकाडो को नींबू के रस और काली मिर्च के साथ मसलें।</string>
+    <string name="recipe_3_step_3">प्रत्येक टोस्ट पर एवोकाडो का मिश्रण फैलाएँ।</string>
+    <string name="recipe_3_step_4">ऊपर टमाटर के टुकड़े और वैकल्पिक लाल मिर्च के टुकड़े रखें।</string>
+
+    <!-- 4. Berry Smoothie Bowl -->
+    <string name="recipe_4_title">बेरी स्मूदी बाउल</string>
+    <string name="recipe_4_desc">एंटीऑक्सीडेंट से भरपूर बेरी और पौष्टिक टॉपिंग से भरा गाढ़ा और मलाईदार स्मूदी बाउल।</string>
+    <string name="recipe_4_ing_1">1 कप फ़्रोज़न मिश्रित बेरी</string>
+    <string name="recipe_4_ing_2">1 केला</string>
+    <string name="recipe_4_ing_3">½ कप कम वसा वाला दूध</string>
+    <string name="recipe_4_ing_4">1 बड़ा चम्मच अलसी के बीज</string>
+    <string name="recipe_4_ing_5">2 बड़े चम्मच ग्रेनोला</string>
+    <string name="recipe_4_ing_6">टॉपिंग के लिए ताज़े फल</string>
+    <string name="recipe_4_step_1">फ़्रोज़न बेरी, केला और दूध को गाढ़ा और चिकना होने तक ब्लेंड करें।</string>
+    <string name="recipe_4_step_2">एक कटोरे में डालें (यह सामान्य स्मूदी से गाढ़ा होना चाहिए)।</string>
+    <string name="recipe_4_step_3">ऊपर ग्रेनोला, अलसी के बीज और ताज़े फल रखें।</string>
+    <string name="recipe_4_step_4">तुरंत चम्मच से खाएँ और आनंद लें।</string>
+
+    <!-- 5. Egg White Omelet -->
+    <string name="recipe_5_title">सब्ज़ी वाला अंडे की सफ़ेदी का ऑमलेट</string>
+    <string name="recipe_5_desc">रंगीन सब्ज़ियों से भरा हल्का और फूला हुआ अंडे की सफ़ेदी का ऑमलेट। कम वसा, उच्च प्रोटीन वाला भोजन।</string>
+    <string name="recipe_5_ing_1">4 अंडे की सफ़ेदी</string>
+    <string name="recipe_5_ing_2">¼ कप कटी हुई शिमला मिर्च</string>
+    <string name="recipe_5_ing_3">¼ कप कटी हुई पालक</string>
+    <string name="recipe_5_ing_4">2 बड़े चम्मच कटा हुआ टमाटर</string>
+    <string name="recipe_5_ing_5">2 बड़े चम्मच कम वसा वाला पनीर</string>
+    <string name="recipe_5_ing_6">1 छोटा चम्मच जैतून का तेल</string>
+    <string name="recipe_5_step_1">अंडे की सफ़ेदी को हल्का झागदार होने तक फेंटें।</string>
+    <string name="recipe_5_step_2">एक नॉन-स्टिक पैन में मध्यम आँच पर जैतून का तेल गरम करें।</string>
+    <string name="recipe_5_step_3">अंडे की सफ़ेदी डालें और किनारे जमने तक पकाएँ। एक तरफ़ सब्ज़ियाँ रखें।</string>
+    <string name="recipe_5_step_4">ऑमलेट को आधा मोड़ें, ऊपर पनीर डालें और परोसें।</string>
+
+    <!-- 6. Banana Oat Pancakes -->
+    <string name="recipe_6_title">केला ओट्स पैनकेक</string>
+    <string name="recipe_6_desc">साबुत अनाज के ओट्स और पके केलों से बने फूले हुए पैनकेक। बिना अतिरिक्त चीनी के प्राकृतिक रूप से मीठे।</string>
+    <string name="recipe_6_ing_1">1 कप पूर्ण गेहूँ का आटा</string>
+    <string name="recipe_6_ing_2">½ कप रोल्ड ओट्स</string>
+    <string name="recipe_6_ing_3">1 पका केला, मसला हुआ</string>
+    <string name="recipe_6_ing_4">1 कप कम वसा वाला दूध</string>
+    <string name="recipe_6_ing_5">1 अंडा</string>
+    <string name="recipe_6_ing_6">1 छोटा चम्मच बेकिंग पाउडर</string>
+    <string name="recipe_6_step_1">एक कटोरे में आटा, ओट्स और बेकिंग पाउडर मिलाएँ।</string>
+    <string name="recipe_6_step_2">दूसरे कटोरे में मसला हुआ केला, दूध और अंडा मिलाएँ।</string>
+    <string name="recipe_6_step_3">गीली सामग्री को सूखी सामग्री में हल्के हाथ से मिलाएँ।</string>
+    <string name="recipe_6_step_4">मध्यम आँच पर नॉन-स्टिक पैन में पकाएँ। बुलबुले बनने पर पलटें। ताज़े फलों के साथ परोसें।</string>
+
+    <!-- 7. Fresh Fruit Salad -->
+    <string name="recipe_7_title">ताज़ा फलों का सलाद</string>
+    <string name="recipe_7_desc">हल्की खट्टी और पुदीने की ड्रेसिंग के साथ मौसमी फलों का रंगीन मिश्रण। पोटैशियम और विटामिन से भरपूर।</string>
+    <string name="recipe_7_ing_1">1 कप स्ट्रॉबेरी, आधी कटी हुई</string>
+    <string name="recipe_7_ing_2">1 कप ब्लूबेरी</string>
+    <string name="recipe_7_ing_3">1 केला, कटा हुआ</string>
+    <string name="recipe_7_ing_4">1 संतरा, फाँकों में कटा हुआ</string>
+    <string name="recipe_7_ing_5">1 कीवी, टुकड़ों में कटी हुई</string>
+    <string name="recipe_7_ing_6">ताज़ी पुदीने की पत्तियाँ और नींबू का रस</string>
+    <string name="recipe_7_step_1">सभी फलों को धोकर तैयार करें।</string>
+    <string name="recipe_7_step_2">सभी फलों को एक बड़े कटोरे में मिलाएँ।</string>
+    <string name="recipe_7_step_3">फलों पर नींबू का रस निचोड़ें और हल्के हाथ से मिलाएँ।</string>
+    <string name="recipe_7_step_4">ताज़ी पुदीने की पत्तियों से सजाएँ। परोसने से पहले ठंडा करें।</string>
+
+    <!-- 8. Granola Bowl -->
+    <string name="recipe_8_title">कम सोडियम ग्रेनोला बाउल</string>
+    <string name="recipe_8_desc">कम वसा वाले दूध के साथ सूखे मेवों और बीजों वाला घर का बना कुरकुरा कम सोडियम ग्रेनोला।</string>
+    <string name="recipe_8_ing_1">½ कप कम सोडियम ग्रेनोला</string>
+    <string name="recipe_8_ing_2">1 कप कम वसा वाला दूध</string>
+    <string name="recipe_8_ing_3">2 बड़े चम्मच सूखी क्रैनबेरी</string>
+    <string name="recipe_8_ing_4">1 बड़ा चम्मच कद्दू के बीज</string>
+    <string name="recipe_8_ing_5">1 बड़ा चम्मच सूरजमुखी के बीज</string>
+    <string name="recipe_8_ing_6">½ केला, कटा हुआ</string>
+    <string name="recipe_8_step_1">एक कटोरे में ग्रेनोला डालें।</string>
+    <string name="recipe_8_step_2">कम वसा वाला दूध डालें।</string>
+    <string name="recipe_8_step_3">ऊपर सूखी क्रैनबेरी, बीज और केले के टुकड़े रखें।</string>
+    <string name="recipe_8_step_4">अधिकतम कुरकुरेपन के लिए तुरंत परोसें।</string>
+
+    <!-- === LUNCH RECIPES === -->
+
+    <!-- 9. Quinoa Vegetable Salad -->
+    <string name="recipe_9_title">क्विनोआ सब्ज़ी सलाद</string>
+    <string name="recipe_9_desc">हल्की नींबू विनेगरेट के साथ ताज़ी सब्ज़ियों और प्रोटीन से भरपूर क्विनोआ। एक आदर्श DASH दोपहर का भोजन।</string>
+    <string name="recipe_9_ing_1">1 कप पका हुआ क्विनोआ</string>
+    <string name="recipe_9_ing_2">½ कप कटा हुआ खीरा</string>
+    <string name="recipe_9_ing_3">½ कप चेरी टमाटर, आधे कटे हुए</string>
+    <string name="recipe_9_ing_4">¼ कप कटा हुआ लाल प्याज़</string>
+    <string name="recipe_9_ing_5">2 बड़े चम्मच जैतून का तेल</string>
+    <string name="recipe_9_ing_6">1 नींबू का रस, ताज़ा अजमोद</string>
+    <string name="recipe_9_step_1">पैकेज के निर्देशों के अनुसार क्विनोआ पकाएँ। ठंडा होने दें।</string>
+    <string name="recipe_9_step_2">ठंडे क्विनोआ को खीरा, टमाटर और प्याज़ के साथ मिलाएँ।</string>
+    <string name="recipe_9_step_3">ड्रेसिंग के लिए जैतून का तेल और नींबू का रस फेंटें।</string>
+    <string name="recipe_9_step_4">सलाद को ड्रेसिंग के साथ मिलाएँ और अजमोद से सजाएँ।</string>
+
+    <!-- 10. Turkey Lettuce Wrap -->
+    <string name="recipe_10_title">टर्की लेट्यूस रैप</string>
+    <string name="recipe_10_desc">ताज़ी सब्ज़ियों के साथ कुरकुरी लेट्यूस पत्तियों में लिपटा कम वसा वाला टर्की। कम कार्ब और DASH-अनुकूल।</string>
+    <string name="recipe_10_ing_1">200 ग्राम कम वसा वाला पिसा हुआ टर्की</string>
+    <string name="recipe_10_ing_2">4 बड़ी बटर लेट्यूस पत्तियाँ</string>
+    <string name="recipe_10_ing_3">½ कप कद्दूकस की हुई गाजर</string>
+    <string name="recipe_10_ing_4">¼ कप कटे हुए वॉटर चेस्टनट</string>
+    <string name="recipe_10_ing_5">1 बड़ा चम्मच कम सोडियम सोया सॉस</string>
+    <string name="recipe_10_ing_6">1 छोटा चम्मच तिल का तेल, लहसुन, अदरक</string>
+    <string name="recipe_10_step_1">पिसे हुए टर्की को लहसुन और अदरक के साथ भूरा होने तक पकाएँ।</string>
+    <string name="recipe_10_step_2">गाजर, वॉटर चेस्टनट, सोया सॉस और तिल का तेल डालें। 2 मिनट तक स्टर-फ़्राई करें।</string>
+    <string name="recipe_10_step_3">लेट्यूस पत्तियों को धोएँ और सुखाएँ।</string>
+    <string name="recipe_10_step_4">टर्की मिश्रण को लेट्यूस कप में भरें और परोसें।</string>
+
+    <!-- 11. Lentil Soup -->
+    <string name="recipe_11_title">पौष्टिक दाल का सूप</string>
+    <string name="recipe_11_desc">फ़ाइबर और पोटैशियम से भरपूर गर्माहट देने वाला दाल का सूप। एक आरामदायक DASH-अनुमोदित भोजन।</string>
+    <string name="recipe_11_ing_1">1 कप सूखी दाल, धुली हुई</string>
+    <string name="recipe_11_ing_2">4 कप कम सोडियम सब्ज़ी का शोरबा</string>
+    <string name="recipe_11_ing_3">1 कप कटी हुई गाजर</string>
+    <string name="recipe_11_ing_4">1 कप कटी हुई अजवाइन</string>
+    <string name="recipe_11_ing_5">1 कटा हुआ प्याज़</string>
+    <string name="recipe_11_ing_6">2 कली लहसुन, जीरा, हल्दी</string>
+    <string name="recipe_11_step_1">प्याज़, गाजर, अजवाइन और लहसुन को जैतून के तेल में 5 मिनट भूनें।</string>
+    <string name="recipe_11_step_2">दाल, शोरबा, जीरा और हल्दी डालें। उबाल आने दें।</string>
+    <string name="recipe_11_step_3">आँच कम करें और दाल नरम होने तक 25–30 मिनट पकाएँ।</string>
+    <string name="recipe_11_step_4">काली मिर्च डालें और नींबू निचोड़कर परोसें।</string>
+
+    <!-- 12. Grilled Chicken Salad -->
+    <string name="recipe_12_title">ग्रिल्ड चिकन सलाद</string>
+    <string name="recipe_12_desc">ग्रिल्ड चिकन ब्रेस्ट, एवोकाडो और हल्की बलसमिक ड्रेसिंग के साथ ताज़ी मिश्रित हरी पत्तियाँ।</string>
+    <string name="recipe_12_ing_1">150 ग्राम ग्रिल्ड चिकन ब्रेस्ट, कटा हुआ</string>
+    <string name="recipe_12_ing_2">3 कप मिश्रित सलाद पत्तियाँ</string>
+    <string name="recipe_12_ing_3">½ एवोकाडो, कटा हुआ</string>
+    <string name="recipe_12_ing_4">¼ कप चेरी टमाटर</string>
+    <string name="recipe_12_ing_5">2 बड़े चम्मच बलसमिक विनेगरेट</string>
+    <string name="recipe_12_ing_6">1 बड़ा चम्मच सूरजमुखी के बीज</string>
+    <string name="recipe_12_step_1">चिकन ब्रेस्ट को जड़ी-बूटियों से सीज़न करें और पूरी तरह पकने तक ग्रिल करें। काटें।</string>
+    <string name="recipe_12_step_2">एक प्लेट पर सलाद पत्तियाँ सजाएँ।</string>
+    <string name="recipe_12_step_3">ऊपर चिकन, एवोकाडो और टमाटर रखें।</string>
+    <string name="recipe_12_step_4">बलसमिक विनेगरेट डालें और सूरजमुखी के बीज छिड़कें।</string>
+
+    <!-- 13. Veggie Buddha Bowl -->
+    <string name="recipe_13_title">सब्ज़ी बुद्धा बाउल</string>
+    <string name="recipe_13_desc">तहिनी ड्रेसिंग के साथ भुनी हुई सब्ज़ियाँ, छोले और ब्राउन राइस का रंगीन कटोरा।</string>
+    <string name="recipe_13_ing_1">1 कप पका हुआ ब्राउन राइस</string>
+    <string name="recipe_13_ing_2">½ कप भुने हुए शकरकंद के टुकड़े</string>
+    <string name="recipe_13_ing_3">½ कप पके हुए छोले</string>
+    <string name="recipe_13_ing_4">½ कप भाप में पकी ब्रोकली</string>
+    <string name="recipe_13_ing_5">¼ एवोकाडो, कटा हुआ</string>
+    <string name="recipe_13_ing_6">2 बड़े चम्मच तहिनी ड्रेसिंग</string>
+    <string name="recipe_13_step_1">ब्राउन राइस पकाएँ और शकरकंद के टुकड़ों को 400°F पर 20 मिनट भूनें।</string>
+    <string name="recipe_13_step_2">ब्रोकली को भाप में पकाएँ और छोलों को गरम करें।</string>
+    <string name="recipe_13_step_3">एक कटोरे में चावल, सब्ज़ियाँ और छोले सजाएँ।</string>
+    <string name="recipe_13_step_4">ऊपर एवोकाडो रखें और तहिनी ड्रेसिंग डालें।</string>
+
+    <!-- 14. Tuna Salad Sandwich -->
+    <string name="recipe_14_title">ट्यूना सलाद सैंडविच</string>
+    <string name="recipe_14_desc">मेयोनेज़ की जगह ग्रीक योगर्ट के साथ हल्का ट्यूना सलाद, साबुत अनाज की ब्रेड पर। कम सोडियम और प्रोटीन से भरपूर।</string>
+    <string name="recipe_14_ing_1">1 डिब्बा कम सोडियम ट्यूना, पानी निकाला हुआ</string>
+    <string name="recipe_14_ing_2">2 बड़े चम्मच सादा ग्रीक योगर्ट</string>
+    <string name="recipe_14_ing_3">¼ कप कटी हुई अजवाइन</string>
+    <string name="recipe_14_ing_4">1 बड़ा चम्मच कटा हुआ लाल प्याज़</string>
+    <string name="recipe_14_ing_5">2 स्लाइस साबुत अनाज की ब्रेड</string>
+    <string name="recipe_14_ing_6">लेट्यूस पत्तियाँ, काली मिर्च</string>
+    <string name="recipe_14_step_1">एक कटोरे में ट्यूना, ग्रीक योगर्ट, अजवाइन और प्याज़ मिलाएँ।</string>
+    <string name="recipe_14_step_2">काली मिर्च से सीज़न करें।</string>
+    <string name="recipe_14_step_3">मिश्रण को साबुत अनाज की ब्रेड पर फैलाएँ।</string>
+    <string name="recipe_14_step_4">लेट्यूस पत्तियाँ रखें, दूसरी स्लाइस ऊपर रखें और परोसें।</string>
+
+    <!-- 15. Minestrone Soup -->
+    <string name="recipe_15_title">मिनेस्ट्रोन सूप</string>
+    <string name="recipe_15_desc">फलियों और साबुत अनाज पास्ता के साथ क्लासिक इटालियन सब्ज़ी का सूप। कम सोडियम और स्वाद से भरपूर।</string>
+    <string name="recipe_15_ing_1">4 कप कम सोडियम सब्ज़ी का शोरबा</string>
+    <string name="recipe_15_ing_2">1 डिब्बा बिना नमक वाले कटे हुए टमाटर</string>
+    <string name="recipe_15_ing_3">½ कप साबुत गेहूँ का पास्ता</string>
+    <string name="recipe_15_ing_4">½ कप राजमा, धुले हुए</string>
+    <string name="recipe_15_ing_5">1 कप मिश्रित सब्ज़ियाँ (तोरी, गाजर, फ्रेंच बीन्स)</string>
+    <string name="recipe_15_ing_6">इटालियन जड़ी-बूटियाँ (तुलसी, ओरेगैनो), लहसुन</string>
+    <string name="recipe_15_step_1">जैतून के तेल में लहसुन और प्याज़ भूनें। मिश्रित सब्ज़ियाँ डालें और 3 मिनट पकाएँ।</string>
+    <string name="recipe_15_step_2">शोरबा, टमाटर और जड़ी-बूटियाँ डालें। उबाल आने दें।</string>
+    <string name="recipe_15_step_3">पास्ता और राजमा डालें। पास्ता नरम होने तक 10–12 मिनट पकाएँ।</string>
+    <string name="recipe_15_step_4">ताज़ी तुलसी छिड़ककर गरमागरम परोसें।</string>
+
+    <!-- 16. Mediterranean Plate -->
+    <string name="recipe_16_title">मेडिटेरेनियन प्लेट</string>
+    <string name="recipe_16_desc">हम्मस, साबुत अनाज पीटा, जैतून, सब्ज़ियाँ और फ़ेटा की एक जीवंत प्लेट। हृदय-स्वस्थ भूमध्यसागरीय स्वाद।</string>
+    <string name="recipe_16_ing_1">¼ कप हम्मस</string>
+    <string name="recipe_16_ing_2">1 साबुत अनाज पीटा, टुकड़ों में कटा हुआ</string>
+    <string name="recipe_16_ing_3">½ कप खीरे के स्लाइस</string>
+    <string name="recipe_16_ing_4">¼ कप चेरी टमाटर</string>
+    <string name="recipe_16_ing_5">2 बड़े चम्मच चूरा किया हुआ फ़ेटा पनीर</string>
+    <string name="recipe_16_ing_6">कलामाटा जैतून, ताज़ा पुदीना</string>
+    <string name="recipe_16_step_1">हम्मस को एक प्लेट या कटोरे में फैलाएँ।</string>
+    <string name="recipe_16_step_2">हम्मस के चारों ओर पीटा के टुकड़े, खीरा और टमाटर सजाएँ।</string>
+    <string name="recipe_16_step_3">जैतून रखें और ऊपर फ़ेटा पनीर का चूरा करें।</string>
+    <string name="recipe_16_step_4">ताज़े पुदीने से सजाएँ और परोसें।</string>
+
+    <!-- === DINNER RECIPES === -->
+
+    <!-- 17. Grilled Salmon -->
+    <string name="recipe_17_title">जड़ी-बूटियों के साथ ग्रिल्ड सैल्मन</string>
+    <string name="recipe_17_desc">नींबू और ताज़ी जड़ी-बूटियों के साथ ग्रिल किया हुआ ओमेगा-3 से भरपूर सैल्मन। एक प्रमुख DASH आहार रात का खाना।</string>
+    <string name="recipe_17_ing_1">2 सैल्मन फ़िलेट (150 ग्राम प्रत्येक)</string>
+    <string name="recipe_17_ing_2">2 बड़े चम्मच जैतून का तेल</string>
+    <string name="recipe_17_ing_3">1 नींबू का रस</string>
+    <string name="recipe_17_ing_4">2 कली लहसुन, बारीक कटा हुआ</string>
+    <string name="recipe_17_ing_5">ताज़ी सोआ और अजमोद</string>
+    <string name="recipe_17_ing_6">काली मिर्च, परोसने के लिए भाप में पकी शतावरी</string>
+    <string name="recipe_17_step_1">सैल्मन को जैतून के तेल, नींबू के रस, लहसुन और जड़ी-बूटियों में 15 मिनट मैरिनेट करें।</string>
+    <string name="recipe_17_step_2">ग्रिल को मध्यम-तेज़ आँच पर गरम करें।</string>
+    <string name="recipe_17_step_3">सैल्मन को प्रत्येक तरफ़ 4–5 मिनट तक परतदार होने तक ग्रिल करें।</string>
+    <string name="recipe_17_step_4">भाप में पकी शतावरी और नींबू के टुकड़ों के साथ परोसें।</string>
+
+    <!-- 18. Chicken Stir-Fry -->
+    <string name="recipe_18_title">चिकन सब्ज़ी स्टर-फ़्राई</string>
+    <string name="recipe_18_desc">हल्की अदरक सॉस में कम वसा वाले चिकन और कुरकुरी सब्ज़ियों की रंगीन स्टर-फ़्राई। जल्दी बनने वाली और DASH-अनुकूल।</string>
+    <string name="recipe_18_ing_1">200 ग्राम चिकन ब्रेस्ट, पतला कटा हुआ</string>
+    <string name="recipe_18_ing_2">1 कप ब्रोकली के टुकड़े</string>
+    <string name="recipe_18_ing_3">1 कटी हुई शिमला मिर्च</string>
+    <string name="recipe_18_ing_4">½ कप स्नैप मटर</string>
+    <string name="recipe_18_ing_5">2 बड़े चम्मच कम सोडियम सोया सॉस</string>
+    <string name="recipe_18_ing_6">1 छोटा चम्मच ताज़ा अदरक, लहसुन, तिल का तेल</string>
+    <string name="recipe_18_step_1">चिकन को तिल के तेल में सुनहरा होने तक भूनें। निकालकर अलग रखें।</string>
+    <string name="recipe_18_step_2">ब्रोकली, शिमला मिर्च और स्नैप मटर को 3 मिनट स्टर-फ़्राई करें।</string>
+    <string name="recipe_18_step_3">चिकन वापस डालें। सोया सॉस, अदरक और लहसुन डालें। 2 मिनट मिलाएँ।</string>
+    <string name="recipe_18_step_4">ब्राउन राइस या साबुत अनाज नूडल्स के साथ परोसें।</string>
+
+    <!-- 19. Baked Cod -->
+    <string name="recipe_19_title">सब्ज़ियों के साथ बेक्ड कॉड</string>
+    <string name="recipe_19_desc">चेरी टमाटर और तोरी के साथ बेक की हुई नरम कॉड मछली। हल्की, स्वादिष्ट और हृदय-स्वस्थ।</string>
+    <string name="recipe_19_ing_1">2 कॉड फ़िलेट (150 ग्राम प्रत्येक)</string>
+    <string name="recipe_19_ing_2">1 कप चेरी टमाटर</string>
+    <string name="recipe_19_ing_3">1 तोरी, कटी हुई</string>
+    <string name="recipe_19_ing_4">2 बड़े चम्मच जैतून का तेल</string>
+    <string name="recipe_19_ing_5">ताज़ी थाइम और ओरेगैनो</string>
+    <string name="recipe_19_ing_6">नींबू के टुकड़े, काली मिर्च</string>
+    <string name="recipe_19_step_1">ओवन को 400°F (200°C) पर गरम करें।</string>
+    <string name="recipe_19_step_2">कॉड को बेकिंग डिश में रखें। चारों ओर टमाटर और तोरी सजाएँ।</string>
+    <string name="recipe_19_step_3">जैतून का तेल डालें, जड़ी-बूटियों और काली मिर्च से सीज़न करें।</string>
+    <string name="recipe_19_step_4">18–20 मिनट तक बेक करें जब तक मछली आसानी से टूटने लगे। नींबू के साथ परोसें।</string>
+
+    <!-- 20. Turkey Meatballs -->
+    <string name="recipe_20_title">मरिनारा सॉस के साथ टर्की मीटबॉल</string>
+    <string name="recipe_20_desc">घर की बनी कम सोडियम मरिनारा सॉस में कम वसा वाले टर्की मीटबॉल। साबुत गेहूँ स्पेगेटी के साथ परोसे जाते हैं।</string>
+    <string name="recipe_20_ing_1">300 ग्राम कम वसा वाला पिसा हुआ टर्की</string>
+    <string name="recipe_20_ing_2">¼ कप साबुत गेहूँ का ब्रेडक्रम्ब</string>
+    <string name="recipe_20_ing_3">1 अंडे की सफ़ेदी</string>
+    <string name="recipe_20_ing_4">2 कप बिना नमक वाले पिसे हुए टमाटर</string>
+    <string name="recipe_20_ing_5">इटालियन जड़ी-बूटियाँ (तुलसी, ओरेगैनो, अजमोद)</string>
+    <string name="recipe_20_ing_6">साबुत गेहूँ स्पेगेटी, लहसुन</string>
+    <string name="recipe_20_step_1">टर्की, ब्रेडक्रम्ब, अंडे की सफ़ेदी और जड़ी-बूटियाँ मिलाएँ। गोलियाँ बनाएँ।</string>
+    <string name="recipe_20_step_2">मीटबॉल को 375°F पर 20 मिनट बेक करें।</string>
+    <string name="recipe_20_step_3">मरिनारा सॉस के लिए पिसे हुए टमाटर को लहसुन और जड़ी-बूटियों के साथ पकाएँ।</string>
+    <string name="recipe_20_step_4">मीटबॉल को मरिनारा में मिलाएँ। साबुत गेहूँ स्पेगेटी के साथ परोसें।</string>
+
+    <!-- 21. Vegetable Curry -->
+    <string name="recipe_21_title">सब्ज़ी छोले करी</string>
+    <string name="recipe_21_desc">छोले, पालक और टमाटर के साथ सुगंधित करी। फ़ाइबर और पोटैशियम से भरपूर।</string>
+    <string name="recipe_21_ing_1">1 डिब्बा छोले, धुले हुए</string>
+    <string name="recipe_21_ing_2">2 कप ताज़ी पालक</string>
+    <string name="recipe_21_ing_3">1 डिब्बा बिना नमक वाले कटे हुए टमाटर</string>
+    <string name="recipe_21_ing_4">½ कप हल्का नारियल का दूध</string>
+    <string name="recipe_21_ing_5">2 छोटे चम्मच करी पाउडर</string>
+    <string name="recipe_21_ing_6">लहसुन, अदरक, हल्दी, परोसने के लिए ब्राउन राइस</string>
+    <string name="recipe_21_step_1">जैतून के तेल में लहसुन और अदरक भूनें। करी पाउडर और हल्दी डालें।</string>
+    <string name="recipe_21_step_2">टमाटर और नारियल का दूध डालें। 5 मिनट पकाएँ।</string>
+    <string name="recipe_21_step_3">छोले और पालक डालें। पालक मुरझाने तक, लगभग 3 मिनट पकाएँ।</string>
+    <string name="recipe_21_step_4">ब्राउन राइस के साथ परोसें।</string>
+
+    <!-- 22. Lean Beef Stew -->
+    <string name="recipe_22_title">कम वसा वाला बीफ़ और जड़ वाली सब्ज़ियों का स्टू</string>
+    <string name="recipe_22_desc">आलू, गाजर और जड़ी-बूटियों के साथ धीमी आँच पर पका नरम कम वसा वाला बीफ़। DASH शैली का आरामदायक भोजन।</string>
+    <string name="recipe_22_ing_1">300 ग्राम कम वसा वाला बीफ़ स्टू मीट, टुकड़ों में कटा</string>
+    <string name="recipe_22_ing_2">2 आलू, टुकड़ों में कटे</string>
+    <string name="recipe_22_ing_3">2 गाजर, कटी हुई</string>
+    <string name="recipe_22_ing_4">4 कप कम सोडियम बीफ़ शोरबा</string>
+    <string name="recipe_22_ing_5">1 कप कटा हुआ प्याज़</string>
+    <string name="recipe_22_ing_6">तेज पत्ता, थाइम, लहसुन, काली मिर्च</string>
+    <string name="recipe_22_step_1">बीफ़ के टुकड़ों को जैतून के तेल में तेज़ आँच पर भूनें। निकालकर अलग रखें।</string>
+    <string name="recipe_22_step_2">प्याज़ और लहसुन भूनें। शोरबा, तेज पत्ता और थाइम डालें। उबाल आने दें।</string>
+    <string name="recipe_22_step_3">बीफ़ वापस डालें। आलू और गाजर डालें। 45–60 मिनट धीमी आँच पर पकाएँ।</string>
+    <string name="recipe_22_step_4">तेज पत्ता निकालें, काली मिर्च डालें और गरमागरम परोसें।</string>
+
+    <!-- 23. Stuffed Bell Peppers -->
+    <string name="recipe_23_title">भरवाँ शिमला मिर्च</string>
+    <string name="recipe_23_desc">ब्राउन राइस, कम वसा वाले टर्की और सब्ज़ियों से भरी रंगीन शिमला मिर्च। एक संपूर्ण DASH भोजन।</string>
+    <string name="recipe_23_ing_1">4 शिमला मिर्च, ऊपरी भाग काटकर बीज निकाले हुए</string>
+    <string name="recipe_23_ing_2">200 ग्राम कम वसा वाला पिसा हुआ टर्की</string>
+    <string name="recipe_23_ing_3">1 कप पका हुआ ब्राउन राइस</string>
+    <string name="recipe_23_ing_4">½ कप बिना नमक वाले कटे हुए टमाटर</string>
+    <string name="recipe_23_ing_5">¼ कप कम वसा वाला पनीर</string>
+    <string name="recipe_23_ing_6">जीरा, लहसुन पाउडर, काली मिर्च</string>
+    <string name="recipe_23_step_1">ओवन को 375°F पर गरम करें। टर्की को मसालों के साथ भूरा होने तक पकाएँ।</string>
+    <string name="recipe_23_step_2">टर्की को ब्राउन राइस और कटे हुए टमाटर के साथ मिलाएँ।</string>
+    <string name="recipe_23_step_3">शिमला मिर्च में मिश्रण भरें। थोड़े पानी के साथ बेकिंग डिश में रखें।</string>
+    <string name="recipe_23_step_4">25–30 मिनट बेक करें। आखिरी 5 मिनट में ऊपर पनीर डालें। परोसें।</string>
+
+    <!-- 24. Herb Roasted Chicken -->
+    <string name="recipe_24_title">जड़ी-बूटियों से भुना चिकन ब्रेस्ट</string>
+    <string name="recipe_24_desc">ताज़ी जड़ी-बूटियों के साथ भुना हुआ रसीला चिकन ब्रेस्ट, भुनी हुई सब्ज़ियों के साथ परोसा जाता है।</string>
+    <string name="recipe_24_ing_1">2 बोनलेस स्किनलेस चिकन ब्रेस्ट</string>
+    <string name="recipe_24_ing_2">2 बड़े चम्मच जैतून का तेल</string>
+    <string name="recipe_24_ing_3">ताज़ी रोज़मेरी, थाइम और सेज</string>
+    <string name="recipe_24_ing_4">2 कप मिश्रित सब्ज़ियाँ (ब्रसेल्स स्प्राउट्स, गाजर, प्याज़)</string>
+    <string name="recipe_24_ing_5">3 कली लहसुन</string>
+    <string name="recipe_24_ing_6">काली मिर्च, नींबू का छिलका</string>
+    <string name="recipe_24_step_1">ओवन को 425°F पर गरम करें। चिकन पर जैतून का तेल, जड़ी-बूटियाँ, लहसुन और नींबू का छिलका मलें।</string>
+    <string name="recipe_24_step_2">सब्ज़ियों को जैतून के तेल और काली मिर्च के साथ मिलाएँ। बेकिंग शीट पर फैलाएँ।</string>
+    <string name="recipe_24_step_3">चिकन को सब्ज़ियों पर रखें। 25–30 मिनट तक भूनें जब तक चिकन 165°F तक पक जाए।</string>
+    <string name="recipe_24_step_4">काटने से पहले 5 मिनट रखें। भुनी हुई सब्ज़ियों के साथ परोसें।</string>
+
+    <!-- === SNACK RECIPES === -->
+
+    <!-- 25. Hummus and Veggie Sticks -->
+    <string name="recipe_25_title">सब्ज़ी की स्टिक्स के साथ हम्मस</string>
+    <string name="recipe_25_desc">कुरकुरी सब्ज़ी की स्टिक्स के साथ मलाईदार घर का बना हम्मस। फ़ाइबर और पोटैशियम से भरपूर DASH स्नैक।</string>
+    <string name="recipe_25_ing_1">1 डिब्बा छोले, धुले हुए</string>
+    <string name="recipe_25_ing_2">2 बड़े चम्मच तहिनी</string>
+    <string name="recipe_25_ing_3">1 नींबू का रस</string>
+    <string name="recipe_25_ing_4">1 कली लहसुन</string>
+    <string name="recipe_25_ing_5">गाजर, अजवाइन, खीरे की स्टिक्स</string>
+    <string name="recipe_25_ing_6">पैप्रिका, ऊपर डालने के लिए जैतून का तेल</string>
+    <string name="recipe_25_step_1">छोले, तहिनी, नींबू का रस, लहसुन और थोड़ा पानी डालकर चिकना होने तक ब्लेंड करें।</string>
+    <string name="recipe_25_step_2">एक कटोरे में निकालें और ऊपर जैतून का तेल और पैप्रिका डालें।</string>
+    <string name="recipe_25_step_3">गाजर, अजवाइन और खीरे को स्टिक्स में काटें।</string>
+    <string name="recipe_25_step_4">हम्मस को सब्ज़ी की स्टिक्स के साथ डुबोकर खाएँ।</string>
+
+    <!-- 26. Heart-Healthy Trail Mix -->
+    <string name="recipe_26_title">हृदय-स्वस्थ ट्रेल मिक्स</string>
+    <string name="recipe_26_desc">बिना नमक वाले मेवों, बीजों और सूखे मेवों का कस्टम मिश्रण। DASH-अनुकूल स्नैकिंग के लिए आदर्श।</string>
+    <string name="recipe_26_ing_1">¼ कप बिना नमक वाले बादाम</string>
+    <string name="recipe_26_ing_2">¼ कप बिना नमक वाले अखरोट</string>
+    <string name="recipe_26_ing_3">2 बड़े चम्मच कद्दू के बीज</string>
+    <string name="recipe_26_ing_4">2 बड़े चम्मच सूखी क्रैनबेरी</string>
+    <string name="recipe_26_ing_5">2 बड़े चम्मच डार्क चॉकलेट चिप्स</string>
+    <string name="recipe_26_ing_6">2 बड़े चम्मच कटी हुई सूखी खुबानी</string>
+    <string name="recipe_26_step_1">सभी सामग्री नापें।</string>
+    <string name="recipe_26_step_2">सभी मेवे, बीज और सूखे फलों को एक कटोरे में मिलाएँ।</string>
+    <string name="recipe_26_step_3">समान रूप से मिलाने के लिए हल्के से हिलाएँ।</string>
+    <string name="recipe_26_step_4">एक एयरटाइट कंटेनर में रखें। ¼ कप की सर्विंग में बाँटें।</string>
+
+    <!-- 27. Apple Slices with Almond Butter -->
+    <string name="recipe_27_title">बादाम बटर के साथ सेब</string>
+    <string name="recipe_27_desc">मलाईदार प्राकृतिक बादाम बटर के साथ कुरकुरे सेब के टुकड़े। सरल, संतोषजनक और हृदय-स्वस्थ।</string>
+    <string name="recipe_27_ing_1">1 मध्यम सेब</string>
+    <string name="recipe_27_ing_2">2 बड़े चम्मच प्राकृतिक बादाम बटर</string>
+    <string name="recipe_27_ing_3">एक चुटकी दालचीनी</string>
+    <string name="recipe_27_ing_4">1 छोटा चम्मच चिया बीज (वैकल्पिक)</string>
+    <string name="recipe_27_step_1">सेब को धोएँ और बीज निकालें। टुकड़ों में काटें।</string>
+    <string name="recipe_27_step_2">एक छोटी कटोरी में बादाम बटर रखें।</string>
+    <string name="recipe_27_step_3">बादाम बटर पर दालचीनी छिड़कें।</string>
+    <string name="recipe_27_step_4">सेब के टुकड़ों को बादाम बटर में डुबोकर खाएँ।</string>
+
+    <!-- 28. Greek Yogurt Dip -->
+    <string name="recipe_28_title">जड़ी-बूटी वाला ग्रीक योगर्ट डिप</string>
+    <string name="recipe_28_desc">जड़ी-बूटियों और लहसुन से सीज़न किया हुआ तीखा ग्रीक योगर्ट। खट्टी क्रीम डिप का एक स्वस्थ विकल्प।</string>
+    <string name="recipe_28_ing_1">1 कप सादा कम वसा वाला ग्रीक योगर्ट</string>
+    <string name="recipe_28_ing_2">1 बड़ा चम्मच ताज़ी सोआ, कटी हुई</string>
+    <string name="recipe_28_ing_3">1 कली लहसुन, बारीक कटा हुआ</string>
+    <string name="recipe_28_ing_4">½ नींबू का रस</string>
+    <string name="recipe_28_ing_5">स्वादानुसार काली मिर्च</string>
+    <string name="recipe_28_ing_6">साबुत अनाज के क्रैकर या सब्ज़ी की स्टिक्स</string>
+    <string name="recipe_28_step_1">एक कटोरे में योगर्ट, सोआ, लहसुन और नींबू का रस मिलाएँ।</string>
+    <string name="recipe_28_step_2">काली मिर्च डालें और अच्छी तरह मिलाएँ।</string>
+    <string name="recipe_28_step_3">स्वाद मिलाने के लिए 30 मिनट फ़्रिज में रखें।</string>
+    <string name="recipe_28_step_4">साबुत अनाज के क्रैकर या सब्ज़ी की स्टिक्स के साथ परोसें।</string>
+
+    <!-- 29. Mixed Berry Bowl -->
+    <string name="recipe_29_title">मिश्रित बेरी बाउल</string>
+    <string name="recipe_29_desc">हल्की योगर्ट ड्रिज़ल के साथ एंटीऑक्सीडेंट से भरपूर मिश्रित बेरी का सरल कटोरा। प्राकृतिक रूप से मीठा और ताज़गी भरा।</string>
+    <string name="recipe_29_ing_1">½ कप स्ट्रॉबेरी</string>
+    <string name="recipe_29_ing_2">½ कप ब्लूबेरी</string>
+    <string name="recipe_29_ing_3">½ कप रास्पबेरी</string>
+    <string name="recipe_29_ing_4">2 बड़े चम्मच कम वसा वाला ग्रीक योगर्ट</string>
+    <string name="recipe_29_ing_5">1 छोटा चम्मच शहद</string>
+    <string name="recipe_29_ing_6">सजावट के लिए ताज़ा पुदीना</string>
+    <string name="recipe_29_step_1">सभी बेरी को धोएँ और सुखाएँ।</string>
+    <string name="recipe_29_step_2">बेरी को एक कटोरे में सजाएँ।</string>
+    <string name="recipe_29_step_3">ऊपर ग्रीक योगर्ट का एक डला रखें और शहद डालें।</string>
+    <string name="recipe_29_step_4">ताज़ी पुदीने की पत्तियों से सजाएँ।</string>
+
+    <!-- 30. Rice Cakes with Toppings -->
+    <string name="recipe_30_title">टॉपिंग के साथ राइस केक</string>
+    <string name="recipe_30_desc">विभिन्न स्वस्थ DASH-अनुकूल टॉपिंग के साथ कुरकुरे कम सोडियम राइस केक।</string>
+    <string name="recipe_30_ing_1">4 बिना नमक वाले राइस केक</string>
+    <string name="recipe_30_ing_2">2 बड़े चम्मच प्राकृतिक मूँगफली का मक्खन</string>
+    <string name="recipe_30_ing_3">½ केला, कटा हुआ</string>
+    <string name="recipe_30_ing_4">¼ एवोकाडो, मसला हुआ</string>
+    <string name="recipe_30_ing_5">चेरी टमाटर, कटे हुए</string>
+    <string name="recipe_30_ing_6">एवरीथिंग बेगल सीज़निंग (कम सोडियम)</string>
+    <string name="recipe_30_step_1">दो प्रकार तैयार करें: 2 राइस केक पर मूँगफली का मक्खन और बाकी 2 पर एवोकाडो लगाएँ।</string>
+    <string name="recipe_30_step_2">मूँगफली के मक्खन वाले राइस केक पर केले के टुकड़े रखें।</string>
+    <string name="recipe_30_step_3">एवोकाडो वाले राइस केक पर टमाटर के टुकड़े और सीज़निंग डालें।</string>
+    <string name="recipe_30_step_4">एक संतोषजनक स्नैक प्लैटर के रूप में परोसें।</string>
+</resources>

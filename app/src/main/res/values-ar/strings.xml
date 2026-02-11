@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">داش دايت</string>
+    <string name="app_tagline">أكل صحي، حياة صحية</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_recipes">الوصفات</string>
+    <string name="nav_meal_plan">خطة الوجبات</string>
+    <string name="nav_profile">الملف الشخصي</string>
+
+    <!-- Auth Screen -->
+    <string name="auth_welcome">مرحبًا بك في داش دايت</string>
+    <string name="auth_subtitle">دليلك لنظام داش الغذائي من أجل قلب وحياة أكثر صحة</string>
+    <string name="auth_sign_in_google">تسجيل الدخول بحساب جوجل</string>
+    <string name="auth_sign_in_apple">تسجيل الدخول بحساب آبل</string>
+    <string name="auth_skip">المتابعة كضيف</string>
+    <string name="auth_terms">بتسجيل الدخول، فإنك توافق على شروط الخدمة وسياسة الخصوصية</string>
+    <string name="auth_signing_in">جارٍ تسجيل الدخول…</string>
+    <string name="auth_error">فشل تسجيل الدخول. يرجى المحاولة مرة أخرى.</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">مرحبًا، %1$s!</string>
+    <string name="home_greeting_guest">مرحبًا!</string>
+    <string name="home_daily_tip">نصيحة داش اليومية</string>
+    <string name="home_featured_recipes">وصفات مميزة</string>
+    <string name="home_categories">الفئات</string>
+    <string name="home_quick_start">بداية سريعة</string>
+    <string name="home_view_all">عرض الكل</string>
+    <string name="home_dash_score">نقاط داش الخاصة بك</string>
+    <string name="home_what_is_dash">ما هو نظام داش الغذائي؟</string>
+    <string name="home_learn_more">اعرف المزيد</string>
+
+    <!-- Categories -->
+    <string name="category_breakfast">فطور</string>
+    <string name="category_lunch">غداء</string>
+    <string name="category_dinner">عشاء</string>
+    <string name="category_snacks">وجبات خفيفة</string>
+    <string name="category_all">الكل</string>
+
+    <!-- Recipe List -->
+    <string name="recipes_title">وصفات داش</string>
+    <string name="recipes_search">البحث في الوصفات…</string>
+    <string name="recipes_no_results">لم يتم العثور على وصفات</string>
+    <string name="recipes_count">%1$d وصفة</string>
+    <string name="recipes_filter">تصفية</string>
+
+    <!-- Recipe Detail -->
+    <string name="recipe_ingredients">المكونات</string>
+    <string name="recipe_steps">طريقة التحضير</string>
+    <string name="recipe_nutrition">المعلومات الغذائية</string>
+    <string name="recipe_prep_time">وقت التحضير</string>
+    <string name="recipe_cook_time">وقت الطهي</string>
+    <string name="recipe_total_time">الوقت الإجمالي</string>
+    <string name="recipe_servings">الحصص</string>
+    <string name="recipe_minutes">%1$d دقيقة</string>
+    <string name="recipe_step_number">الخطوة %1$d</string>
+    <string name="recipe_add_to_plan">إضافة إلى خطة الوجبات</string>
+    <string name="recipe_added_to_plan">تمت الإضافة إلى خطة الوجبات!</string>
+
+    <!-- Nutrition Labels -->
+    <string name="nutrition_calories">السعرات الحرارية</string>
+    <string name="nutrition_sodium">الصوديوم</string>
+    <string name="nutrition_potassium">البوتاسيوم</string>
+    <string name="nutrition_fiber">الألياف</string>
+    <string name="nutrition_protein">البروتين</string>
+    <string name="nutrition_fat">الدهون</string>
+    <string name="nutrition_carbs">الكربوهيدرات</string>
+    <string name="nutrition_cal">%1$d سعرة حرارية</string>
+    <string name="nutrition_mg">%1$d ملغ</string>
+    <string name="nutrition_g">%1$d غ</string>
+
+    <!-- Meal Plan -->
+    <string name="meal_plan_title">خطة الوجبات الأسبوعية</string>
+    <string name="meal_plan_empty">اضغط + لإضافة وجبة</string>
+    <string name="meal_plan_add">إضافة وجبة</string>
+    <string name="meal_plan_remove">إزالة</string>
+    <string name="meal_plan_clear">مسح اليوم</string>
+    <string name="meal_plan_clear_all">مسح الكل</string>
+    <string name="meal_plan_select_recipe">اختر وصفة</string>
+    <string name="meal_plan_select_slot">اختر فترة الوجبة</string>
+    <string name="meal_plan_daily_total">المجموع اليومي</string>
+    <string name="meal_plan_weekly_overview">نظرة أسبوعية عامة</string>
+
+    <!-- Days of Week -->
+    <string name="day_monday">الاثنين</string>
+    <string name="day_tuesday">الثلاثاء</string>
+    <string name="day_wednesday">الأربعاء</string>
+    <string name="day_thursday">الخميس</string>
+    <string name="day_friday">الجمعة</string>
+    <string name="day_saturday">السبت</string>
+    <string name="day_sunday">الأحد</string>
+    <string name="day_mon">اثن</string>
+    <string name="day_tue">ثلا</string>
+    <string name="day_wed">أرب</string>
+    <string name="day_thu">خمي</string>
+    <string name="day_fri">جمع</string>
+    <string name="day_sat">سبت</string>
+    <string name="day_sun">أحد</string>
+
+    <!-- Profile -->
+    <string name="profile_title">الملف الشخصي</string>
+    <string name="profile_account">الحساب</string>
+    <string name="profile_guest">مستخدم ضيف</string>
+    <string name="profile_sign_out">تسجيل الخروج</string>
+    <string name="profile_sign_in">تسجيل الدخول</string>
+    <string name="profile_settings">الإعدادات</string>
+    <string name="profile_language">اللغة</string>
+    <string name="profile_dark_mode">الوضع الداكن</string>
+    <string name="profile_notifications">الإشعارات</string>
+    <string name="profile_about">عن نظام داش الغذائي</string>
+    <string name="profile_version">الإصدار %1$s</string>
+    <string name="profile_about_app">عن تطبيق داش دايت</string>
+    <string name="profile_rate">قيّمنا</string>
+    <string name="profile_share">مشاركة التطبيق</string>
+    <string name="profile_privacy">سياسة الخصوصية</string>
+    <string name="profile_terms">شروط الخدمة</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_chinese">中文</string>
+    <string name="lang_hindi">हिन्दी</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_select">اختر اللغة</string>
+
+    <!-- DASH Diet Info -->
+    <string name="dash_info_title">عن نظام داش الغذائي</string>
+    <string name="dash_info_what">ما هو نظام داش الغذائي؟</string>
+    <string name="dash_info_what_desc">داش هو اختصار لـ \"الأنظمة الغذائية لوقف ارتفاع ضغط الدم\". وهو نهج غذائي صحي مدى الحياة مصمم للمساعدة في علاج أو منع ارتفاع ضغط الدم.</string>
+    <string name="dash_info_benefits">الفوائد الرئيسية</string>
+    <string name="dash_info_benefit_1">يخفض ضغط الدم</string>
+    <string name="dash_info_benefit_2">يقلل مستويات الكوليسترول</string>
+    <string name="dash_info_benefit_3">يحسّن حساسية الأنسولين</string>
+    <string name="dash_info_benefit_4">يدعم الوزن الصحي</string>
+    <string name="dash_info_benefit_5">يقلل خطر الإصابة بأمراض القلب</string>
+    <string name="dash_info_benefit_6">قد يخفض خطر الإصابة بالسرطان</string>
+    <string name="dash_info_guidelines">إرشادات نظام داش</string>
+    <string name="dash_info_guideline_1">تناول المزيد من الفواكه والخضروات</string>
+    <string name="dash_info_guideline_2">اختر الحبوب الكاملة بدلًا من المكررة</string>
+    <string name="dash_info_guideline_3">تناول منتجات الألبان الخالية أو قليلة الدسم</string>
+    <string name="dash_info_guideline_4">اختر البروتينات الخالية من الدهون (السمك، الدجاج، البقوليات)</string>
+    <string name="dash_info_guideline_5">حدّ الصوديوم إلى ٢٣٠٠ ملغ يوميًا (أو ١٥٠٠ ملغ)</string>
+    <string name="dash_info_guideline_6">قلّل الدهون المشبعة والحلويات</string>
+    <string name="dash_info_guideline_7">أدرج المكسرات والبذور والبقوليات</string>
+    <string name="dash_info_daily_servings">الحصص اليومية الموصى بها</string>
+    <string name="dash_info_grains">الحبوب: ٦–٨ حصص</string>
+    <string name="dash_info_vegetables">الخضروات: ٤–٥ حصص</string>
+    <string name="dash_info_fruits">الفواكه: ٤–٥ حصص</string>
+    <string name="dash_info_dairy">منتجات الألبان (قليلة الدسم): ٢–٣ حصص</string>
+    <string name="dash_info_meat">اللحوم الخالية من الدهون/السمك: ٦ حصص أو أقل</string>
+    <string name="dash_info_nuts">المكسرات/البذور/البقوليات: ٤–٥ أسبوعيًا</string>
+    <string name="dash_info_fats">الدهون/الزيوت: ٢–٣ حصص</string>
+    <string name="dash_info_sweets">الحلويات: ٥ أو أقل أسبوعيًا</string>
+
+    <!-- Daily Tips -->
+    <string name="tip_1">جرّب استبدال ملح الطعام بالأعشاب والتوابل لإضافة النكهة.</string>
+    <string name="tip_2">احرص على تناول ٤–٥ حصص على الأقل من الفواكه والخضروات يوميًا.</string>
+    <string name="tip_3">اختر الحبوب الكاملة مثل الأرز البني والقمح الكامل والشوفان.</string>
+    <string name="tip_4">تناول المكسرات غير المملحة بدلًا من رقائق البطاطس أو البسكويت المملح.</string>
+    <string name="tip_5">اقرأ ملصقات القيم الغذائية واختر الأطعمة الأقل صوديومًا.</string>
+    <string name="tip_6">أدرج حصة من منتجات الألبان قليلة الدسم مثل الزبادي يوميًا.</string>
+    <string name="tip_7">اشوِ أو اخبز أو اطهِ الطعام بالبخار بدلًا من القلي.</string>
+    <string name="tip_8">اشرب الماء بدلًا من المشروبات السكرية.</string>
+    <string name="tip_9">أضف الفاصوليا أو العدس إلى الشوربات والسلطات لمزيد من الألياف.</string>
+    <string name="tip_10">خطّط لوجباتك مسبقًا لاتخاذ خيارات صحية أفضل.</string>
+
+    <!-- Common -->
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="close">إغلاق</string>
+    <string name="back">رجوع</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="error_generic">حدث خطأ ما. يرجى المحاولة مرة أخرى.</string>
+    <string name="no_connection">لا يوجد اتصال بالإنترنت</string>
+
+    <!-- ==================== RECIPES ==================== -->
+
+    <!-- === BREAKFAST RECIPES === -->
+
+    <!-- 1. Oatmeal with Berries -->
+    <string name="recipe_1_title">شوفان بالتوت الطازج</string>
+    <string name="recipe_1_desc">شوفان صحي للقلب مغطى بالتوت الطازج وقليل من العسل. فطور مثالي لنظام داش الغذائي.</string>
+    <string name="recipe_1_ing_1">كوب واحد شوفان ملفوف</string>
+    <string name="recipe_1_ing_2">كوبان ماء أو حليب قليل الدسم</string>
+    <string name="recipe_1_ing_3">نصف كوب توت مشكّل (توت أزرق، فراولة، توت أحمر)</string>
+    <string name="recipe_1_ing_4">ملعقة كبيرة عسل</string>
+    <string name="recipe_1_ing_5">ربع ملعقة صغيرة قرفة</string>
+    <string name="recipe_1_ing_6">ملعقة كبيرة جوز مفروم</string>
+    <string name="recipe_1_step_1">اغلِ الماء أو الحليب في قدر.</string>
+    <string name="recipe_1_step_2">أضف الشوفان وخفّف الحرارة. اطهِ لمدة ٥ دقائق مع التحريك من حين لآخر.</string>
+    <string name="recipe_1_step_3">اسكب في وعاء وأضف التوت الطازج فوقه.</string>
+    <string name="recipe_1_step_4">رشّ العسل والقرفة والجوز فوقه. قدّمه دافئًا.</string>
+
+    <!-- 2. Greek Yogurt Parfait -->
+    <string name="recipe_2_title">بارفيه الزبادي اليوناني</string>
+    <string name="recipe_2_desc">طبقات من الزبادي اليوناني قليل الدسم الكريمي والجرانولا المقرمشة والفواكه الطازجة لبداية غنية بالبروتين.</string>
+    <string name="recipe_2_ing_1">كوب واحد زبادي يوناني قليل الدسم</string>
+    <string name="recipe_2_ing_2">ربع كوب جرانولا قليلة الصوديوم</string>
+    <string name="recipe_2_ing_3">نصف كوب فراولة مقطعة</string>
+    <string name="recipe_2_ing_4">ربع كوب توت أزرق</string>
+    <string name="recipe_2_ing_5">ملعقة كبيرة بذور الشيا</string>
+    <string name="recipe_2_ing_6">ملعقة صغيرة عسل</string>
+    <string name="recipe_2_step_1">أضف نصف الزبادي في كأس أو وعاء.</string>
+    <string name="recipe_2_step_2">رتّب طبقة من نصف الجرانولا ونصف الفواكه.</string>
+    <string name="recipe_2_step_3">كرّر الطبقات بالمكونات المتبقية.</string>
+    <string name="recipe_2_step_4">ضع بذور الشيا فوقها ورشّ القليل من العسل.</string>
+
+    <!-- 3. Whole Grain Toast with Avocado -->
+    <string name="recipe_3_title">توست الحبوب الكاملة بالأفوكادو</string>
+    <string name="recipe_3_desc">توست من الحبوب الكاملة المقرمش مع الأفوكادو المهروس والطماطم وعصرة ليمون.</string>
+    <string name="recipe_3_ing_1">شريحتان من خبز الحبوب الكاملة</string>
+    <string name="recipe_3_ing_2">حبة أفوكادو ناضجة</string>
+    <string name="recipe_3_ing_3">حبة طماطم صغيرة مقطعة شرائح</string>
+    <string name="recipe_3_ing_4">عصير نصف ليمونة</string>
+    <string name="recipe_3_ing_5">رشة فلفل أسود</string>
+    <string name="recipe_3_ing_6">رقائق فلفل أحمر (اختياري)</string>
+    <string name="recipe_3_step_1">حمّص شرائح الخبز حتى تصبح ذهبية ومقرمشة.</string>
+    <string name="recipe_3_step_2">اهرس الأفوكادو في وعاء مع عصير الليمون والفلفل.</string>
+    <string name="recipe_3_step_3">افرد خليط الأفوكادو على كل شريحة توست.</string>
+    <string name="recipe_3_step_4">ضع شرائح الطماطم ورقائق الفلفل الأحمر الاختيارية فوقها.</string>
+
+    <!-- 4. Berry Smoothie Bowl -->
+    <string name="recipe_4_title">وعاء سموذي التوت</string>
+    <string name="recipe_4_desc">وعاء سموذي سميك وكريمي مليء بالتوت الغني بمضادات الأكسدة وإضافات مغذية.</string>
+    <string name="recipe_4_ing_1">كوب واحد توت مشكّل مجمد</string>
+    <string name="recipe_4_ing_2">حبة موز</string>
+    <string name="recipe_4_ing_3">نصف كوب حليب قليل الدسم</string>
+    <string name="recipe_4_ing_4">ملعقة كبيرة بذور الكتان</string>
+    <string name="recipe_4_ing_5">ملعقتان كبيرتان جرانولا</string>
+    <string name="recipe_4_ing_6">فواكه طازجة للتزيين</string>
+    <string name="recipe_4_step_1">اخلط التوت المجمد والموز والحليب حتى يصبح الخليط سميكًا وناعمًا.</string>
+    <string name="recipe_4_step_2">اسكب في وعاء (يجب أن يكون أسمك من السموذي العادي).</string>
+    <string name="recipe_4_step_3">أضف الجرانولا وبذور الكتان والفواكه الطازجة فوقه.</string>
+    <string name="recipe_4_step_4">قدّمه فورًا واستمتع بتناوله بالملعقة.</string>
+
+    <!-- 5. Egg White Omelet -->
+    <string name="recipe_5_title">أومليت بياض البيض بالخضروات</string>
+    <string name="recipe_5_desc">أومليت خفيف ورقيق من بياض البيض محشو بالخضروات الملونة لوجبة قليلة الدهون وغنية بالبروتين.</string>
+    <string name="recipe_5_ing_1">٤ بياض بيض</string>
+    <string name="recipe_5_ing_2">ربع كوب فلفل حلو مقطع مكعبات</string>
+    <string name="recipe_5_ing_3">ربع كوب سبانخ مفرومة</string>
+    <string name="recipe_5_ing_4">ملعقتان كبيرتان طماطم مقطعة مكعبات</string>
+    <string name="recipe_5_ing_5">ملعقتان كبيرتان جبن قليل الدسم</string>
+    <string name="recipe_5_ing_6">ملعقة صغيرة زيت زيتون</string>
+    <string name="recipe_5_step_1">اخفق بياض البيض حتى يصبح رغويًا قليلًا.</string>
+    <string name="recipe_5_step_2">سخّن زيت الزيتون في مقلاة غير لاصقة على نار متوسطة.</string>
+    <string name="recipe_5_step_3">اسكب بياض البيض واطهِه حتى تتماسك الأطراف. أضف الخضروات على نصفه.</string>
+    <string name="recipe_5_step_4">اطوِ الأومليت إلى النصف وأضف الجبن فوقه وقدّمه.</string>
+
+    <!-- 6. Banana Oat Pancakes -->
+    <string name="recipe_6_title">بانكيك الموز والشوفان</string>
+    <string name="recipe_6_desc">بانكيك هش مصنوع من الشوفان بالحبوب الكاملة والموز الناضج. حلو طبيعيًا بدون سكر مضاف.</string>
+    <string name="recipe_6_ing_1">كوب واحد طحين قمح كامل</string>
+    <string name="recipe_6_ing_2">نصف كوب شوفان ملفوف</string>
+    <string name="recipe_6_ing_3">حبة موز ناضجة مهروسة</string>
+    <string name="recipe_6_ing_4">كوب واحد حليب قليل الدسم</string>
+    <string name="recipe_6_ing_5">بيضة واحدة</string>
+    <string name="recipe_6_ing_6">ملعقة صغيرة بيكنج باودر</string>
+    <string name="recipe_6_step_1">اخلط الطحين والشوفان والبيكنج باودر في وعاء.</string>
+    <string name="recipe_6_step_2">في وعاء آخر، اخلط الموز المهروس والحليب والبيضة.</string>
+    <string name="recipe_6_step_3">أضف المكونات الرطبة إلى الجافة واخلط حتى تتجانس فقط.</string>
+    <string name="recipe_6_step_4">اطهِ على مقلاة غير لاصقة على نار متوسطة. اقلب عند ظهور الفقاعات. قدّم مع الفواكه الطازجة.</string>
+
+    <!-- 7. Fresh Fruit Salad -->
+    <string name="recipe_7_title">سلطة الفواكه الطازجة</string>
+    <string name="recipe_7_desc">مزيج ملون من الفواكه الموسمية مع صلصة خفيفة من الحمضيات والنعناع. غنية بالبوتاسيوم والفيتامينات.</string>
+    <string name="recipe_7_ing_1">كوب فراولة مقطعة أنصافًا</string>
+    <string name="recipe_7_ing_2">كوب توت أزرق</string>
+    <string name="recipe_7_ing_3">حبة موز مقطعة شرائح</string>
+    <string name="recipe_7_ing_4">حبة برتقال مقسمة فصوصًا</string>
+    <string name="recipe_7_ing_5">حبة كيوي مقطعة مكعبات</string>
+    <string name="recipe_7_ing_6">أوراق نعناع طازجة وعصير ليمون أخضر</string>
+    <string name="recipe_7_step_1">اغسل وجهّز جميع الفواكه.</string>
+    <string name="recipe_7_step_2">اخلط جميع الفواكه في وعاء كبير.</string>
+    <string name="recipe_7_step_3">اعصر الليمون الأخضر فوق الفواكه وقلّبها بلطف.</string>
+    <string name="recipe_7_step_4">زيّن بأوراق النعناع الطازجة. برّد قبل التقديم.</string>
+
+    <!-- 8. Granola Bowl -->
+    <string name="recipe_8_title">وعاء الجرانولا قليلة الصوديوم</string>
+    <string name="recipe_8_desc">جرانولا مقرمشة منزلية قليلة الصوديوم مع فواكه مجففة وبذور فوق حليب قليل الدسم.</string>
+    <string name="recipe_8_ing_1">نصف كوب جرانولا قليلة الصوديوم</string>
+    <string name="recipe_8_ing_2">كوب واحد حليب قليل الدسم</string>
+    <string name="recipe_8_ing_3">ملعقتان كبيرتان توت بري مجفف</string>
+    <string name="recipe_8_ing_4">ملعقة كبيرة بذور القرع</string>
+    <string name="recipe_8_ing_5">ملعقة كبيرة بذور دوار الشمس</string>
+    <string name="recipe_8_ing_6">نصف حبة موز مقطعة شرائح</string>
+    <string name="recipe_8_step_1">اسكب الجرانولا في وعاء.</string>
+    <string name="recipe_8_step_2">أضف الحليب قليل الدسم.</string>
+    <string name="recipe_8_step_3">ضع التوت البري المجفف والبذور وشرائح الموز فوقها.</string>
+    <string name="recipe_8_step_4">قدّمه فورًا للحصول على أقصى قرمشة.</string>
+
+    <!-- === LUNCH RECIPES === -->
+
+    <!-- 9. Quinoa Vegetable Salad -->
+    <string name="recipe_9_title">سلطة الكينوا بالخضروات</string>
+    <string name="recipe_9_desc">كينوا غنية بالبروتين مع خضروات طازجة وصلصة ليمون خفيفة. غداء مثالي لنظام داش.</string>
+    <string name="recipe_9_ing_1">كوب واحد كينوا مطبوخة</string>
+    <string name="recipe_9_ing_2">نصف كوب خيار مقطع مكعبات</string>
+    <string name="recipe_9_ing_3">نصف كوب طماطم كرزية مقطعة أنصافًا</string>
+    <string name="recipe_9_ing_4">ربع كوب بصل أحمر مقطع مكعبات</string>
+    <string name="recipe_9_ing_5">ملعقتان كبيرتان زيت زيتون</string>
+    <string name="recipe_9_ing_6">عصير ليمونة واحدة، بقدونس طازج</string>
+    <string name="recipe_9_step_1">اطهِ الكينوا حسب تعليمات العبوة. اتركها لتبرد.</string>
+    <string name="recipe_9_step_2">اخلط الكينوا الباردة مع الخيار والطماطم والبصل.</string>
+    <string name="recipe_9_step_3">اخلط زيت الزيتون وعصير الليمون معًا للصلصة.</string>
+    <string name="recipe_9_step_4">قلّب السلطة بالصلصة وزيّنها بالبقدونس.</string>
+
+    <!-- 10. Turkey Lettuce Wrap -->
+    <string name="recipe_10_title">لفائف الديك الرومي بالخس</string>
+    <string name="recipe_10_desc">ديك رومي خالي الدهون ملفوف في أوراق خس مقرمشة مع خضروات طازجة. قليل الكربوهيدرات ومتوافق مع نظام داش.</string>
+    <string name="recipe_10_ing_1">٢٠٠ غ ديك رومي مفروم خالي الدهون</string>
+    <string name="recipe_10_ing_2">٤ أوراق كبيرة من خس الزبدة</string>
+    <string name="recipe_10_ing_3">نصف كوب جزر مبشور</string>
+    <string name="recipe_10_ing_4">ربع كوب كستناء الماء مقطعة مكعبات</string>
+    <string name="recipe_10_ing_5">ملعقة كبيرة صويا صوص قليل الصوديوم</string>
+    <string name="recipe_10_ing_6">ملعقة صغيرة زيت سمسم، ثوم، زنجبيل</string>
+    <string name="recipe_10_step_1">اطهِ الديك الرومي المفروم مع الثوم والزنجبيل حتى يحمرّ.</string>
+    <string name="recipe_10_step_2">أضف الجزر وكستناء الماء وصلصة الصويا وزيت السمسم. اقلِ لمدة دقيقتين.</string>
+    <string name="recipe_10_step_3">اغسل أوراق الخس وجففها.</string>
+    <string name="recipe_10_step_4">ضع خليط الديك الرومي في أوراق الخس وقدّمه.</string>
+
+    <!-- 11. Lentil Soup -->
+    <string name="recipe_11_title">شوربة العدس الشهية</string>
+    <string name="recipe_11_desc">شوربة عدس دافئة غنية بالألياف والبوتاسيوم. وجبة مريحة ومعتمدة في نظام داش.</string>
+    <string name="recipe_11_ing_1">كوب واحد عدس مجفف ومغسول</string>
+    <string name="recipe_11_ing_2">٤ أكواب مرق خضروات قليل الصوديوم</string>
+    <string name="recipe_11_ing_3">كوب واحد جزر مقطع مكعبات</string>
+    <string name="recipe_11_ing_4">كوب واحد كرفس مقطع مكعبات</string>
+    <string name="recipe_11_ing_5">حبة بصل مقطعة مكعبات</string>
+    <string name="recipe_11_ing_6">فصّان ثوم، كمون، كركم</string>
+    <string name="recipe_11_step_1">حمّر البصل والجزر والكرفس والثوم في زيت الزيتون لمدة ٥ دقائق.</string>
+    <string name="recipe_11_step_2">أضف العدس والمرق والكمون والكركم. اتركه يغلي.</string>
+    <string name="recipe_11_step_3">خفّف الحرارة واتركه على نار هادئة لمدة ٢٥–٣٠ دقيقة حتى ينضج العدس.</string>
+    <string name="recipe_11_step_4">تبّل بالفلفل وقدّمه مع عصرة ليمون.</string>
+
+    <!-- 12. Grilled Chicken Salad -->
+    <string name="recipe_12_title">سلطة الدجاج المشوي</string>
+    <string name="recipe_12_desc">خضروات ورقية مشكّلة طازجة مع صدر دجاج مشوي وأفوكادو وصلصة بلسميك خفيفة.</string>
+    <string name="recipe_12_ing_1">١٥٠ غ صدر دجاج مشوي ومقطع شرائح</string>
+    <string name="recipe_12_ing_2">٣ أكواب خضروات ورقية مشكّلة</string>
+    <string name="recipe_12_ing_3">نصف حبة أفوكادو مقطعة شرائح</string>
+    <string name="recipe_12_ing_4">ربع كوب طماطم كرزية</string>
+    <string name="recipe_12_ing_5">ملعقتان كبيرتان صلصة بلسميك</string>
+    <string name="recipe_12_ing_6">ملعقة كبيرة بذور دوار الشمس</string>
+    <string name="recipe_12_step_1">تبّل صدر الدجاج بالأعشاب واشوِه حتى ينضج تمامًا. قطّعه شرائح.</string>
+    <string name="recipe_12_step_2">رتّب الخضروات الورقية في طبق.</string>
+    <string name="recipe_12_step_3">أضف الدجاج والأفوكادو والطماطم فوقها.</string>
+    <string name="recipe_12_step_4">رشّ صلصة البلسميك وانثر بذور دوار الشمس.</string>
+
+    <!-- 13. Veggie Buddha Bowl -->
+    <string name="recipe_13_title">وعاء بوذا بالخضروات</string>
+    <string name="recipe_13_desc">وعاء ملون من الخضروات المحمصة والحمص والأرز البني مع صلصة الطحينة.</string>
+    <string name="recipe_13_ing_1">كوب واحد أرز بني مطبوخ</string>
+    <string name="recipe_13_ing_2">نصف كوب مكعبات بطاطا حلوة محمصة</string>
+    <string name="recipe_13_ing_3">نصف كوب حمص مطبوخ</string>
+    <string name="recipe_13_ing_4">نصف كوب بروكلي مطبوخ على البخار</string>
+    <string name="recipe_13_ing_5">ربع حبة أفوكادو مقطعة شرائح</string>
+    <string name="recipe_13_ing_6">ملعقتان كبيرتان صلصة طحينة</string>
+    <string name="recipe_13_step_1">اطهِ الأرز البني وحمّص مكعبات البطاطا الحلوة على حرارة ٢٠٠°م لمدة ٢٠ دقيقة.</string>
+    <string name="recipe_13_step_2">اطهِ البروكلي على البخار وسخّن الحمص.</string>
+    <string name="recipe_13_step_3">رتّب الأرز والخضروات والحمص في وعاء.</string>
+    <string name="recipe_13_step_4">أضف الأفوكادو ورشّ صلصة الطحينة فوقها.</string>
+
+    <!-- 14. Tuna Salad Sandwich -->
+    <string name="recipe_14_title">ساندويتش سلطة التونة</string>
+    <string name="recipe_14_desc">سلطة تونة خفيفة بالزبادي اليوناني بدلًا من المايونيز، على خبز الحبوب الكاملة. قليلة الصوديوم وغنية بالبروتين.</string>
+    <string name="recipe_14_ing_1">علبة تونة قليلة الصوديوم مصفاة</string>
+    <string name="recipe_14_ing_2">ملعقتان كبيرتان زبادي يوناني سادة</string>
+    <string name="recipe_14_ing_3">ربع كوب كرفس مقطع مكعبات</string>
+    <string name="recipe_14_ing_4">ملعقة كبيرة بصل أحمر مقطع مكعبات</string>
+    <string name="recipe_14_ing_5">شريحتان من خبز الحبوب الكاملة</string>
+    <string name="recipe_14_ing_6">أوراق خس، فلفل أسود</string>
+    <string name="recipe_14_step_1">اخلط التونة والزبادي اليوناني والكرفس والبصل في وعاء.</string>
+    <string name="recipe_14_step_2">تبّل بالفلفل الأسود.</string>
+    <string name="recipe_14_step_3">افرد الخليط على خبز الحبوب الكاملة.</string>
+    <string name="recipe_14_step_4">أضف أوراق الخس وضع الشريحة الثانية فوقها وقدّمه.</string>
+
+    <!-- 15. Minestrone Soup -->
+    <string name="recipe_15_title">شوربة المينيسترون</string>
+    <string name="recipe_15_desc">شوربة خضروات إيطالية كلاسيكية بالفاصوليا ومعكرونة الحبوب الكاملة. قليلة الصوديوم ومليئة بالنكهة.</string>
+    <string name="recipe_15_ing_1">٤ أكواب مرق خضروات قليل الصوديوم</string>
+    <string name="recipe_15_ing_2">علبة طماطم مقطعة بدون ملح مضاف</string>
+    <string name="recipe_15_ing_3">نصف كوب معكرونة قمح كامل</string>
+    <string name="recipe_15_ing_4">نصف كوب فاصوليا حمراء مغسولة</string>
+    <string name="recipe_15_ing_5">كوب واحد خضروات مشكّلة (كوسا، جزر، فاصوليا خضراء)</string>
+    <string name="recipe_15_ing_6">أعشاب إيطالية (ريحان، أوريغانو)، ثوم</string>
+    <string name="recipe_15_step_1">حمّر الثوم والبصل في زيت الزيتون. أضف الخضروات المشكّلة واطهِها ٣ دقائق.</string>
+    <string name="recipe_15_step_2">أضف المرق والطماطم والأعشاب. اتركها تغلي.</string>
+    <string name="recipe_15_step_3">أضف المعكرونة والفاصوليا. اتركها تنضج على نار هادئة ١٠–١٢ دقيقة حتى تنضج المعكرونة.</string>
+    <string name="recipe_15_step_4">قدّمها ساخنة مع رشة ريحان طازج.</string>
+
+    <!-- 16. Mediterranean Plate -->
+    <string name="recipe_16_title">طبق البحر الأبيض المتوسط</string>
+    <string name="recipe_16_desc">طبق نابض بالحيوية من الحمص وخبز البيتا بالحبوب الكاملة والزيتون والخضروات وجبن الفيتا. نكهات متوسطية صحية للقلب.</string>
+    <string name="recipe_16_ing_1">ربع كوب حمص (هيوموس)</string>
+    <string name="recipe_16_ing_2">رغيف بيتا من الحبوب الكاملة مقطع أسافين</string>
+    <string name="recipe_16_ing_3">نصف كوب شرائح خيار</string>
+    <string name="recipe_16_ing_4">ربع كوب طماطم كرزية</string>
+    <string name="recipe_16_ing_5">ملعقتان كبيرتان جبن فيتا مفتت</string>
+    <string name="recipe_16_ing_6">زيتون كالاماتا، نعناع طازج</string>
+    <string name="recipe_16_step_1">افرد الحمص في طبق أو وعاء.</string>
+    <string name="recipe_16_step_2">رتّب أسافين البيتا والخيار والطماطم حول الحمص.</string>
+    <string name="recipe_16_step_3">أضف الزيتون وفتّت الفيتا فوقه.</string>
+    <string name="recipe_16_step_4">زيّن بالنعناع الطازج وقدّمه.</string>
+
+    <!-- === DINNER RECIPES === -->
+
+    <!-- 17. Grilled Salmon -->
+    <string name="recipe_17_title">سمك السلمون المشوي بالأعشاب</string>
+    <string name="recipe_17_desc">فيليه سلمون غني بأوميغا-٣ مشوي بالليمون والأعشاب الطازجة. وجبة عشاء أساسية في نظام داش.</string>
+    <string name="recipe_17_ing_1">فيليه سلمون عدد ٢ (١٥٠ غ لكل منهما)</string>
+    <string name="recipe_17_ing_2">ملعقتان كبيرتان زيت زيتون</string>
+    <string name="recipe_17_ing_3">عصير ليمونة واحدة</string>
+    <string name="recipe_17_ing_4">فصّان ثوم مفرومان</string>
+    <string name="recipe_17_ing_5">شبت وبقدونس طازج</string>
+    <string name="recipe_17_ing_6">فلفل أسود، هليون مطبوخ على البخار للتقديم</string>
+    <string name="recipe_17_step_1">انقع السلمون في زيت الزيتون وعصير الليمون والثوم والأعشاب لمدة ١٥ دقيقة.</string>
+    <string name="recipe_17_step_2">سخّن الشواية على حرارة متوسطة-عالية.</string>
+    <string name="recipe_17_step_3">اشوِ السلمون لمدة ٤–٥ دقائق لكل جانب حتى يصبح هشًا.</string>
+    <string name="recipe_17_step_4">قدّمه مع الهليون المطبوخ على البخار وأسافين الليمون.</string>
+
+    <!-- 18. Chicken Stir-Fry -->
+    <string name="recipe_18_title">دجاج مقلي مع الخضروات</string>
+    <string name="recipe_18_desc">طبق مقلي ملون من الدجاج الخالي الدهون والخضروات المقرمشة بصلصة الزنجبيل الخفيفة. سريع ومتوافق مع نظام داش.</string>
+    <string name="recipe_18_ing_1">٢٠٠ غ صدر دجاج مقطع شرائح رفيعة</string>
+    <string name="recipe_18_ing_2">كوب واحد زهرات بروكلي</string>
+    <string name="recipe_18_ing_3">حبة فلفل حلو مقطعة شرائح</string>
+    <string name="recipe_18_ing_4">نصف كوب بازلاء سكرية</string>
+    <string name="recipe_18_ing_5">ملعقتان كبيرتان صويا صوص قليل الصوديوم</string>
+    <string name="recipe_18_ing_6">ملعقة صغيرة زنجبيل طازج، ثوم، زيت سمسم</string>
+    <string name="recipe_18_step_1">اقلِ الدجاج في زيت السمسم حتى يصبح ذهبيًا. أخرجه وضعه جانبًا.</string>
+    <string name="recipe_18_step_2">اقلِ البروكلي والفلفل الحلو والبازلاء السكرية لمدة ٣ دقائق.</string>
+    <string name="recipe_18_step_3">أعد الدجاج. أضف صلصة الصويا والزنجبيل والثوم. قلّب لمدة دقيقتين.</string>
+    <string name="recipe_18_step_4">قدّمه فوق الأرز البني أو نودلز الحبوب الكاملة.</string>
+
+    <!-- 19. Baked Cod -->
+    <string name="recipe_19_title">سمك القد المخبوز بالخضروات</string>
+    <string name="recipe_19_desc">فيليه سمك القد الطري المخبوز مع الطماطم الكرزية والكوسا. خفيف ولذيذ وصحي للقلب.</string>
+    <string name="recipe_19_ing_1">فيليه سمك القد عدد ٢ (١٥٠ غ لكل منهما)</string>
+    <string name="recipe_19_ing_2">كوب واحد طماطم كرزية</string>
+    <string name="recipe_19_ing_3">حبة كوسا مقطعة شرائح</string>
+    <string name="recipe_19_ing_4">ملعقتان كبيرتان زيت زيتون</string>
+    <string name="recipe_19_ing_5">زعتر وأوريغانو طازج</string>
+    <string name="recipe_19_ing_6">أسافين ليمون، فلفل أسود</string>
+    <string name="recipe_19_step_1">سخّن الفرن على حرارة ٢٠٠°م.</string>
+    <string name="recipe_19_step_2">رتّب سمك القد في صينية خبز. أحطه بالطماطم والكوسا.</string>
+    <string name="recipe_19_step_3">رشّ زيت الزيتون وتبّل بالأعشاب والفلفل.</string>
+    <string name="recipe_19_step_4">اخبز لمدة ١٨–٢٠ دقيقة حتى يتقشر السمك بسهولة. قدّمه مع الليمون.</string>
+
+    <!-- 20. Turkey Meatballs -->
+    <string name="recipe_20_title">كرات الديك الرومي بصلصة المارينارا</string>
+    <string name="recipe_20_desc">كرات لحم ديك رومي خالي الدهون في صلصة مارينارا منزلية قليلة الصوديوم. تقدم فوق سباغيتي القمح الكامل.</string>
+    <string name="recipe_20_ing_1">٣٠٠ غ ديك رومي مفروم خالي الدهون</string>
+    <string name="recipe_20_ing_2">ربع كوب فتات خبز القمح الكامل</string>
+    <string name="recipe_20_ing_3">بياض بيضة واحدة</string>
+    <string name="recipe_20_ing_4">كوبان طماطم مهروسة بدون ملح مضاف</string>
+    <string name="recipe_20_ing_5">أعشاب إيطالية (ريحان، أوريغانو، بقدونس)</string>
+    <string name="recipe_20_ing_6">سباغيتي قمح كامل، ثوم</string>
+    <string name="recipe_20_step_1">اخلط الديك الرومي وفتات الخبز وبياض البيض والأعشاب. شكّلها كرات.</string>
+    <string name="recipe_20_step_2">اخبز الكرات على حرارة ١٩٠°م لمدة ٢٠ دقيقة.</string>
+    <string name="recipe_20_step_3">اطهِ الطماطم المهروسة مع الثوم والأعشاب على نار هادئة لصلصة المارينارا.</string>
+    <string name="recipe_20_step_4">اخلط الكرات بالمارينارا. قدّمها فوق سباغيتي القمح الكامل.</string>
+
+    <!-- 21. Vegetable Curry -->
+    <string name="recipe_21_title">كاري الخضروات والحمص</string>
+    <string name="recipe_21_desc">كاري عطري بالحمص والسبانخ والطماطم. غني بالألياف والبوتاسيوم.</string>
+    <string name="recipe_21_ing_1">علبة حمص مغسول</string>
+    <string name="recipe_21_ing_2">كوبان سبانخ طازجة</string>
+    <string name="recipe_21_ing_3">علبة طماطم مقطعة بدون ملح مضاف</string>
+    <string name="recipe_21_ing_4">نصف كوب حليب جوز الهند الخفيف</string>
+    <string name="recipe_21_ing_5">ملعقتان صغيرتان بهار الكاري</string>
+    <string name="recipe_21_ing_6">ثوم، زنجبيل، كركم، أرز بني للتقديم</string>
+    <string name="recipe_21_step_1">حمّر الثوم والزنجبيل في زيت الزيتون. أضف بهار الكاري والكركم.</string>
+    <string name="recipe_21_step_2">أضف الطماطم وحليب جوز الهند. اتركه يغلي على نار هادئة ٥ دقائق.</string>
+    <string name="recipe_21_step_3">أضف الحمص والسبانخ. اطهِ حتى تذبل السبانخ، حوالي ٣ دقائق.</string>
+    <string name="recipe_21_step_4">قدّمه فوق الأرز البني.</string>
+
+    <!-- 22. Lean Beef Stew -->
+    <string name="recipe_22_title">يخنة اللحم البقري الخالي الدهون مع الجذريات</string>
+    <string name="recipe_22_desc">لحم بقري خالي الدهون طري مطهو ببطء مع البطاطس والجزر والأعشاب. طعام مريح بطريقة داش.</string>
+    <string name="recipe_22_ing_1">٣٠٠ غ لحم بقري خالي الدهون للطهو مقطع مكعبات</string>
+    <string name="recipe_22_ing_2">حبتا بطاطس مقطعتان مكعبات</string>
+    <string name="recipe_22_ing_3">جزرتان مقطعتان شرائح</string>
+    <string name="recipe_22_ing_4">٤ أكواب مرق لحم بقري قليل الصوديوم</string>
+    <string name="recipe_22_ing_5">كوب واحد بصل مقطع مكعبات</string>
+    <string name="recipe_22_ing_6">ورق غار، زعتر، ثوم، فلفل أسود</string>
+    <string name="recipe_22_step_1">حمّر مكعبات اللحم في زيت الزيتون على نار عالية. أخرجها وضعها جانبًا.</string>
+    <string name="recipe_22_step_2">حمّر البصل والثوم. أضف المرق وورق الغار والزعتر. اتركه يغلي.</string>
+    <string name="recipe_22_step_3">أعد اللحم. أضف البطاطس والجزر. اتركه على نار هادئة لمدة ٤٥–٦٠ دقيقة.</string>
+    <string name="recipe_22_step_4">أزل ورق الغار وتبّل بالفلفل وقدّمه ساخنًا.</string>
+
+    <!-- 23. Stuffed Bell Peppers -->
+    <string name="recipe_23_title">فلفل حلو محشو</string>
+    <string name="recipe_23_desc">فلفل حلو ملون محشو بالأرز البني ولحم الديك الرومي الخالي الدهون والخضروات. وجبة داش متكاملة.</string>
+    <string name="recipe_23_ing_1">٤ حبات فلفل حلو منزوعة الأعلى والبذور</string>
+    <string name="recipe_23_ing_2">٢٠٠ غ ديك رومي مفروم خالي الدهون</string>
+    <string name="recipe_23_ing_3">كوب واحد أرز بني مطبوخ</string>
+    <string name="recipe_23_ing_4">نصف كوب طماطم مقطعة بدون ملح مضاف</string>
+    <string name="recipe_23_ing_5">ربع كوب جبن قليل الدسم</string>
+    <string name="recipe_23_ing_6">كمون، بودرة ثوم، فلفل أسود</string>
+    <string name="recipe_23_step_1">سخّن الفرن على حرارة ١٩٠°م. اطهِ الديك الرومي مع التوابل حتى يحمرّ.</string>
+    <string name="recipe_23_step_2">اخلط الديك الرومي مع الأرز البني والطماطم المقطعة.</string>
+    <string name="recipe_23_step_3">احشُ الفلفل بالخليط. ضعه في صينية خبز مع قليل من الماء.</string>
+    <string name="recipe_23_step_4">اخبز ٢٥–٣٠ دقيقة. أضف الجبن في آخر ٥ دقائق. قدّمه.</string>
+
+    <!-- 24. Herb Roasted Chicken -->
+    <string name="recipe_24_title">صدر دجاج محمص بالأعشاب</string>
+    <string name="recipe_24_desc">صدر دجاج طري محمص بالأعشاب الطازجة ويقدم مع خضروات محمصة.</string>
+    <string name="recipe_24_ing_1">صدرا دجاج منزوعا العظم والجلد</string>
+    <string name="recipe_24_ing_2">ملعقتان كبيرتان زيت زيتون</string>
+    <string name="recipe_24_ing_3">إكليل الجبل وزعتر وميرمية طازجة</string>
+    <string name="recipe_24_ing_4">كوبان خضروات مشكّلة (كرنب بروكسل، جزر، بصل)</string>
+    <string name="recipe_24_ing_5">٣ فصوص ثوم</string>
+    <string name="recipe_24_ing_6">فلفل أسود، قشر ليمون مبشور</string>
+    <string name="recipe_24_step_1">سخّن الفرن على حرارة ٢٢٠°م. ادهن الدجاج بزيت الزيتون والأعشاب والثوم وقشر الليمون.</string>
+    <string name="recipe_24_step_2">قلّب الخضروات بزيت الزيتون والفلفل. وزّعها على صينية خبز.</string>
+    <string name="recipe_24_step_3">ضع الدجاج فوق الخضروات. حمّصه ٢٥–٣٠ دقيقة حتى تصل حرارة الدجاج الداخلية إلى ٧٥°م.</string>
+    <string name="recipe_24_step_4">اتركه يرتاح ٥ دقائق قبل التقطيع. قدّمه مع الخضروات المحمصة.</string>
+
+    <!-- === SNACK RECIPES === -->
+
+    <!-- 25. Hummus and Veggie Sticks -->
+    <string name="recipe_25_title">حمص مع أصابع الخضروات</string>
+    <string name="recipe_25_desc">حمص كريمي منزلي مع أصابع خضروات مقرمشة. وجبة خفيفة غنية بالألياف والبوتاسيوم لنظام داش.</string>
+    <string name="recipe_25_ing_1">علبة حمص مغسول</string>
+    <string name="recipe_25_ing_2">ملعقتان كبيرتان طحينة</string>
+    <string name="recipe_25_ing_3">عصير ليمونة واحدة</string>
+    <string name="recipe_25_ing_4">فصّ ثوم واحد</string>
+    <string name="recipe_25_ing_5">أصابع جزر وكرفس وخيار</string>
+    <string name="recipe_25_ing_6">بابريكا، زيت زيتون للرش</string>
+    <string name="recipe_25_step_1">اخلط الحمص والطحينة وعصير الليمون والثوم وقليل من الماء حتى يصبح ناعمًا.</string>
+    <string name="recipe_25_step_2">انقله إلى وعاء ورشّ زيت الزيتون والبابريكا فوقه.</string>
+    <string name="recipe_25_step_3">قطّع الجزر والكرفس والخيار إلى أصابع.</string>
+    <string name="recipe_25_step_4">قدّم الحمص مع أصابع الخضروات للغمس.</string>
+
+    <!-- 26. Heart-Healthy Trail Mix -->
+    <string name="recipe_26_title">خليط المكسرات الصحي للقلب</string>
+    <string name="recipe_26_desc">مزيج خاص من المكسرات غير المملحة والبذور والفواكه المجففة. وجبة خفيفة مثالية لنظام داش.</string>
+    <string name="recipe_26_ing_1">ربع كوب لوز غير مملح</string>
+    <string name="recipe_26_ing_2">ربع كوب جوز غير مملح</string>
+    <string name="recipe_26_ing_3">ملعقتان كبيرتان بذور القرع</string>
+    <string name="recipe_26_ing_4">ملعقتان كبيرتان توت بري مجفف</string>
+    <string name="recipe_26_ing_5">ملعقتان كبيرتان رقائق شوكولاتة داكنة</string>
+    <string name="recipe_26_ing_6">ملعقتان كبيرتان مشمش مجفف مفروم</string>
+    <string name="recipe_26_step_1">قِس جميع المكونات.</string>
+    <string name="recipe_26_step_2">اخلط جميع المكسرات والبذور والفواكه المجففة في وعاء.</string>
+    <string name="recipe_26_step_3">قلّب بلطف حتى يتجانس الخليط.</string>
+    <string name="recipe_26_step_4">احفظه في وعاء محكم الإغلاق. قسّمه إلى حصص بمقدار ربع كوب.</string>
+
+    <!-- 27. Apple Slices with Almond Butter -->
+    <string name="recipe_27_title">تفاح مع زبدة اللوز</string>
+    <string name="recipe_27_desc">شرائح تفاح مقرمشة مع زبدة اللوز الطبيعية الكريمية. بسيطة ومشبعة وصحية للقلب.</string>
+    <string name="recipe_27_ing_1">حبة تفاح متوسطة</string>
+    <string name="recipe_27_ing_2">ملعقتان كبيرتان زبدة لوز طبيعية</string>
+    <string name="recipe_27_ing_3">رشة قرفة</string>
+    <string name="recipe_27_ing_4">ملعقة صغيرة بذور الشيا (اختياري)</string>
+    <string name="recipe_27_step_1">اغسل التفاحة وأزل اللب. قطّعها شرائح.</string>
+    <string name="recipe_27_step_2">ضع زبدة اللوز في طبق صغير.</string>
+    <string name="recipe_27_step_3">رشّ القرفة فوق زبدة اللوز.</string>
+    <string name="recipe_27_step_4">اغمس شرائح التفاح في زبدة اللوز واستمتع.</string>
+
+    <!-- 28. Greek Yogurt Dip -->
+    <string name="recipe_28_title">صلصة الزبادي اليوناني بالأعشاب</string>
+    <string name="recipe_28_desc">زبادي يوناني منعش متبل بالأعشاب والثوم. بديل صحي لصلصات القشدة الحامضة.</string>
+    <string name="recipe_28_ing_1">كوب واحد زبادي يوناني سادة قليل الدسم</string>
+    <string name="recipe_28_ing_2">ملعقة كبيرة شبت طازج مفروم</string>
+    <string name="recipe_28_ing_3">فصّ ثوم مفروم</string>
+    <string name="recipe_28_ing_4">عصير نصف ليمونة</string>
+    <string name="recipe_28_ing_5">فلفل أسود حسب الرغبة</string>
+    <string name="recipe_28_ing_6">بسكويت حبوب كاملة أو أصابع خضروات</string>
+    <string name="recipe_28_step_1">اخلط الزبادي والشبت والثوم وعصير الليمون في وعاء.</string>
+    <string name="recipe_28_step_2">تبّل بالفلفل الأسود واخلط جيدًا.</string>
+    <string name="recipe_28_step_3">برّده في الثلاجة لمدة ٣٠ دقيقة حتى تتمازج النكهات.</string>
+    <string name="recipe_28_step_4">قدّمه مع بسكويت الحبوب الكاملة أو أصابع الخضروات.</string>
+
+    <!-- 29. Mixed Berry Bowl -->
+    <string name="recipe_29_title">وعاء التوت المشكّل</string>
+    <string name="recipe_29_desc">وعاء بسيط من التوت المشكّل الغني بمضادات الأكسدة مع رشة زبادي خفيفة. حلو طبيعيًا ومنعش.</string>
+    <string name="recipe_29_ing_1">نصف كوب فراولة</string>
+    <string name="recipe_29_ing_2">نصف كوب توت أزرق</string>
+    <string name="recipe_29_ing_3">نصف كوب توت أحمر</string>
+    <string name="recipe_29_ing_4">ملعقتان كبيرتان زبادي يوناني قليل الدسم</string>
+    <string name="recipe_29_ing_5">ملعقة صغيرة عسل</string>
+    <string name="recipe_29_ing_6">نعناع طازج للتزيين</string>
+    <string name="recipe_29_step_1">اغسل جميع أنواع التوت وجففها.</string>
+    <string name="recipe_29_step_2">رتّب التوت في وعاء.</string>
+    <string name="recipe_29_step_3">أضف ملعقة من الزبادي اليوناني ورشّ العسل فوقه.</string>
+    <string name="recipe_29_step_4">زيّن بأوراق النعناع الطازجة.</string>
+
+    <!-- 30. Rice Cakes with Toppings -->
+    <string name="recipe_30_title">كعك الأرز مع الإضافات</string>
+    <string name="recipe_30_desc">كعك أرز مقرمش قليل الصوديوم مع إضافات صحية متنوعة متوافقة مع نظام داش.</string>
+    <string name="recipe_30_ing_1">٤ كعكات أرز غير مملحة</string>
+    <string name="recipe_30_ing_2">ملعقتان كبيرتان زبدة فول سوداني طبيعية</string>
+    <string name="recipe_30_ing_3">نصف حبة موز مقطعة شرائح</string>
+    <string name="recipe_30_ing_4">ربع حبة أفوكادو مهروسة</string>
+    <string name="recipe_30_ing_5">طماطم كرزية مقطعة شرائح</string>
+    <string name="recipe_30_ing_6">توابل بيغل مشكّلة (قليلة الصوديوم)</string>
+    <string name="recipe_30_step_1">حضّر نوعين: افرد زبدة الفول السوداني على كعكتي أرز والأفوكادو على الاثنتين الأخريين.</string>
+    <string name="recipe_30_step_2">ضع شرائح الموز فوق كعكات الأرز بزبدة الفول السوداني.</string>
+    <string name="recipe_30_step_3">ضع شرائح الطماطم والتوابل فوق كعكات الأرز بالأفوكادو.</string>
+    <string name="recipe_30_step_4">قدّمها كطبق وجبات خفيفة مشبعة.</string>
+</resources>

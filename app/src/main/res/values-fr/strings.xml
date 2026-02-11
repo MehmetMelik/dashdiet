@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">DashDiet</string>
+    <string name="app_tagline">Manger sainement, vivre sainement</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_recipes">Recettes</string>
+    <string name="nav_meal_plan">Plan repas</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Auth Screen -->
+    <string name="auth_welcome">Bienvenue sur DashDiet</string>
+    <string name="auth_subtitle">Votre guide du r\u00e9gime DASH pour un c\u0153ur et une vie plus sains</string>
+    <string name="auth_sign_in_google">Se connecter avec Google</string>
+    <string name="auth_sign_in_apple">Se connecter avec Apple</string>
+    <string name="auth_skip">Continuer en tant qu\'invit\u00e9</string>
+    <string name="auth_terms">En vous connectant, vous acceptez nos Conditions d\'utilisation et notre Politique de confidentialit\u00e9</string>
+    <string name="auth_signing_in">Connexion en cours\u2026</string>
+    <string name="auth_error">\u00c9chec de la connexion. Veuillez r\u00e9essayer.</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">Bonjour, %1$s !</string>
+    <string name="home_greeting_guest">Bonjour !</string>
+    <string name="home_daily_tip">Conseil DASH du jour</string>
+    <string name="home_featured_recipes">Recettes en vedette</string>
+    <string name="home_categories">Cat\u00e9gories</string>
+    <string name="home_quick_start">D\u00e9marrage rapide</string>
+    <string name="home_view_all">Tout voir</string>
+    <string name="home_dash_score">Votre score DASH</string>
+    <string name="home_what_is_dash">Qu\'est-ce que le r\u00e9gime DASH ?</string>
+    <string name="home_learn_more">En savoir plus</string>
+
+    <!-- Categories -->
+    <string name="category_breakfast">Petit-d\u00e9jeuner</string>
+    <string name="category_lunch">D\u00e9jeuner</string>
+    <string name="category_dinner">D\u00eener</string>
+    <string name="category_snacks">Collations</string>
+    <string name="category_all">Tout</string>
+
+    <!-- Recipe List -->
+    <string name="recipes_title">Recettes DASH</string>
+    <string name="recipes_search">Rechercher des recettes\u2026</string>
+    <string name="recipes_no_results">Aucune recette trouv\u00e9e</string>
+    <string name="recipes_count">%1$d recettes</string>
+    <string name="recipes_filter">Filtrer</string>
+
+    <!-- Recipe Detail -->
+    <string name="recipe_ingredients">Ingr\u00e9dients</string>
+    <string name="recipe_steps">Instructions</string>
+    <string name="recipe_nutrition">Informations nutritionnelles</string>
+    <string name="recipe_prep_time">Temps de pr\u00e9paration</string>
+    <string name="recipe_cook_time">Temps de cuisson</string>
+    <string name="recipe_total_time">Temps total</string>
+    <string name="recipe_servings">Portions</string>
+    <string name="recipe_minutes">%1$d min</string>
+    <string name="recipe_step_number">\u00c9tape %1$d</string>
+    <string name="recipe_add_to_plan">Ajouter au plan repas</string>
+    <string name="recipe_added_to_plan">Ajout\u00e9 au plan repas !</string>
+
+    <!-- Nutrition Labels -->
+    <string name="nutrition_calories">Calories</string>
+    <string name="nutrition_sodium">Sodium</string>
+    <string name="nutrition_potassium">Potassium</string>
+    <string name="nutrition_fiber">Fibres</string>
+    <string name="nutrition_protein">Prot\u00e9ines</string>
+    <string name="nutrition_fat">Lipides</string>
+    <string name="nutrition_carbs">Glucides</string>
+    <string name="nutrition_cal">%1$d kcal</string>
+    <string name="nutrition_mg">%1$d mg</string>
+    <string name="nutrition_g">%1$d g</string>
+
+    <!-- Meal Plan -->
+    <string name="meal_plan_title">Plan repas hebdomadaire</string>
+    <string name="meal_plan_empty">Appuyez sur + pour ajouter un repas</string>
+    <string name="meal_plan_add">Ajouter un repas</string>
+    <string name="meal_plan_remove">Supprimer</string>
+    <string name="meal_plan_clear">Effacer la journ\u00e9e</string>
+    <string name="meal_plan_clear_all">Tout effacer</string>
+    <string name="meal_plan_select_recipe">S\u00e9lectionner une recette</string>
+    <string name="meal_plan_select_slot">S\u00e9lectionner un cr\u00e9neau repas</string>
+    <string name="meal_plan_daily_total">Total journalier</string>
+    <string name="meal_plan_weekly_overview">Aper\u00e7u hebdomadaire</string>
+
+    <!-- Days of Week -->
+    <string name="day_monday">Lundi</string>
+    <string name="day_tuesday">Mardi</string>
+    <string name="day_wednesday">Mercredi</string>
+    <string name="day_thursday">Jeudi</string>
+    <string name="day_friday">Vendredi</string>
+    <string name="day_saturday">Samedi</string>
+    <string name="day_sunday">Dimanche</string>
+    <string name="day_mon">Lun</string>
+    <string name="day_tue">Mar</string>
+    <string name="day_wed">Mer</string>
+    <string name="day_thu">Jeu</string>
+    <string name="day_fri">Ven</string>
+    <string name="day_sat">Sam</string>
+    <string name="day_sun">Dim</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_account">Compte</string>
+    <string name="profile_guest">Utilisateur invit\u00e9</string>
+    <string name="profile_sign_out">Se d\u00e9connecter</string>
+    <string name="profile_sign_in">Se connecter</string>
+    <string name="profile_settings">Param\u00e8tres</string>
+    <string name="profile_language">Langue</string>
+    <string name="profile_dark_mode">Mode sombre</string>
+    <string name="profile_notifications">Notifications</string>
+    <string name="profile_about">\u00c0 propos du r\u00e9gime DASH</string>
+    <string name="profile_version">Version %1$s</string>
+    <string name="profile_about_app">\u00c0 propos de DashDiet</string>
+    <string name="profile_rate">\u00c9valuez-nous</string>
+    <string name="profile_share">Partager l\'application</string>
+    <string name="profile_privacy">Politique de confidentialit\u00e9</string>
+    <string name="profile_terms">Conditions d\'utilisation</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Espa\u00f1ol</string>
+    <string name="lang_chinese">\u4e2d\u6587</string>
+    <string name="lang_hindi">\u0939\u093f\u0928\u094d\u0926\u0940</string>
+    <string name="lang_arabic">\u0627\u0644\u0639\u0631\u0628\u064a\u0629</string>
+    <string name="lang_french">Fran\u00e7ais</string>
+    <string name="lang_turkish">T\u00fcrk\u00e7e</string>
+    <string name="lang_select">S\u00e9lectionner la langue</string>
+
+    <!-- DASH Diet Info -->
+    <string name="dash_info_title">\u00c0 propos du r\u00e9gime DASH</string>
+    <string name="dash_info_what">Qu\'est-ce que le r\u00e9gime DASH ?</string>
+    <string name="dash_info_what_desc">DASH signifie Dietary Approaches to Stop Hypertension (Approches di\u00e9t\u00e9tiques pour stopper l\'hypertension). C\'est une approche alimentaire saine \u00e0 long terme con\u00e7ue pour aider \u00e0 traiter ou pr\u00e9venir l\'hypertension art\u00e9rielle.</string>
+    <string name="dash_info_benefits">Principaux avantages</string>
+    <string name="dash_info_benefit_1">R\u00e9duit la pression art\u00e9rielle</string>
+    <string name="dash_info_benefit_2">Diminue le taux de cholest\u00e9rol</string>
+    <string name="dash_info_benefit_3">Am\u00e9liore la sensibilit\u00e9 \u00e0 l\'insuline</string>
+    <string name="dash_info_benefit_4">Favorise un poids sant\u00e9</string>
+    <string name="dash_info_benefit_5">R\u00e9duit le risque de maladie cardiaque</string>
+    <string name="dash_info_benefit_6">Peut r\u00e9duire le risque de cancer</string>
+    <string name="dash_info_guidelines">Recommandations DASH</string>
+    <string name="dash_info_guideline_1">Mangez plus de fruits et de l\u00e9gumes</string>
+    <string name="dash_info_guideline_2">Choisissez des c\u00e9r\u00e9ales compl\u00e8tes plut\u00f4t que raffin\u00e9es</string>
+    <string name="dash_info_guideline_3">Incluez des produits laitiers sans mati\u00e8res grasses ou all\u00e9g\u00e9s</string>
+    <string name="dash_info_guideline_4">Choisissez des prot\u00e9ines maigres (poisson, volaille, l\u00e9gumineuses)</string>
+    <string name="dash_info_guideline_5">Limitez le sodium \u00e0 2 300 mg par jour (ou 1 500 mg)</string>
+    <string name="dash_info_guideline_6">R\u00e9duisez les graisses satur\u00e9es et les sucreries</string>
+    <string name="dash_info_guideline_7">Incluez des noix, des graines et des l\u00e9gumineuses</string>
+    <string name="dash_info_daily_servings">Portions journali\u00e8res recommand\u00e9es</string>
+    <string name="dash_info_grains">C\u00e9r\u00e9ales : 6\u20138 portions</string>
+    <string name="dash_info_vegetables">L\u00e9gumes : 4\u20135 portions</string>
+    <string name="dash_info_fruits">Fruits : 4\u20135 portions</string>
+    <string name="dash_info_dairy">Produits laitiers (all\u00e9g\u00e9s) : 2\u20133 portions</string>
+    <string name="dash_info_meat">Viande maigre/poisson : 6 portions ou moins</string>
+    <string name="dash_info_nuts">Noix/graines/l\u00e9gumineuses : 4\u20135 par semaine</string>
+    <string name="dash_info_fats">Mati\u00e8res grasses/huiles : 2\u20133 portions</string>
+    <string name="dash_info_sweets">Sucreries : 5 ou moins par semaine</string>
+
+    <!-- Daily Tips -->
+    <string name="tip_1">Essayez de remplacer le sel de table par des herbes et des \u00e9pices pour plus de saveur.</string>
+    <string name="tip_2">Visez au moins 4\u20135 portions de fruits et de l\u00e9gumes par jour.</string>
+    <string name="tip_3">Choisissez des c\u00e9r\u00e9ales compl\u00e8tes comme le riz brun, le bl\u00e9 complet et l\'avoine.</string>
+    <string name="tip_4">Grignotez des noix non sal\u00e9es au lieu de chips ou de crackers.</string>
+    <string name="tip_5">Lisez les \u00e9tiquettes nutritionnelles et choisissez des aliments \u00e0 faible teneur en sodium.</string>
+    <string name="tip_6">Incluez une portion de produit laitier all\u00e9g\u00e9 comme le yaourt chaque jour.</string>
+    <string name="tip_7">Grillez, faites cuire au four ou \u00e0 la vapeur au lieu de frire.</string>
+    <string name="tip_8">Buvez de l\'eau au lieu de boissons sucr\u00e9es.</string>
+    <string name="tip_9">Ajoutez des haricots ou des lentilles aux soupes et salades pour plus de fibres.</string>
+    <string name="tip_10">Planifiez vos repas \u00e0 l\'avance pour faire des choix plus sains.</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Enregistrer</string>
+    <string name="delete">Supprimer</string>
+    <string name="close">Fermer</string>
+    <string name="back">Retour</string>
+    <string name="loading">Chargement\u2026</string>
+    <string name="error_generic">Une erreur est survenue. Veuillez r\u00e9essayer.</string>
+    <string name="no_connection">Pas de connexion Internet</string>
+
+    <!-- ==================== RECIPES ==================== -->
+
+    <!-- === BREAKFAST RECIPES === -->
+
+    <!-- 1. Oatmeal with Berries -->
+    <string name="recipe_1_title">Flocons d\'avoine aux fruits rouges frais</string>
+    <string name="recipe_1_desc">Flocons d\'avoine bons pour le c\u0153ur garnis de fruits rouges frais et d\'un filet de miel. Un petit-d\u00e9jeuner DASH parfait.</string>
+    <string name="recipe_1_ing_1">1 tasse de flocons d\'avoine</string>
+    <string name="recipe_1_ing_2">2 tasses d\'eau ou de lait \u00e9cr\u00e9m\u00e9</string>
+    <string name="recipe_1_ing_3">\u00bd tasse de fruits rouges m\u00e9lang\u00e9s (myrtilles, fraises, framboises)</string>
+    <string name="recipe_1_ing_4">1 cuill\u00e8re \u00e0 soupe de miel</string>
+    <string name="recipe_1_ing_5">\u00bc de cuill\u00e8re \u00e0 caf\u00e9 de cannelle</string>
+    <string name="recipe_1_ing_6">1 cuill\u00e8re \u00e0 soupe de noix hach\u00e9es</string>
+    <string name="recipe_1_step_1">Portez l\'eau ou le lait \u00e0 \u00e9bullition dans une casserole.</string>
+    <string name="recipe_1_step_2">Ajoutez les flocons d\'avoine et r\u00e9duisez le feu. Faites cuire 5 minutes en remuant de temps en temps.</string>
+    <string name="recipe_1_step_3">Versez dans un bol et garnissez de fruits rouges frais.</string>
+    <string name="recipe_1_step_4">Arrosez de miel, saupoudrez de cannelle et de noix. Servez chaud.</string>
+
+    <!-- 2. Greek Yogurt Parfait -->
+    <string name="recipe_2_title">Parfait au yaourt grec</string>
+    <string name="recipe_2_desc">Couches de yaourt grec all\u00e9g\u00e9 onctueux, de granola croustillant et de fruits frais pour un d\u00e9but riche en prot\u00e9ines.</string>
+    <string name="recipe_2_ing_1">1 tasse de yaourt grec all\u00e9g\u00e9</string>
+    <string name="recipe_2_ing_2">\u00bc de tasse de granola \u00e0 faible teneur en sodium</string>
+    <string name="recipe_2_ing_3">\u00bd tasse de fraises tranch\u00e9es</string>
+    <string name="recipe_2_ing_4">\u00bc de tasse de myrtilles</string>
+    <string name="recipe_2_ing_5">1 cuill\u00e8re \u00e0 soupe de graines de chia</string>
+    <string name="recipe_2_ing_6">1 cuill\u00e8re \u00e0 caf\u00e9 de miel</string>
+    <string name="recipe_2_step_1">D\u00e9posez la moiti\u00e9 du yaourt dans un verre ou un bol.</string>
+    <string name="recipe_2_step_2">Ajoutez une couche avec la moiti\u00e9 du granola et la moiti\u00e9 des fruits.</string>
+    <string name="recipe_2_step_3">R\u00e9p\u00e9tez les couches avec le reste des ingr\u00e9dients.</string>
+    <string name="recipe_2_step_4">Garnissez de graines de chia et d\'un filet de miel.</string>
+
+    <!-- 3. Whole Grain Toast with Avocado -->
+    <string name="recipe_3_title">Toast \u00e0 l\'avocat sur pain complet</string>
+    <string name="recipe_3_desc">Toast de pain complet croustillant garni d\'avocat \u00e9cras\u00e9, de tomate et d\'un filet de citron.</string>
+    <string name="recipe_3_ing_1">2 tranches de pain complet</string>
+    <string name="recipe_3_ing_2">1 avocat m\u00fbr</string>
+    <string name="recipe_3_ing_3">1 petite tomate, tranch\u00e9e</string>
+    <string name="recipe_3_ing_4">Jus d\'un demi-citron</string>
+    <string name="recipe_3_ing_5">Une pince de poivre noir</string>
+    <string name="recipe_3_ing_6">Flocons de piment rouge (facultatif)</string>
+    <string name="recipe_3_step_1">Faites griller les tranches de pain jusqu\'\u00e0 ce qu\'elles soient dor\u00e9es et croustillantes.</string>
+    <string name="recipe_3_step_2">\u00c9crasez l\'avocat dans un bol avec le jus de citron et le poivre.</string>
+    <string name="recipe_3_step_3">\u00c9talez le m\u00e9lange d\'avocat sur chaque toast.</string>
+    <string name="recipe_3_step_4">Garnissez de tranches de tomate et de flocons de piment rouge (facultatif).</string>
+
+    <!-- 4. Berry Smoothie Bowl -->
+    <string name="recipe_4_title">Bol smoothie aux fruits rouges</string>
+    <string name="recipe_4_desc">Bol smoothie \u00e9pais et onctueux charg\u00e9 de fruits rouges riches en antioxydants et de garnitures nutritives.</string>
+    <string name="recipe_4_ing_1">1 tasse de fruits rouges surgel\u00e9s m\u00e9lang\u00e9s</string>
+    <string name="recipe_4_ing_2">1 banane</string>
+    <string name="recipe_4_ing_3">\u00bd tasse de lait \u00e9cr\u00e9m\u00e9</string>
+    <string name="recipe_4_ing_4">1 cuill\u00e8re \u00e0 soupe de graines de lin</string>
+    <string name="recipe_4_ing_5">2 cuill\u00e8res \u00e0 soupe de granola</string>
+    <string name="recipe_4_ing_6">Fruits frais pour la garniture</string>
+    <string name="recipe_4_step_1">Mixez les fruits rouges surgel\u00e9s, la banane et le lait jusqu\'\u00e0 obtenir une texture \u00e9paisse et lisse.</string>
+    <string name="recipe_4_step_2">Versez dans un bol (la consistance doit \u00eatre plus \u00e9paisse qu\'un smoothie classique).</string>
+    <string name="recipe_4_step_3">Garnissez de granola, de graines de lin et de fruits frais.</string>
+    <string name="recipe_4_step_4">Servez imm\u00e9diatement et d\u00e9gustez \u00e0 la cuill\u00e8re.</string>
+
+    <!-- 5. Egg White Omelet -->
+    <string name="recipe_5_title">Omelette aux blancs d\'\u0153ufs et l\u00e9gumes</string>
+    <string name="recipe_5_desc">Omelette l\u00e9g\u00e8re et moelleuse aux blancs d\'\u0153ufs garnie de l\u00e9gumes color\u00e9s pour un repas faible en mati\u00e8res grasses et riche en prot\u00e9ines.</string>
+    <string name="recipe_5_ing_1">4 blancs d\'\u0153ufs</string>
+    <string name="recipe_5_ing_2">\u00bc de tasse de poivrons coup\u00e9s en d\u00e9s</string>
+    <string name="recipe_5_ing_3">\u00bc de tasse d\'\u00e9pinards hach\u00e9s</string>
+    <string name="recipe_5_ing_4">2 cuill\u00e8res \u00e0 soupe de tomate coup\u00e9e en d\u00e9s</string>
+    <string name="recipe_5_ing_5">2 cuill\u00e8res \u00e0 soupe de fromage all\u00e9g\u00e9</string>
+    <string name="recipe_5_ing_6">1 cuill\u00e8re \u00e0 caf\u00e9 d\'huile d\'olive</string>
+    <string name="recipe_5_step_1">Fouettez les blancs d\'\u0153ufs jusqu\'\u00e0 ce qu\'ils soient l\u00e9g\u00e8rement mousseux.</string>
+    <string name="recipe_5_step_2">Faites chauffer l\'huile d\'olive dans une po\u00eale antiadh\u00e9sive \u00e0 feu moyen.</string>
+    <string name="recipe_5_step_3">Versez les blancs d\'\u0153ufs et faites cuire jusqu\'\u00e0 ce que les bords prennent. Ajoutez les l\u00e9gumes sur une moiti\u00e9.</string>
+    <string name="recipe_5_step_4">Repliez l\'omelette en deux, garnissez de fromage et servez.</string>
+
+    <!-- 6. Banana Oat Pancakes -->
+    <string name="recipe_6_title">Pancakes \u00e0 la banane et aux flocons d\'avoine</string>
+    <string name="recipe_6_desc">Pancakes moelleux \u00e0 base de flocons d\'avoine complets et de bananes m\u00fbres. Naturellement sucr\u00e9s sans sucre ajout\u00e9.</string>
+    <string name="recipe_6_ing_1">1 tasse de farine de bl\u00e9 complet</string>
+    <string name="recipe_6_ing_2">\u00bd tasse de flocons d\'avoine</string>
+    <string name="recipe_6_ing_3">1 banane m\u00fbre, \u00e9cras\u00e9e</string>
+    <string name="recipe_6_ing_4">1 tasse de lait \u00e9cr\u00e9m\u00e9</string>
+    <string name="recipe_6_ing_5">1 \u0153uf</string>
+    <string name="recipe_6_ing_6">1 cuill\u00e8re \u00e0 caf\u00e9 de levure chimique</string>
+    <string name="recipe_6_step_1">M\u00e9langez la farine, les flocons d\'avoine et la levure chimique dans un bol.</string>
+    <string name="recipe_6_step_2">Dans un autre bol, m\u00e9langez la banane \u00e9cras\u00e9e, le lait et l\'\u0153uf.</string>
+    <string name="recipe_6_step_3">Incorporez les ingr\u00e9dients humides aux ingr\u00e9dients secs en m\u00e9langeant d\u00e9licatement.</string>
+    <string name="recipe_6_step_4">Faites cuire dans une po\u00eale antiadh\u00e9sive \u00e0 feu moyen. Retournez lorsque des bulles se forment. Servez avec des fruits frais.</string>
+
+    <!-- 7. Fresh Fruit Salad -->
+    <string name="recipe_7_title">Salade de fruits frais</string>
+    <string name="recipe_7_desc">Un m\u00e9lange color\u00e9 de fruits de saison avec une l\u00e9g\u00e8re vinaigrette aux agrumes et \u00e0 la menthe. Riche en potassium et en vitamines.</string>
+    <string name="recipe_7_ing_1">1 tasse de fraises, coup\u00e9es en deux</string>
+    <string name="recipe_7_ing_2">1 tasse de myrtilles</string>
+    <string name="recipe_7_ing_3">1 banane, tranch\u00e9e</string>
+    <string name="recipe_7_ing_4">1 orange, en quartiers</string>
+    <string name="recipe_7_ing_5">1 kiwi, coup\u00e9 en d\u00e9s</string>
+    <string name="recipe_7_ing_6">Feuilles de menthe fra\u00eeche et jus de citron vert</string>
+    <string name="recipe_7_step_1">Lavez et pr\u00e9parez tous les fruits.</string>
+    <string name="recipe_7_step_2">M\u00e9langez tous les fruits dans un grand bol.</string>
+    <string name="recipe_7_step_3">Pressez le jus de citron vert sur les fruits et m\u00e9langez d\u00e9licatement.</string>
+    <string name="recipe_7_step_4">D\u00e9corez avec des feuilles de menthe fra\u00eeche. R\u00e9frig\u00e9rez avant de servir.</string>
+
+    <!-- 8. Granola Bowl -->
+    <string name="recipe_8_title">Bol de granola \u00e0 faible teneur en sodium</string>
+    <string name="recipe_8_desc">Granola maison croustillant \u00e0 faible teneur en sodium avec des fruits secs et des graines, servi avec du lait \u00e9cr\u00e9m\u00e9.</string>
+    <string name="recipe_8_ing_1">\u00bd tasse de granola \u00e0 faible teneur en sodium</string>
+    <string name="recipe_8_ing_2">1 tasse de lait \u00e9cr\u00e9m\u00e9</string>
+    <string name="recipe_8_ing_3">2 cuill\u00e8res \u00e0 soupe de canneberges s\u00e9ch\u00e9es</string>
+    <string name="recipe_8_ing_4">1 cuill\u00e8re \u00e0 soupe de graines de courge</string>
+    <string name="recipe_8_ing_5">1 cuill\u00e8re \u00e0 soupe de graines de tournesol</string>
+    <string name="recipe_8_ing_6">\u00bd banane, tranch\u00e9e</string>
+    <string name="recipe_8_step_1">Versez le granola dans un bol.</string>
+    <string name="recipe_8_step_2">Ajoutez le lait \u00e9cr\u00e9m\u00e9.</string>
+    <string name="recipe_8_step_3">Garnissez de canneberges s\u00e9ch\u00e9es, de graines et de tranches de banane.</string>
+    <string name="recipe_8_step_4">Servez imm\u00e9diatement pour un maximum de croquant.</string>
+
+    <!-- === LUNCH RECIPES === -->
+
+    <!-- 9. Quinoa Vegetable Salad -->
+    <string name="recipe_9_title">Salade de quinoa aux l\u00e9gumes</string>
+    <string name="recipe_9_desc">Quinoa riche en prot\u00e9ines avec des l\u00e9gumes frais et une vinaigrette l\u00e9g\u00e8re au citron. Un d\u00e9jeuner DASH parfait.</string>
+    <string name="recipe_9_ing_1">1 tasse de quinoa cuit</string>
+    <string name="recipe_9_ing_2">\u00bd tasse de concombre coup\u00e9 en d\u00e9s</string>
+    <string name="recipe_9_ing_3">\u00bd tasse de tomates cerises, coup\u00e9es en deux</string>
+    <string name="recipe_9_ing_4">\u00bc de tasse d\'oignon rouge coup\u00e9 en d\u00e9s</string>
+    <string name="recipe_9_ing_5">2 cuill\u00e8res \u00e0 soupe d\'huile d\'olive</string>
+    <string name="recipe_9_ing_6">Jus d\'un citron, persil frais</string>
+    <string name="recipe_9_step_1">Faites cuire le quinoa selon les instructions de l\'emballage. Laissez refroidir.</string>
+    <string name="recipe_9_step_2">M\u00e9langez le quinoa refroidi avec le concombre, les tomates et l\'oignon.</string>
+    <string name="recipe_9_step_3">Fouettez l\'huile d\'olive et le jus de citron pour la vinaigrette.</string>
+    <string name="recipe_9_step_4">Assaisonnez la salade avec la vinaigrette et garnissez de persil.</string>
+
+    <!-- 10. Turkey Lettuce Wrap -->
+    <string name="recipe_10_title">Wrap de dinde en feuille de laitue</string>
+    <string name="recipe_10_desc">Dinde maigre envelopp\u00e9e dans des feuilles de laitue croquantes avec des l\u00e9gumes frais. Faible en glucides et compatible DASH.</string>
+    <string name="recipe_10_ing_1">200 g de dinde hach\u00e9e maigre</string>
+    <string name="recipe_10_ing_2">4 grandes feuilles de laitue beurre</string>
+    <string name="recipe_10_ing_3">\u00bd tasse de carottes r\u00e2p\u00e9es</string>
+    <string name="recipe_10_ing_4">\u00bc de tasse de ch\u00e2taignes d\'eau coup\u00e9es en d\u00e9s</string>
+    <string name="recipe_10_ing_5">1 cuill\u00e8re \u00e0 soupe de sauce soja \u00e0 faible teneur en sodium</string>
+    <string name="recipe_10_ing_6">1 cuill\u00e8re \u00e0 caf\u00e9 d\'huile de s\u00e9same, ail, gingembre</string>
+    <string name="recipe_10_step_1">Faites cuire la dinde hach\u00e9e avec l\'ail et le gingembre jusqu\'\u00e0 ce qu\'elle soit dor\u00e9e.</string>
+    <string name="recipe_10_step_2">Ajoutez les carottes, les ch\u00e2taignes d\'eau, la sauce soja et l\'huile de s\u00e9same. Faites sauter 2 minutes.</string>
+    <string name="recipe_10_step_3">Lavez et s\u00e9chez les feuilles de laitue.</string>
+    <string name="recipe_10_step_4">D\u00e9posez le m\u00e9lange de dinde dans les feuilles de laitue et servez.</string>
+
+    <!-- 11. Lentil Soup -->
+    <string name="recipe_11_title">Soupe de lentilles consistante</string>
+    <string name="recipe_11_desc">Soupe de lentilles r\u00e9confortante riche en fibres et en potassium. Un repas approuv\u00e9 par le r\u00e9gime DASH.</string>
+    <string name="recipe_11_ing_1">1 tasse de lentilles s\u00e8ches, rinc\u00e9es</string>
+    <string name="recipe_11_ing_2">4 tasses de bouillon de l\u00e9gumes \u00e0 faible teneur en sodium</string>
+    <string name="recipe_11_ing_3">1 tasse de carottes coup\u00e9es en d\u00e9s</string>
+    <string name="recipe_11_ing_4">1 tasse de c\u00e9leri coup\u00e9 en d\u00e9s</string>
+    <string name="recipe_11_ing_5">1 oignon coup\u00e9 en d\u00e9s</string>
+    <string name="recipe_11_ing_6">2 gousses d\'ail, cumin, curcuma</string>
+    <string name="recipe_11_step_1">Faites revenir l\'oignon, les carottes, le c\u00e9leri et l\'ail dans de l\'huile d\'olive pendant 5 minutes.</string>
+    <string name="recipe_11_step_2">Ajoutez les lentilles, le bouillon, le cumin et le curcuma. Portez \u00e0 \u00e9bullition.</string>
+    <string name="recipe_11_step_3">R\u00e9duisez le feu et laissez mijoter 25\u201330 minutes jusqu\'\u00e0 ce que les lentilles soient tendres.</string>
+    <string name="recipe_11_step_4">Assaisonnez avec du poivre et servez avec un filet de citron.</string>
+
+    <!-- 12. Grilled Chicken Salad -->
+    <string name="recipe_12_title">Salade de poulet grill\u00e9</string>
+    <string name="recipe_12_desc">M\u00e9lange de verdures fra\u00eeches avec du blanc de poulet grill\u00e9, de l\'avocat et une vinaigrette balsamique l\u00e9g\u00e8re.</string>
+    <string name="recipe_12_ing_1">150 g de blanc de poulet grill\u00e9, tranch\u00e9</string>
+    <string name="recipe_12_ing_2">3 tasses de m\u00e9lange de verdures</string>
+    <string name="recipe_12_ing_3">\u00bd avocat, tranch\u00e9</string>
+    <string name="recipe_12_ing_4">\u00bc de tasse de tomates cerises</string>
+    <string name="recipe_12_ing_5">2 cuill\u00e8res \u00e0 soupe de vinaigrette balsamique</string>
+    <string name="recipe_12_ing_6">1 cuill\u00e8re \u00e0 soupe de graines de tournesol</string>
+    <string name="recipe_12_step_1">Assaisonnez le blanc de poulet avec des herbes et faites-le griller jusqu\'\u00e0 cuisson compl\u00e8te. Tranchez.</string>
+    <string name="recipe_12_step_2">Disposez les verdures dans une assiette.</string>
+    <string name="recipe_12_step_3">Garnissez de poulet, d\'avocat et de tomates.</string>
+    <string name="recipe_12_step_4">Arrosez de vinaigrette balsamique et parsemez de graines de tournesol.</string>
+
+    <!-- 13. Veggie Buddha Bowl -->
+    <string name="recipe_13_title">Buddha bowl aux l\u00e9gumes</string>
+    <string name="recipe_13_desc">Un bol color\u00e9 de l\u00e9gumes r\u00f4tis, de pois chiches et de riz brun avec une sauce au tahini.</string>
+    <string name="recipe_13_ing_1">1 tasse de riz brun cuit</string>
+    <string name="recipe_13_ing_2">\u00bd tasse de cubes de patate douce r\u00f4tis</string>
+    <string name="recipe_13_ing_3">\u00bd tasse de pois chiches cuits</string>
+    <string name="recipe_13_ing_4">\u00bd tasse de brocoli \u00e0 la vapeur</string>
+    <string name="recipe_13_ing_5">\u00bc d\'avocat, tranch\u00e9</string>
+    <string name="recipe_13_ing_6">2 cuill\u00e8res \u00e0 soupe de sauce au tahini</string>
+    <string name="recipe_13_step_1">Faites cuire le riz brun et r\u00f4tissez les cubes de patate douce \u00e0 200 \u00b0C pendant 20 minutes.</string>
+    <string name="recipe_13_step_2">Faites cuire le brocoli \u00e0 la vapeur et r\u00e9chauffez les pois chiches.</string>
+    <string name="recipe_13_step_3">Disposez le riz, les l\u00e9gumes et les pois chiches dans un bol.</string>
+    <string name="recipe_13_step_4">Garnissez d\'avocat et arrosez de sauce au tahini.</string>
+
+    <!-- 14. Tuna Salad Sandwich -->
+    <string name="recipe_14_title">Sandwich \u00e0 la salade de thon</string>
+    <string name="recipe_14_desc">Salade de thon l\u00e9g\u00e8re pr\u00e9par\u00e9e avec du yaourt grec au lieu de mayonnaise, sur du pain complet. Faible en sodium et riche en prot\u00e9ines.</string>
+    <string name="recipe_14_ing_1">1 bo\u00eete de thon \u00e0 faible teneur en sodium, \u00e9goutt\u00e9</string>
+    <string name="recipe_14_ing_2">2 cuill\u00e8res \u00e0 soupe de yaourt grec nature</string>
+    <string name="recipe_14_ing_3">\u00bc de tasse de c\u00e9leri coup\u00e9 en d\u00e9s</string>
+    <string name="recipe_14_ing_4">1 cuill\u00e8re \u00e0 soupe d\'oignon rouge coup\u00e9 en d\u00e9s</string>
+    <string name="recipe_14_ing_5">2 tranches de pain complet</string>
+    <string name="recipe_14_ing_6">Feuilles de laitue, poivre noir</string>
+    <string name="recipe_14_step_1">M\u00e9langez le thon, le yaourt grec, le c\u00e9leri et l\'oignon dans un bol.</string>
+    <string name="recipe_14_step_2">Assaisonnez avec du poivre noir.</string>
+    <string name="recipe_14_step_3">\u00c9talez le m\u00e9lange sur le pain complet.</string>
+    <string name="recipe_14_step_4">Ajoutez des feuilles de laitue, recouvrez de la seconde tranche et servez.</string>
+
+    <!-- 15. Minestrone Soup -->
+    <string name="recipe_15_title">Soupe minestrone</string>
+    <string name="recipe_15_desc">Soupe italienne classique aux l\u00e9gumes avec des haricots et des p\u00e2tes compl\u00e8tes. Faible en sodium et pleine de saveur.</string>
+    <string name="recipe_15_ing_1">4 tasses de bouillon de l\u00e9gumes \u00e0 faible teneur en sodium</string>
+    <string name="recipe_15_ing_2">1 bo\u00eete de tomates en d\u00e9s sans sel ajout\u00e9</string>
+    <string name="recipe_15_ing_3">\u00bd tasse de p\u00e2tes compl\u00e8tes</string>
+    <string name="recipe_15_ing_4">\u00bd tasse de haricots rouges, rinc\u00e9s</string>
+    <string name="recipe_15_ing_5">1 tasse de l\u00e9gumes vari\u00e9s (courgette, carottes, haricots verts)</string>
+    <string name="recipe_15_ing_6">Herbes italiennes (basilic, origan), ail</string>
+    <string name="recipe_15_step_1">Faites revenir l\'ail et l\'oignon dans de l\'huile d\'olive. Ajoutez les l\u00e9gumes et faites cuire 3 minutes.</string>
+    <string name="recipe_15_step_2">Ajoutez le bouillon, les tomates et les herbes. Portez \u00e0 \u00e9bullition.</string>
+    <string name="recipe_15_step_3">Ajoutez les p\u00e2tes et les haricots. Laissez mijoter 10\u201312 minutes jusqu\'\u00e0 ce que les p\u00e2tes soient tendres.</string>
+    <string name="recipe_15_step_4">Servez chaud avec une pincee de basilic frais.</string>
+
+    <!-- 16. Mediterranean Plate -->
+    <string name="recipe_16_title">Assiette m\u00e9diterran\u00e9enne</string>
+    <string name="recipe_16_desc">Une assiette color\u00e9e de houmous, pain pita complet, olives, l\u00e9gumes et feta. Saveurs m\u00e9diterran\u00e9ennes bonnes pour le c\u0153ur.</string>
+    <string name="recipe_16_ing_1">\u00bc de tasse de houmous</string>
+    <string name="recipe_16_ing_2">1 pain pita complet, coup\u00e9 en triangles</string>
+    <string name="recipe_16_ing_3">\u00bd tasse de rondelles de concombre</string>
+    <string name="recipe_16_ing_4">\u00bc de tasse de tomates cerises</string>
+    <string name="recipe_16_ing_5">2 cuill\u00e8res \u00e0 soupe de feta \u00e9miett\u00e9e</string>
+    <string name="recipe_16_ing_6">Olives Kalamata, menthe fra\u00eeche</string>
+    <string name="recipe_16_step_1">\u00c9talez le houmous sur une assiette ou dans un bol.</string>
+    <string name="recipe_16_step_2">Disposez les triangles de pita, le concombre et les tomates autour du houmous.</string>
+    <string name="recipe_16_step_3">Ajoutez les olives et \u00e9miettez la feta par-dessus.</string>
+    <string name="recipe_16_step_4">D\u00e9corez de menthe fra\u00eeche et servez.</string>
+
+    <!-- === DINNER RECIPES === -->
+
+    <!-- 17. Grilled Salmon -->
+    <string name="recipe_17_title">Saumon grill\u00e9 aux herbes</string>
+    <string name="recipe_17_desc">Filet de saumon riche en om\u00e9ga-3 grill\u00e9 au citron et aux herbes fra\u00eeches. Un incontournable du d\u00eener DASH.</string>
+    <string name="recipe_17_ing_1">2 filets de saumon (150 g chacun)</string>
+    <string name="recipe_17_ing_2">2 cuill\u00e8res \u00e0 soupe d\'huile d\'olive</string>
+    <string name="recipe_17_ing_3">Jus d\'un citron</string>
+    <string name="recipe_17_ing_4">2 gousses d\'ail, \u00e9minc\u00e9es</string>
+    <string name="recipe_17_ing_5">Aneth et persil frais</string>
+    <string name="recipe_17_ing_6">Poivre noir, asperges \u00e0 la vapeur pour accompagner</string>
+    <string name="recipe_17_step_1">Faites mariner le saumon dans l\'huile d\'olive, le jus de citron, l\'ail et les herbes pendant 15 minutes.</string>
+    <string name="recipe_17_step_2">Pr\u00e9chauffez le gril \u00e0 feu moyen-vif.</string>
+    <string name="recipe_17_step_3">Grillez le saumon 4\u20135 minutes de chaque c\u00f4t\u00e9 jusqu\'\u00e0 ce qu\'il s\'\u00e9miette facilement.</string>
+    <string name="recipe_17_step_4">Servez avec des asperges \u00e0 la vapeur et des quartiers de citron.</string>
+
+    <!-- 18. Chicken Stir-Fry -->
+    <string name="recipe_18_title">Saut\u00e9 de poulet aux l\u00e9gumes</string>
+    <string name="recipe_18_desc">Saut\u00e9 color\u00e9 de poulet maigre et de l\u00e9gumes croquants dans une sauce l\u00e9g\u00e8re au gingembre. Rapide et compatible DASH.</string>
+    <string name="recipe_18_ing_1">200 g de blanc de poulet, \u00e9minc\u00e9 finement</string>
+    <string name="recipe_18_ing_2">1 tasse de bouquets de brocoli</string>
+    <string name="recipe_18_ing_3">1 poivron \u00e9minc\u00e9</string>
+    <string name="recipe_18_ing_4">\u00bd tasse de pois mange-tout</string>
+    <string name="recipe_18_ing_5">2 cuill\u00e8res \u00e0 soupe de sauce soja \u00e0 faible teneur en sodium</string>
+    <string name="recipe_18_ing_6">1 cuill\u00e8re \u00e0 caf\u00e9 de gingembre frais, ail, huile de s\u00e9same</string>
+    <string name="recipe_18_step_1">Faites sauter le poulet dans l\'huile de s\u00e9same jusqu\'\u00e0 ce qu\'il soit dor\u00e9. Retirez et r\u00e9servez.</string>
+    <string name="recipe_18_step_2">Faites sauter le brocoli, le poivron et les pois mange-tout pendant 3 minutes.</string>
+    <string name="recipe_18_step_3">Remettez le poulet. Ajoutez la sauce soja, le gingembre et l\'ail. M\u00e9langez pendant 2 minutes.</string>
+    <string name="recipe_18_step_4">Servez sur du riz brun ou des nouilles compl\u00e8tes.</string>
+
+    <!-- 19. Baked Cod -->
+    <string name="recipe_19_title">Cabillaud au four avec l\u00e9gumes</string>
+    <string name="recipe_19_desc">Cabillaud tendre cuit au four avec des tomates cerises et des courgettes. L\u00e9ger, savoureux et bon pour le c\u0153ur.</string>
+    <string name="recipe_19_ing_1">2 filets de cabillaud (150 g chacun)</string>
+    <string name="recipe_19_ing_2">1 tasse de tomates cerises</string>
+    <string name="recipe_19_ing_3">1 courgette, tranch\u00e9e</string>
+    <string name="recipe_19_ing_4">2 cuill\u00e8res \u00e0 soupe d\'huile d\'olive</string>
+    <string name="recipe_19_ing_5">Thym et origan frais</string>
+    <string name="recipe_19_ing_6">Quartiers de citron, poivre noir</string>
+    <string name="recipe_19_step_1">Pr\u00e9chauffez le four \u00e0 200 \u00b0C.</string>
+    <string name="recipe_19_step_2">Disposez le cabillaud dans un plat allant au four. Entourez de tomates et de courgettes.</string>
+    <string name="recipe_19_step_3">Arrosez d\'huile d\'olive, assaisonnez avec les herbes et le poivre.</string>
+    <string name="recipe_19_step_4">Faites cuire 18\u201320 minutes jusqu\'\u00e0 ce que le poisson s\'\u00e9miette facilement. Servez avec du citron.</string>
+
+    <!-- 20. Turkey Meatballs -->
+    <string name="recipe_20_title">Boulettes de dinde \u00e0 la sauce marinara</string>
+    <string name="recipe_20_desc">Boulettes de dinde maigre dans une sauce marinara maison \u00e0 faible teneur en sodium. Servies sur des spaghettis complets.</string>
+    <string name="recipe_20_ing_1">300 g de dinde hach\u00e9e maigre</string>
+    <string name="recipe_20_ing_2">\u00bc de tasse de chapelure compl\u00e8te</string>
+    <string name="recipe_20_ing_3">1 blanc d\'\u0153uf</string>
+    <string name="recipe_20_ing_4">2 tasses de tomates concass\u00e9es sans sel ajout\u00e9</string>
+    <string name="recipe_20_ing_5">Herbes italiennes (basilic, origan, persil)</string>
+    <string name="recipe_20_ing_6">Spaghettis complets, ail</string>
+    <string name="recipe_20_step_1">M\u00e9langez la dinde, la chapelure, le blanc d\'\u0153uf et les herbes. Formez des boulettes.</string>
+    <string name="recipe_20_step_2">Faites cuire les boulettes au four \u00e0 190 \u00b0C pendant 20 minutes.</string>
+    <string name="recipe_20_step_3">Faites mijoter les tomates concass\u00e9es avec l\'ail et les herbes pour la sauce marinara.</string>
+    <string name="recipe_20_step_4">Enrobez les boulettes de sauce marinara. Servez sur des spaghettis complets.</string>
+
+    <!-- 21. Vegetable Curry -->
+    <string name="recipe_21_title">Curry de l\u00e9gumes aux pois chiches</string>
+    <string name="recipe_21_desc">Un curry parfum\u00e9 aux pois chiches, \u00e9pinards et tomates. Riche en fibres et en potassium.</string>
+    <string name="recipe_21_ing_1">1 bo\u00eete de pois chiches, rinc\u00e9s</string>
+    <string name="recipe_21_ing_2">2 tasses d\'\u00e9pinards frais</string>
+    <string name="recipe_21_ing_3">1 bo\u00eete de tomates en d\u00e9s sans sel ajout\u00e9</string>
+    <string name="recipe_21_ing_4">\u00bd tasse de lait de coco l\u00e9ger</string>
+    <string name="recipe_21_ing_5">2 cuill\u00e8res \u00e0 caf\u00e9 de poudre de curry</string>
+    <string name="recipe_21_ing_6">Ail, gingembre, curcuma, riz brun pour accompagner</string>
+    <string name="recipe_21_step_1">Faites revenir l\'ail et le gingembre dans de l\'huile d\'olive. Ajoutez la poudre de curry et le curcuma.</string>
+    <string name="recipe_21_step_2">Ajoutez les tomates et le lait de coco. Laissez mijoter 5 minutes.</string>
+    <string name="recipe_21_step_3">Ajoutez les pois chiches et les \u00e9pinards. Faites cuire jusqu\'\u00e0 ce que les \u00e9pinards soient fondus, environ 3 minutes.</string>
+    <string name="recipe_21_step_4">Servez sur du riz brun.</string>
+
+    <!-- 22. Lean Beef Stew -->
+    <string name="recipe_22_title">Rago\u00fbt de b\u0153uf maigre aux l\u00e9gumes racines</string>
+    <string name="recipe_22_desc">B\u0153uf maigre tendre mijot\u00e9 lentement avec des pommes de terre, des carottes et des herbes. Un plat r\u00e9confortant fa\u00e7on DASH.</string>
+    <string name="recipe_22_ing_1">300 g de b\u0153uf maigre \u00e0 braiser, coup\u00e9 en cubes</string>
+    <string name="recipe_22_ing_2">2 pommes de terre, coup\u00e9es en cubes</string>
+    <string name="recipe_22_ing_3">2 carottes, tranch\u00e9es</string>
+    <string name="recipe_22_ing_4">4 tasses de bouillon de b\u0153uf \u00e0 faible teneur en sodium</string>
+    <string name="recipe_22_ing_5">1 tasse d\'oignon coup\u00e9 en d\u00e9s</string>
+    <string name="recipe_22_ing_6">Feuilles de laurier, thym, ail, poivre noir</string>
+    <string name="recipe_22_step_1">Faites dorer les cubes de b\u0153uf dans de l\'huile d\'olive \u00e0 feu vif. Retirez et r\u00e9servez.</string>
+    <string name="recipe_22_step_2">Faites revenir les oignons et l\'ail. Ajoutez le bouillon, les feuilles de laurier et le thym. Portez \u00e0 \u00e9bullition.</string>
+    <string name="recipe_22_step_3">Remettez le b\u0153uf. Ajoutez les pommes de terre et les carottes. Laissez mijoter 45\u201360 minutes.</string>
+    <string name="recipe_22_step_4">Retirez les feuilles de laurier, assaisonnez de poivre et servez chaud.</string>
+
+    <!-- 23. Stuffed Bell Peppers -->
+    <string name="recipe_23_title">Poivrons farcis</string>
+    <string name="recipe_23_desc">Poivrons color\u00e9s farcis de riz brun, de dinde maigre et de l\u00e9gumes. Un repas DASH complet.</string>
+    <string name="recipe_23_ing_1">4 poivrons, \u00e9p\u00e9pin\u00e9s et \u00e9vid\u00e9s</string>
+    <string name="recipe_23_ing_2">200 g de dinde hach\u00e9e maigre</string>
+    <string name="recipe_23_ing_3">1 tasse de riz brun cuit</string>
+    <string name="recipe_23_ing_4">\u00bd tasse de tomates en d\u00e9s sans sel ajout\u00e9</string>
+    <string name="recipe_23_ing_5">\u00bc de tasse de fromage all\u00e9g\u00e9</string>
+    <string name="recipe_23_ing_6">Cumin, ail en poudre, poivre noir</string>
+    <string name="recipe_23_step_1">Pr\u00e9chauffez le four \u00e0 190 \u00b0C. Faites cuire la dinde avec les \u00e9pices jusqu\'\u00e0 ce qu\'elle soit dor\u00e9e.</string>
+    <string name="recipe_23_step_2">M\u00e9langez la dinde avec le riz brun et les tomates en d\u00e9s.</string>
+    <string name="recipe_23_step_3">Remplissez les poivrons avec le m\u00e9lange. Placez-les dans un plat avec un peu d\'eau.</string>
+    <string name="recipe_23_step_4">Faites cuire 25\u201330 minutes. Ajoutez le fromage les 5 derni\u00e8res minutes. Servez.</string>
+
+    <!-- 24. Herb Roasted Chicken -->
+    <string name="recipe_24_title">Blanc de poulet r\u00f4ti aux herbes</string>
+    <string name="recipe_24_desc">Blanc de poulet juteux r\u00f4ti aux herbes fra\u00eeches, servi avec des l\u00e9gumes r\u00f4tis.</string>
+    <string name="recipe_24_ing_1">2 blancs de poulet d\u00e9soss\u00e9s sans peau</string>
+    <string name="recipe_24_ing_2">2 cuill\u00e8res \u00e0 soupe d\'huile d\'olive</string>
+    <string name="recipe_24_ing_3">Romarin, thym et sauge frais</string>
+    <string name="recipe_24_ing_4">2 tasses de l\u00e9gumes vari\u00e9s (choux de Bruxelles, carottes, oignons)</string>
+    <string name="recipe_24_ing_5">3 gousses d\'ail</string>
+    <string name="recipe_24_ing_6">Poivre noir, zeste de citron</string>
+    <string name="recipe_24_step_1">Pr\u00e9chauffez le four \u00e0 220 \u00b0C. Enduisez le poulet d\'huile d\'olive, d\'herbes, d\'ail et de zeste de citron.</string>
+    <string name="recipe_24_step_2">M\u00e9langez les l\u00e9gumes avec de l\'huile d\'olive et du poivre. R\u00e9partissez sur une plaque de cuisson.</string>
+    <string name="recipe_24_step_3">Placez le poulet sur les l\u00e9gumes. R\u00f4tissez 25\u201330 minutes jusqu\'\u00e0 ce que le poulet atteigne 74 \u00b0C \u00e0 c\u0153ur.</string>
+    <string name="recipe_24_step_4">Laissez reposer 5 minutes avant de trancher. Servez avec les l\u00e9gumes r\u00f4tis.</string>
+
+    <!-- === SNACK RECIPES === -->
+
+    <!-- 25. Hummus and Veggie Sticks -->
+    <string name="recipe_25_title">Houmous avec b\u00e2tonnets de l\u00e9gumes</string>
+    <string name="recipe_25_desc">Houmous maison onctueux servi avec des b\u00e2tonnets de l\u00e9gumes croquants. Une collation DASH riche en fibres et en potassium.</string>
+    <string name="recipe_25_ing_1">1 bo\u00eete de pois chiches, rinc\u00e9s</string>
+    <string name="recipe_25_ing_2">2 cuill\u00e8res \u00e0 soupe de tahini</string>
+    <string name="recipe_25_ing_3">Jus d\'un citron</string>
+    <string name="recipe_25_ing_4">1 gousse d\'ail</string>
+    <string name="recipe_25_ing_5">B\u00e2tonnets de carottes, c\u00e9leri et concombre</string>
+    <string name="recipe_25_ing_6">Paprika, huile d\'olive pour arroser</string>
+    <string name="recipe_25_step_1">Mixez les pois chiches, le tahini, le jus de citron, l\'ail et un peu d\'eau jusqu\'\u00e0 obtenir une texture lisse.</string>
+    <string name="recipe_25_step_2">Transf\u00e9rez dans un bol et arrosez d\'huile d\'olive et de paprika.</string>
+    <string name="recipe_25_step_3">Coupez les carottes, le c\u00e9leri et le concombre en b\u00e2tonnets.</string>
+    <string name="recipe_25_step_4">Servez le houmous avec les b\u00e2tonnets de l\u00e9gumes pour tremper.</string>
+
+    <!-- 26. Heart-Healthy Trail Mix -->
+    <string name="recipe_26_title">M\u00e9lange \u00e9nerg\u00e9tique bon pour le c\u0153ur</string>
+    <string name="recipe_26_desc">Un m\u00e9lange personnalis\u00e9 de noix non sal\u00e9es, de graines et de fruits secs. Collation DASH id\u00e9ale.</string>
+    <string name="recipe_26_ing_1">\u00bc de tasse d\'amandes non sal\u00e9es</string>
+    <string name="recipe_26_ing_2">\u00bc de tasse de noix non sal\u00e9es</string>
+    <string name="recipe_26_ing_3">2 cuill\u00e8res \u00e0 soupe de graines de courge</string>
+    <string name="recipe_26_ing_4">2 cuill\u00e8res \u00e0 soupe de canneberges s\u00e9ch\u00e9es</string>
+    <string name="recipe_26_ing_5">2 cuill\u00e8res \u00e0 soupe de p\u00e9pites de chocolat noir</string>
+    <string name="recipe_26_ing_6">2 cuill\u00e8res \u00e0 soupe d\'abricots secs, hach\u00e9s</string>
+    <string name="recipe_26_step_1">Mesurez tous les ingr\u00e9dients.</string>
+    <string name="recipe_26_step_2">M\u00e9langez toutes les noix, graines et fruits secs dans un bol.</string>
+    <string name="recipe_26_step_3">Remuez d\u00e9licatement pour bien m\u00e9langer.</string>
+    <string name="recipe_26_step_4">Conservez dans un r\u00e9cipient herm\u00e9tique. Divisez en portions d\'un quart de tasse.</string>
+
+    <!-- 27. Apple Slices with Almond Butter -->
+    <string name="recipe_27_title">Pomme au beurre d\'amande</string>
+    <string name="recipe_27_desc">Tranches de pomme croquantes accompagn\u00e9es de beurre d\'amande naturel onctueux. Simple, rassasiant et bon pour le c\u0153ur.</string>
+    <string name="recipe_27_ing_1">1 pomme moyenne</string>
+    <string name="recipe_27_ing_2">2 cuill\u00e8res \u00e0 soupe de beurre d\'amande naturel</string>
+    <string name="recipe_27_ing_3">Une pinc\u00e9e de cannelle</string>
+    <string name="recipe_27_ing_4">1 cuill\u00e8re \u00e0 caf\u00e9 de graines de chia (facultatif)</string>
+    <string name="recipe_27_step_1">Lavez et \u00e9videz la pomme. Coupez-la en tranches.</string>
+    <string name="recipe_27_step_2">D\u00e9posez le beurre d\'amande dans un petit ramequin.</string>
+    <string name="recipe_27_step_3">Saupoudrez de cannelle sur le beurre d\'amande.</string>
+    <string name="recipe_27_step_4">Trempez les tranches de pomme dans le beurre d\'amande et d\u00e9gustez.</string>
+
+    <!-- 28. Greek Yogurt Dip -->
+    <string name="recipe_28_title">Dip au yaourt grec aux herbes</string>
+    <string name="recipe_28_desc">Yaourt grec acidul\u00e9 assaisonn\u00e9 d\'herbes et d\'ail. Une alternative saine aux dips \u00e0 base de cr\u00e8me fra\u00eeche.</string>
+    <string name="recipe_28_ing_1">1 tasse de yaourt grec all\u00e9g\u00e9 nature</string>
+    <string name="recipe_28_ing_2">1 cuill\u00e8re \u00e0 soupe d\'aneth frais, hach\u00e9</string>
+    <string name="recipe_28_ing_3">1 gousse d\'ail, \u00e9minc\u00e9e</string>
+    <string name="recipe_28_ing_4">Jus d\'un demi-citron</string>
+    <string name="recipe_28_ing_5">Poivre noir selon le go\u00fbt</string>
+    <string name="recipe_28_ing_6">Crackers complets ou b\u00e2tonnets de l\u00e9gumes</string>
+    <string name="recipe_28_step_1">M\u00e9langez le yaourt, l\'aneth, l\'ail et le jus de citron dans un bol.</string>
+    <string name="recipe_28_step_2">Assaisonnez de poivre noir et m\u00e9langez bien.</string>
+    <string name="recipe_28_step_3">R\u00e9frig\u00e9rez 30 minutes pour laisser les saveurs se m\u00e9langer.</string>
+    <string name="recipe_28_step_4">Servez avec des crackers complets ou des b\u00e2tonnets de l\u00e9gumes.</string>
+
+    <!-- 29. Mixed Berry Bowl -->
+    <string name="recipe_29_title">Bol de fruits rouges m\u00e9lang\u00e9s</string>
+    <string name="recipe_29_desc">Un simple bol de fruits rouges riches en antioxydants avec un l\u00e9ger filet de yaourt. Naturellement sucr\u00e9 et rafra\u00eechissant.</string>
+    <string name="recipe_29_ing_1">\u00bd tasse de fraises</string>
+    <string name="recipe_29_ing_2">\u00bd tasse de myrtilles</string>
+    <string name="recipe_29_ing_3">\u00bd tasse de framboises</string>
+    <string name="recipe_29_ing_4">2 cuill\u00e8res \u00e0 soupe de yaourt grec all\u00e9g\u00e9</string>
+    <string name="recipe_29_ing_5">1 cuill\u00e8re \u00e0 caf\u00e9 de miel</string>
+    <string name="recipe_29_ing_6">Menthe fra\u00eeche pour d\u00e9corer</string>
+    <string name="recipe_29_step_1">Lavez tous les fruits rouges et s\u00e9chez-les d\u00e9licatement.</string>
+    <string name="recipe_29_step_2">Disposez les fruits rouges dans un bol.</string>
+    <string name="recipe_29_step_3">Ajoutez une cuiller\u00e9e de yaourt grec et un filet de miel.</string>
+    <string name="recipe_29_step_4">D\u00e9corez de feuilles de menthe fra\u00eeche.</string>
+
+    <!-- 30. Rice Cakes with Toppings -->
+    <string name="recipe_30_title">Galettes de riz garnies</string>
+    <string name="recipe_30_desc">Galettes de riz croustillantes \u00e0 faible teneur en sodium avec diff\u00e9rentes garnitures saines compatibles DASH.</string>
+    <string name="recipe_30_ing_1">4 galettes de riz non sal\u00e9es</string>
+    <string name="recipe_30_ing_2">2 cuill\u00e8res \u00e0 soupe de beurre de cacahu\u00e8te naturel</string>
+    <string name="recipe_30_ing_3">\u00bd banane, tranch\u00e9e</string>
+    <string name="recipe_30_ing_4">\u00bc d\'avocat, \u00e9cras\u00e9</string>
+    <string name="recipe_30_ing_5">Tomates cerises, tranch\u00e9es</string>
+    <string name="recipe_30_ing_6">Assaisonnement everything bagel (\u00e0 faible teneur en sodium)</string>
+    <string name="recipe_30_step_1">Pr\u00e9parez deux variantes : \u00e9talez le beurre de cacahu\u00e8te sur 2 galettes et l\'avocat sur les 2 autres.</string>
+    <string name="recipe_30_step_2">Garnissez les galettes au beurre de cacahu\u00e8te de tranches de banane.</string>
+    <string name="recipe_30_step_3">Garnissez les galettes \u00e0 l\'avocat de tranches de tomate et d\'assaisonnement.</string>
+    <string name="recipe_30_step_4">Servez comme un plateau de collation gourmand.</string>
+</resources>

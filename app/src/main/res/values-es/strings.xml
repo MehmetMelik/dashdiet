@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">DashDiet</string>
+    <string name="app_tagline">Alimentaci\u00f3n Saludable, Vida Saludable</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_recipes">Recetas</string>
+    <string name="nav_meal_plan">Plan de Comidas</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Auth Screen -->
+    <string name="auth_welcome">Bienvenido a DashDiet</string>
+    <string name="auth_subtitle">Tu gu\u00eda de la dieta DASH para un coraz\u00f3n y una vida m\u00e1s saludables</string>
+    <string name="auth_sign_in_google">Iniciar sesi\u00f3n con Google</string>
+    <string name="auth_sign_in_apple">Iniciar sesi\u00f3n con Apple</string>
+    <string name="auth_skip">Continuar como invitado</string>
+    <string name="auth_terms">Al iniciar sesi\u00f3n, aceptas nuestros T\u00e9rminos de Servicio y Pol\u00edtica de Privacidad</string>
+    <string name="auth_signing_in">Iniciando sesi\u00f3n\u2026</string>
+    <string name="auth_error">Error al iniciar sesi\u00f3n. Por favor, int\u00e9ntalo de nuevo.</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">\u00a1Hola, %1$s!</string>
+    <string name="home_greeting_guest">\u00a1Hola!</string>
+    <string name="home_daily_tip">Consejo DASH del D\u00eda</string>
+    <string name="home_featured_recipes">Recetas Destacadas</string>
+    <string name="home_categories">Categor\u00edas</string>
+    <string name="home_quick_start">Inicio R\u00e1pido</string>
+    <string name="home_view_all">Ver Todo</string>
+    <string name="home_dash_score">Tu Puntuaci\u00f3n DASH</string>
+    <string name="home_what_is_dash">\u00bfQu\u00e9 es la Dieta DASH?</string>
+    <string name="home_learn_more">M\u00e1s Informaci\u00f3n</string>
+
+    <!-- Categories -->
+    <string name="category_breakfast">Desayuno</string>
+    <string name="category_lunch">Almuerzo</string>
+    <string name="category_dinner">Cena</string>
+    <string name="category_snacks">Aperitivos</string>
+    <string name="category_all">Todos</string>
+
+    <!-- Recipe List -->
+    <string name="recipes_title">Recetas DASH</string>
+    <string name="recipes_search">Buscar recetas\u2026</string>
+    <string name="recipes_no_results">No se encontraron recetas</string>
+    <string name="recipes_count">%1$d recetas</string>
+    <string name="recipes_filter">Filtrar</string>
+
+    <!-- Recipe Detail -->
+    <string name="recipe_ingredients">Ingredientes</string>
+    <string name="recipe_steps">Instrucciones</string>
+    <string name="recipe_nutrition">Informaci\u00f3n Nutricional</string>
+    <string name="recipe_prep_time">Tiempo de Preparaci\u00f3n</string>
+    <string name="recipe_cook_time">Tiempo de Cocci\u00f3n</string>
+    <string name="recipe_total_time">Tiempo Total</string>
+    <string name="recipe_servings">Porciones</string>
+    <string name="recipe_minutes">%1$d min</string>
+    <string name="recipe_step_number">Paso %1$d</string>
+    <string name="recipe_add_to_plan">A\u00f1adir al Plan de Comidas</string>
+    <string name="recipe_added_to_plan">\u00a1A\u00f1adido al plan de comidas!</string>
+
+    <!-- Nutrition Labels -->
+    <string name="nutrition_calories">Calor\u00edas</string>
+    <string name="nutrition_sodium">Sodio</string>
+    <string name="nutrition_potassium">Potasio</string>
+    <string name="nutrition_fiber">Fibra</string>
+    <string name="nutrition_protein">Prote\u00edna</string>
+    <string name="nutrition_fat">Grasa</string>
+    <string name="nutrition_carbs">Carbohidratos</string>
+    <string name="nutrition_cal">%1$d kcal</string>
+    <string name="nutrition_mg">%1$d mg</string>
+    <string name="nutrition_g">%1$d g</string>
+
+    <!-- Meal Plan -->
+    <string name="meal_plan_title">Plan de Comidas Semanal</string>
+    <string name="meal_plan_empty">Toca + para a\u00f1adir una comida</string>
+    <string name="meal_plan_add">A\u00f1adir Comida</string>
+    <string name="meal_plan_remove">Eliminar</string>
+    <string name="meal_plan_clear">Limpiar D\u00eda</string>
+    <string name="meal_plan_clear_all">Limpiar Todo</string>
+    <string name="meal_plan_select_recipe">Seleccionar una Receta</string>
+    <string name="meal_plan_select_slot">Seleccionar turno de comida</string>
+    <string name="meal_plan_daily_total">Total Diario</string>
+    <string name="meal_plan_weekly_overview">Resumen Semanal</string>
+
+    <!-- Days of Week -->
+    <string name="day_monday">Lunes</string>
+    <string name="day_tuesday">Martes</string>
+    <string name="day_wednesday">Mi\u00e9rcoles</string>
+    <string name="day_thursday">Jueves</string>
+    <string name="day_friday">Viernes</string>
+    <string name="day_saturday">S\u00e1bado</string>
+    <string name="day_sunday">Domingo</string>
+    <string name="day_mon">Lun</string>
+    <string name="day_tue">Mar</string>
+    <string name="day_wed">Mi\u00e9</string>
+    <string name="day_thu">Jue</string>
+    <string name="day_fri">Vie</string>
+    <string name="day_sat">S\u00e1b</string>
+    <string name="day_sun">Dom</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Perfil</string>
+    <string name="profile_account">Cuenta</string>
+    <string name="profile_guest">Usuario Invitado</string>
+    <string name="profile_sign_out">Cerrar Sesi\u00f3n</string>
+    <string name="profile_sign_in">Iniciar Sesi\u00f3n</string>
+    <string name="profile_settings">Ajustes</string>
+    <string name="profile_language">Idioma</string>
+    <string name="profile_dark_mode">Modo Oscuro</string>
+    <string name="profile_notifications">Notificaciones</string>
+    <string name="profile_about">Acerca de la Dieta DASH</string>
+    <string name="profile_version">Versi\u00f3n %1$s</string>
+    <string name="profile_about_app">Acerca de DashDiet</string>
+    <string name="profile_rate">Val\u00f3ranos</string>
+    <string name="profile_share">Compartir App</string>
+    <string name="profile_privacy">Pol\u00edtica de Privacidad</string>
+    <string name="profile_terms">T\u00e9rminos de Servicio</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Espa\u00f1ol</string>
+    <string name="lang_chinese">\u4e2d\u6587</string>
+    <string name="lang_hindi">\u0939\u093f\u0928\u094d\u0926\u0940</string>
+    <string name="lang_arabic">\u0627\u0644\u0639\u0631\u0628\u064a\u0629</string>
+    <string name="lang_french">Fran\u00e7ais</string>
+    <string name="lang_turkish">T\u00fcrk\u00e7e</string>
+    <string name="lang_select">Seleccionar Idioma</string>
+
+    <!-- DASH Diet Info -->
+    <string name="dash_info_title">Acerca de la Dieta DASH</string>
+    <string name="dash_info_what">\u00bfQu\u00e9 es la Dieta DASH?</string>
+    <string name="dash_info_what_desc">DASH significa Enfoques Diet\u00e9ticos para Detener la Hipertensi\u00f3n (Dietary Approaches to Stop Hypertension). Es un enfoque de alimentaci\u00f3n saludable de por vida dise\u00f1ado para ayudar a tratar o prevenir la presi\u00f3n arterial alta (hipertensi\u00f3n).</string>
+    <string name="dash_info_benefits">Beneficios Principales</string>
+    <string name="dash_info_benefit_1">Reduce la presi\u00f3n arterial</string>
+    <string name="dash_info_benefit_2">Reduce los niveles de colesterol</string>
+    <string name="dash_info_benefit_3">Mejora la sensibilidad a la insulina</string>
+    <string name="dash_info_benefit_4">Apoya un peso saludable</string>
+    <string name="dash_info_benefit_5">Reduce el riesgo de enfermedades card\u00edacas</string>
+    <string name="dash_info_benefit_6">Puede reducir el riesgo de c\u00e1ncer</string>
+    <string name="dash_info_guidelines">Pautas DASH</string>
+    <string name="dash_info_guideline_1">Come m\u00e1s frutas y verduras</string>
+    <string name="dash_info_guideline_2">Elige granos integrales en lugar de refinados</string>
+    <string name="dash_info_guideline_3">Incluye l\u00e1cteos sin grasa o bajos en grasa</string>
+    <string name="dash_info_guideline_4">Elige prote\u00ednas magras (pescado, pollo, legumbres)</string>
+    <string name="dash_info_guideline_5">Limita el sodio a 2300 mg diarios (o 1500 mg)</string>
+    <string name="dash_info_guideline_6">Reduce las grasas saturadas y los dulces</string>
+    <string name="dash_info_guideline_7">Incluye frutos secos, semillas y legumbres</string>
+    <string name="dash_info_daily_servings">Porciones Diarias Recomendadas</string>
+    <string name="dash_info_grains">Granos: 6\u20138 porciones</string>
+    <string name="dash_info_vegetables">Verduras: 4\u20135 porciones</string>
+    <string name="dash_info_fruits">Frutas: 4\u20135 porciones</string>
+    <string name="dash_info_dairy">L\u00e1cteos (bajos en grasa): 2\u20133 porciones</string>
+    <string name="dash_info_meat">Carne magra/pescado: 6 o menos porciones</string>
+    <string name="dash_info_nuts">Frutos secos/semillas/legumbres: 4\u20135 por semana</string>
+    <string name="dash_info_fats">Grasas/aceites: 2\u20133 porciones</string>
+    <string name="dash_info_sweets">Dulces: 5 o menos por semana</string>
+
+    <!-- Daily Tips -->
+    <string name="tip_1">Intenta reemplazar la sal de mesa con hierbas y especias para dar sabor.</string>
+    <string name="tip_2">Intenta consumir al menos 4\u20135 porciones de frutas y verduras al d\u00eda.</string>
+    <string name="tip_3">Elige granos integrales como arroz integral, trigo integral y avena.</string>
+    <string name="tip_4">Come frutos secos sin sal en lugar de patatas fritas o galletas saladas.</string>
+    <string name="tip_5">Lee las etiquetas nutricionales y elige alimentos con menos sodio.</string>
+    <string name="tip_6">Incluye una porci\u00f3n de l\u00e1cteos bajos en grasa como yogur cada d\u00eda.</string>
+    <string name="tip_7">Asa, hornea o cocina al vapor los alimentos en lugar de fre\u00edrlos.</string>
+    <string name="tip_8">Bebe agua en lugar de bebidas azucaradas.</string>
+    <string name="tip_9">A\u00f1ade frijoles o lentejas a las sopas y ensaladas para obtener m\u00e1s fibra.</string>
+    <string name="tip_10">Planifica tus comidas con antelaci\u00f3n para tomar decisiones m\u00e1s saludables.</string>
+
+    <!-- Common -->
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="close">Cerrar</string>
+    <string name="back">Atr\u00e1s</string>
+    <string name="loading">Cargando\u2026</string>
+    <string name="error_generic">Algo sali\u00f3 mal. Por favor, int\u00e9ntalo de nuevo.</string>
+    <string name="no_connection">Sin conexi\u00f3n a internet</string>
+
+    <!-- ==================== RECIPES ==================== -->
+
+    <!-- === BREAKFAST RECIPES === -->
+
+    <!-- 1. Oatmeal with Berries -->
+    <string name="recipe_1_title">Avena con Frutos Rojos Frescos</string>
+    <string name="recipe_1_desc">Avena saludable para el coraz\u00f3n cubierta con frutos rojos frescos y un chorrito de miel. Un desayuno perfecto para la dieta DASH.</string>
+    <string name="recipe_1_ing_1">1 taza de copos de avena</string>
+    <string name="recipe_1_ing_2">2 tazas de agua o leche baja en grasa</string>
+    <string name="recipe_1_ing_3">\u00bd taza de frutos rojos variados (ar\u00e1ndanos, fresas, frambuesas)</string>
+    <string name="recipe_1_ing_4">1 cucharada de miel</string>
+    <string name="recipe_1_ing_5">\u00bc de cucharadita de canela</string>
+    <string name="recipe_1_ing_6">1 cucharada de nueces picadas</string>
+    <string name="recipe_1_step_1">Lleva el agua o la leche a ebullici\u00f3n en una cacerola.</string>
+    <string name="recipe_1_step_2">A\u00f1ade la avena y reduce el fuego. Cocina durante 5 minutos, removiendo de vez en cuando.</string>
+    <string name="recipe_1_step_3">Vierte en un bol y cubre con frutos rojos frescos.</string>
+    <string name="recipe_1_step_4">Roc\u00eda con miel, espolvorea canela y nueces. Sirve caliente.</string>
+
+    <!-- 2. Greek Yogurt Parfait -->
+    <string name="recipe_2_title">Parfait de Yogur Griego</string>
+    <string name="recipe_2_desc">Capas de yogur griego cremoso bajo en grasa, granola crujiente y fruta fresca para un comienzo rico en prote\u00ednas.</string>
+    <string name="recipe_2_ing_1">1 taza de yogur griego bajo en grasa</string>
+    <string name="recipe_2_ing_2">\u00bc de taza de granola baja en sodio</string>
+    <string name="recipe_2_ing_3">\u00bd taza de fresas en rodajas</string>
+    <string name="recipe_2_ing_4">\u00bc de taza de ar\u00e1ndanos</string>
+    <string name="recipe_2_ing_5">1 cucharada de semillas de ch\u00eda</string>
+    <string name="recipe_2_ing_6">1 cucharadita de miel</string>
+    <string name="recipe_2_step_1">A\u00f1ade la mitad del yogur a un vaso o bol.</string>
+    <string name="recipe_2_step_2">Coloca una capa con la mitad de la granola y la mitad de las frutas.</string>
+    <string name="recipe_2_step_3">Repite las capas con los ingredientes restantes.</string>
+    <string name="recipe_2_step_4">Corona con semillas de ch\u00eda y un chorrito de miel.</string>
+
+    <!-- 3. Whole Grain Toast with Avocado -->
+    <string name="recipe_3_title">Tostada Integral con Aguacate</string>
+    <string name="recipe_3_desc">Tostada crujiente de pan integral cubierta con aguacate machacado, tomate y un chorrito de lim\u00f3n.</string>
+    <string name="recipe_3_ing_1">2 rebanadas de pan integral</string>
+    <string name="recipe_3_ing_2">1 aguacate maduro</string>
+    <string name="recipe_3_ing_3">1 tomate peque\u00f1o, en rodajas</string>
+    <string name="recipe_3_ing_4">Jugo de \u00bd lim\u00f3n</string>
+    <string name="recipe_3_ing_5">Pizca de pimienta negra</string>
+    <string name="recipe_3_ing_6">Hojuelas de pimiento rojo (opcional)</string>
+    <string name="recipe_3_step_1">Tuesta las rebanadas de pan hasta que est\u00e9n doradas y crujientes.</string>
+    <string name="recipe_3_step_2">Machaca el aguacate en un bol con jugo de lim\u00f3n y pimienta.</string>
+    <string name="recipe_3_step_3">Unta la mezcla de aguacate sobre cada tostada.</string>
+    <string name="recipe_3_step_4">Cubre con rodajas de tomate y hojuelas de pimiento rojo opcionales.</string>
+
+    <!-- 4. Berry Smoothie Bowl -->
+    <string name="recipe_4_title">Bol de Smoothie de Frutos Rojos</string>
+    <string name="recipe_4_desc">Bol de smoothie espeso y cremoso lleno de frutos rojos ricos en antioxidantes y toppings nutritivos.</string>
+    <string name="recipe_4_ing_1">1 taza de frutos rojos congelados variados</string>
+    <string name="recipe_4_ing_2">1 pl\u00e1tano</string>
+    <string name="recipe_4_ing_3">\u00bd taza de leche baja en grasa</string>
+    <string name="recipe_4_ing_4">1 cucharada de linaza</string>
+    <string name="recipe_4_ing_5">2 cucharadas de granola</string>
+    <string name="recipe_4_ing_6">Fruta fresca para decorar</string>
+    <string name="recipe_4_step_1">Licua los frutos rojos congelados, el pl\u00e1tano y la leche hasta obtener una mezcla espesa y suave.</string>
+    <string name="recipe_4_step_2">Vierte en un bol (debe ser m\u00e1s espeso que un smoothie normal).</string>
+    <string name="recipe_4_step_3">Cubre con granola, linaza y fruta fresca.</string>
+    <string name="recipe_4_step_4">Sirve inmediatamente y disfruta con una cuchara.</string>
+
+    <!-- 5. Egg White Omelet -->
+    <string name="recipe_5_title">Tortilla de Claras con Verduras</string>
+    <string name="recipe_5_desc">Tortilla ligera y esponjosa de claras de huevo llena de verduras coloridas para una comida baja en grasa y alta en prote\u00ednas.</string>
+    <string name="recipe_5_ing_1">4 claras de huevo</string>
+    <string name="recipe_5_ing_2">\u00bc de taza de pimientos en cubos</string>
+    <string name="recipe_5_ing_3">\u00bc de taza de espinacas picadas</string>
+    <string name="recipe_5_ing_4">2 cucharadas de tomate en cubos</string>
+    <string name="recipe_5_ing_5">2 cucharadas de queso bajo en grasa</string>
+    <string name="recipe_5_ing_6">1 cucharadita de aceite de oliva</string>
+    <string name="recipe_5_step_1">Bate las claras de huevo hasta que est\u00e9n ligeramente espumosas.</string>
+    <string name="recipe_5_step_2">Calienta el aceite de oliva en una sart\u00e9n antiadherente a fuego medio.</string>
+    <string name="recipe_5_step_3">Vierte las claras y cocina hasta que los bordes cuajen. A\u00f1ade las verduras en una mitad.</string>
+    <string name="recipe_5_step_4">Dobla la tortilla por la mitad, cubre con queso y sirve.</string>
+
+    <!-- 6. Banana Oat Pancakes -->
+    <string name="recipe_6_title">Panqueques de Pl\u00e1tano y Avena</string>
+    <string name="recipe_6_desc">Panqueques esponjosos hechos con avena integral y pl\u00e1tanos maduros. Naturalmente dulces sin az\u00facar a\u00f1adido.</string>
+    <string name="recipe_6_ing_1">1 taza de harina de trigo integral</string>
+    <string name="recipe_6_ing_2">\u00bd taza de copos de avena</string>
+    <string name="recipe_6_ing_3">1 pl\u00e1tano maduro, machacado</string>
+    <string name="recipe_6_ing_4">1 taza de leche baja en grasa</string>
+    <string name="recipe_6_ing_5">1 huevo</string>
+    <string name="recipe_6_ing_6">1 cucharadita de polvo de hornear</string>
+    <string name="recipe_6_step_1">Mezcla la harina, la avena y el polvo de hornear en un bol.</string>
+    <string name="recipe_6_step_2">En otro bol, combina el pl\u00e1tano machacado, la leche y el huevo.</string>
+    <string name="recipe_6_step_3">Incorpora los ingredientes h\u00famedos en los secos hasta que est\u00e9n apenas combinados.</string>
+    <string name="recipe_6_step_4">Cocina en una sart\u00e9n antiadherente a fuego medio. Voltea cuando se formen burbujas. Sirve con fruta fresca.</string>
+
+    <!-- 7. Fresh Fruit Salad -->
+    <string name="recipe_7_title">Ensalada de Frutas Frescas</string>
+    <string name="recipe_7_desc">Una mezcla colorida de frutas de temporada con un ligero aderezo de c\u00edtricos y menta. Rica en potasio y vitaminas.</string>
+    <string name="recipe_7_ing_1">1 taza de fresas, cortadas por la mitad</string>
+    <string name="recipe_7_ing_2">1 taza de ar\u00e1ndanos</string>
+    <string name="recipe_7_ing_3">1 pl\u00e1tano, en rodajas</string>
+    <string name="recipe_7_ing_4">1 naranja, en gajos</string>
+    <string name="recipe_7_ing_5">1 kiwi, en cubos</string>
+    <string name="recipe_7_ing_6">Hojas de menta fresca y jugo de lima</string>
+    <string name="recipe_7_step_1">Lava y prepara todas las frutas.</string>
+    <string name="recipe_7_step_2">Combina todas las frutas en un bol grande.</string>
+    <string name="recipe_7_step_3">Exprime jugo de lima sobre las frutas y mezcla suavemente.</string>
+    <string name="recipe_7_step_4">Decora con hojas de menta fresca. Refrigera antes de servir.</string>
+
+    <!-- 8. Granola Bowl -->
+    <string name="recipe_8_title">Bol de Granola Baja en Sodio</string>
+    <string name="recipe_8_desc">Granola casera crujiente baja en sodio con frutas secas y semillas sobre leche baja en grasa.</string>
+    <string name="recipe_8_ing_1">\u00bd taza de granola baja en sodio</string>
+    <string name="recipe_8_ing_2">1 taza de leche baja en grasa</string>
+    <string name="recipe_8_ing_3">2 cucharadas de ar\u00e1ndanos rojos secos</string>
+    <string name="recipe_8_ing_4">1 cucharada de semillas de calabaza</string>
+    <string name="recipe_8_ing_5">1 cucharada de semillas de girasol</string>
+    <string name="recipe_8_ing_6">\u00bd pl\u00e1tano, en rodajas</string>
+    <string name="recipe_8_step_1">Vierte la granola en un bol.</string>
+    <string name="recipe_8_step_2">A\u00f1ade la leche baja en grasa.</string>
+    <string name="recipe_8_step_3">Cubre con ar\u00e1ndanos rojos secos, semillas y rodajas de pl\u00e1tano.</string>
+    <string name="recipe_8_step_4">Sirve inmediatamente para m\u00e1xima crocancia.</string>
+
+    <!-- === LUNCH RECIPES === -->
+
+    <!-- 9. Quinoa Vegetable Salad -->
+    <string name="recipe_9_title">Ensalada de Quinoa con Verduras</string>
+    <string name="recipe_9_desc">Quinoa rica en prote\u00ednas con verduras frescas y una ligera vinagreta de lim\u00f3n. Un almuerzo DASH perfecto.</string>
+    <string name="recipe_9_ing_1">1 taza de quinoa cocida</string>
+    <string name="recipe_9_ing_2">\u00bd taza de pepino en cubos</string>
+    <string name="recipe_9_ing_3">\u00bd taza de tomates cherry, cortados por la mitad</string>
+    <string name="recipe_9_ing_4">\u00bc de taza de cebolla roja en cubos</string>
+    <string name="recipe_9_ing_5">2 cucharadas de aceite de oliva</string>
+    <string name="recipe_9_ing_6">Jugo de 1 lim\u00f3n, perejil fresco</string>
+    <string name="recipe_9_step_1">Cocina la quinoa seg\u00fan las instrucciones del paquete. D\u00e9jala enfriar.</string>
+    <string name="recipe_9_step_2">Combina la quinoa fr\u00eda con el pepino, los tomates y la cebolla.</string>
+    <string name="recipe_9_step_3">Bate el aceite de oliva y el jugo de lim\u00f3n juntos para el aderezo.</string>
+    <string name="recipe_9_step_4">Mezcla la ensalada con el aderezo y decora con perejil.</string>
+
+    <!-- 10. Turkey Lettuce Wrap -->
+    <string name="recipe_10_title">Wraps de Pavo con Lechuga</string>
+    <string name="recipe_10_desc">Pavo magro envuelto en hojas de lechuga crujientes con verduras frescas. Bajo en carbohidratos y apto para la dieta DASH.</string>
+    <string name="recipe_10_ing_1">200 g de pavo molido magro</string>
+    <string name="recipe_10_ing_2">4 hojas grandes de lechuga mantecosa</string>
+    <string name="recipe_10_ing_3">\u00bd taza de zanahorias ralladas</string>
+    <string name="recipe_10_ing_4">\u00bc de taza de casta\u00f1as de agua en cubos</string>
+    <string name="recipe_10_ing_5">1 cucharada de salsa de soja baja en sodio</string>
+    <string name="recipe_10_ing_6">1 cucharadita de aceite de s\u00e9samo, ajo, jengibre</string>
+    <string name="recipe_10_step_1">Cocina el pavo molido con ajo y jengibre hasta que se dore.</string>
+    <string name="recipe_10_step_2">A\u00f1ade las zanahorias, las casta\u00f1as de agua, la salsa de soja y el aceite de s\u00e9samo. Saltea durante 2 minutos.</string>
+    <string name="recipe_10_step_3">Lava y seca las hojas de lechuga.</string>
+    <string name="recipe_10_step_4">Coloca la mezcla de pavo en las hojas de lechuga y sirve.</string>
+
+    <!-- 11. Lentil Soup -->
+    <string name="recipe_11_title">Sopa Reconfortante de Lentejas</string>
+    <string name="recipe_11_desc">Sopa caliente de lentejas rica en fibra y potasio. Una comida reconfortante aprobada por la dieta DASH.</string>
+    <string name="recipe_11_ing_1">1 taza de lentejas secas, enjuagadas</string>
+    <string name="recipe_11_ing_2">4 tazas de caldo de verduras bajo en sodio</string>
+    <string name="recipe_11_ing_3">1 taza de zanahorias en cubos</string>
+    <string name="recipe_11_ing_4">1 taza de apio en cubos</string>
+    <string name="recipe_11_ing_5">1 cebolla en cubos</string>
+    <string name="recipe_11_ing_6">2 dientes de ajo, comino, c\u00farcuma</string>
+    <string name="recipe_11_step_1">Saltea la cebolla, las zanahorias, el apio y el ajo en aceite de oliva durante 5 minutos.</string>
+    <string name="recipe_11_step_2">A\u00f1ade las lentejas, el caldo, el comino y la c\u00farcuma. Lleva a ebullici\u00f3n.</string>
+    <string name="recipe_11_step_3">Reduce el fuego y cocina a fuego lento durante 25\u201330 minutos hasta que las lentejas est\u00e9n tiernas.</string>
+    <string name="recipe_11_step_4">Sazona con pimienta y sirve con un chorrito de lim\u00f3n.</string>
+
+    <!-- 12. Grilled Chicken Salad -->
+    <string name="recipe_12_title">Ensalada de Pollo a la Parrilla</string>
+    <string name="recipe_12_desc">Mezcla de hojas verdes frescas con pechuga de pollo a la parrilla, aguacate y un ligero aderezo bals\u00e1mico.</string>
+    <string name="recipe_12_ing_1">150 g de pechuga de pollo a la parrilla, en rodajas</string>
+    <string name="recipe_12_ing_2">3 tazas de hojas verdes mixtas</string>
+    <string name="recipe_12_ing_3">\u00bd aguacate, en rodajas</string>
+    <string name="recipe_12_ing_4">\u00bc de taza de tomates cherry</string>
+    <string name="recipe_12_ing_5">2 cucharadas de vinagreta bals\u00e1mica</string>
+    <string name="recipe_12_ing_6">1 cucharada de semillas de girasol</string>
+    <string name="recipe_12_step_1">Sazona la pechuga de pollo con hierbas y asa a la parrilla hasta que est\u00e9 bien cocida. Corta en rodajas.</string>
+    <string name="recipe_12_step_2">Dispone las hojas verdes en un plato.</string>
+    <string name="recipe_12_step_3">Cubre con el pollo, el aguacate y los tomates.</string>
+    <string name="recipe_12_step_4">Roc\u00eda con vinagreta bals\u00e1mica y espolvorea semillas de girasol.</string>
+
+    <!-- 13. Veggie Buddha Bowl -->
+    <string name="recipe_13_title">Bol Buda de Verduras</string>
+    <string name="recipe_13_desc">Un bol colorido de verduras asadas, garbanzos y arroz integral con aderezo de tahini.</string>
+    <string name="recipe_13_ing_1">1 taza de arroz integral cocido</string>
+    <string name="recipe_13_ing_2">\u00bd taza de cubos de batata asada</string>
+    <string name="recipe_13_ing_3">\u00bd taza de garbanzos cocidos</string>
+    <string name="recipe_13_ing_4">\u00bd taza de br\u00f3coli al vapor</string>
+    <string name="recipe_13_ing_5">\u00bc de aguacate, en rodajas</string>
+    <string name="recipe_13_ing_6">2 cucharadas de aderezo de tahini</string>
+    <string name="recipe_13_step_1">Cocina el arroz integral y asa los cubos de batata a 200 \u00b0C durante 20 minutos.</string>
+    <string name="recipe_13_step_2">Cocina el br\u00f3coli al vapor y calienta los garbanzos.</string>
+    <string name="recipe_13_step_3">Dispone el arroz, las verduras y los garbanzos en un bol.</string>
+    <string name="recipe_13_step_4">Cubre con aguacate y roc\u00eda con aderezo de tahini.</string>
+
+    <!-- 14. Tuna Salad Sandwich -->
+    <string name="recipe_14_title">S\u00e1ndwich de Ensalada de At\u00fan</string>
+    <string name="recipe_14_desc">Ensalada ligera de at\u00fan con yogur griego en lugar de mayonesa, sobre pan integral. Bajo en sodio y rico en prote\u00ednas.</string>
+    <string name="recipe_14_ing_1">1 lata de at\u00fan bajo en sodio, escurrido</string>
+    <string name="recipe_14_ing_2">2 cucharadas de yogur griego natural</string>
+    <string name="recipe_14_ing_3">\u00bc de taza de apio en cubos</string>
+    <string name="recipe_14_ing_4">1 cucharada de cebolla roja en cubos</string>
+    <string name="recipe_14_ing_5">2 rebanadas de pan integral</string>
+    <string name="recipe_14_ing_6">Hojas de lechuga, pimienta negra</string>
+    <string name="recipe_14_step_1">Mezcla el at\u00fan, el yogur griego, el apio y la cebolla en un bol.</string>
+    <string name="recipe_14_step_2">Sazona con pimienta negra.</string>
+    <string name="recipe_14_step_3">Unta la mezcla sobre el pan integral.</string>
+    <string name="recipe_14_step_4">A\u00f1ade hojas de lechuga, cubre con la segunda rebanada y sirve.</string>
+
+    <!-- 15. Minestrone Soup -->
+    <string name="recipe_15_title">Sopa Minestrone</string>
+    <string name="recipe_15_desc">Cl\u00e1sica sopa italiana de verduras con frijoles y pasta integral. Baja en sodio y llena de sabor.</string>
+    <string name="recipe_15_ing_1">4 tazas de caldo de verduras bajo en sodio</string>
+    <string name="recipe_15_ing_2">1 lata de tomates en cubos sin sal a\u00f1adida</string>
+    <string name="recipe_15_ing_3">\u00bd taza de pasta de trigo integral</string>
+    <string name="recipe_15_ing_4">\u00bd taza de frijoles rojos, enjuagados</string>
+    <string name="recipe_15_ing_5">1 taza de verduras mixtas (calabac\u00edn, zanahorias, jud\u00edas verdes)</string>
+    <string name="recipe_15_ing_6">Hierbas italianas (albahaca, or\u00e9gano), ajo</string>
+    <string name="recipe_15_step_1">Saltea el ajo y la cebolla en aceite de oliva. A\u00f1ade las verduras mixtas y cocina 3 minutos.</string>
+    <string name="recipe_15_step_2">A\u00f1ade el caldo, los tomates y las hierbas. Lleva a ebullici\u00f3n.</string>
+    <string name="recipe_15_step_3">A\u00f1ade la pasta y los frijoles. Cocina a fuego lento 10\u201312 minutos hasta que la pasta est\u00e9 tierna.</string>
+    <string name="recipe_15_step_4">Sirve caliente con un toque de albahaca fresca.</string>
+
+    <!-- 16. Mediterranean Plate -->
+    <string name="recipe_16_title">Plato Mediterr\u00e1neo</string>
+    <string name="recipe_16_desc">Un plato vibrante de hummus, pan de pita integral, aceitunas, verduras y queso feta. Sabores mediterr\u00e1neos saludables para el coraz\u00f3n.</string>
+    <string name="recipe_16_ing_1">\u00bc de taza de hummus</string>
+    <string name="recipe_16_ing_2">1 pan de pita integral, cortado en tri\u00e1ngulos</string>
+    <string name="recipe_16_ing_3">\u00bd taza de rodajas de pepino</string>
+    <string name="recipe_16_ing_4">\u00bc de taza de tomates cherry</string>
+    <string name="recipe_16_ing_5">2 cucharadas de queso feta desmenuzado</string>
+    <string name="recipe_16_ing_6">Aceitunas Kalamata, menta fresca</string>
+    <string name="recipe_16_step_1">Unta el hummus en un plato o en un bol.</string>
+    <string name="recipe_16_step_2">Dispone los tri\u00e1ngulos de pita, el pepino y los tomates alrededor del hummus.</string>
+    <string name="recipe_16_step_3">A\u00f1ade las aceitunas y desmenuda el queso feta por encima.</string>
+    <string name="recipe_16_step_4">Decora con menta fresca y sirve.</string>
+
+    <!-- === DINNER RECIPES === -->
+
+    <!-- 17. Grilled Salmon -->
+    <string name="recipe_17_title">Salm\u00f3n a la Parrilla con Hierbas</string>
+    <string name="recipe_17_desc">Filete de salm\u00f3n rico en omega-3 asado a la parrilla con lim\u00f3n y hierbas frescas. Una cena fundamental de la dieta DASH.</string>
+    <string name="recipe_17_ing_1">2 filetes de salm\u00f3n (150 g cada uno)</string>
+    <string name="recipe_17_ing_2">2 cucharadas de aceite de oliva</string>
+    <string name="recipe_17_ing_3">Jugo de 1 lim\u00f3n</string>
+    <string name="recipe_17_ing_4">2 dientes de ajo, picados</string>
+    <string name="recipe_17_ing_5">Eneldo y perejil frescos</string>
+    <string name="recipe_17_ing_6">Pimienta negra, esp\u00e1rragos al vapor para servir</string>
+    <string name="recipe_17_step_1">Marina el salm\u00f3n en aceite de oliva, jugo de lim\u00f3n, ajo y hierbas durante 15 minutos.</string>
+    <string name="recipe_17_step_2">Precalienta la parrilla a fuego medio-alto.</string>
+    <string name="recipe_17_step_3">Asa el salm\u00f3n durante 4\u20135 minutos por lado hasta que se deshaga f\u00e1cilmente.</string>
+    <string name="recipe_17_step_4">Sirve con esp\u00e1rragos al vapor y gajos de lim\u00f3n.</string>
+
+    <!-- 18. Chicken Stir-Fry -->
+    <string name="recipe_18_title">Salteado de Pollo con Verduras</string>
+    <string name="recipe_18_desc">Salteado colorido con pollo magro y verduras crujientes en una salsa ligera de jengibre. R\u00e1pido y apto para la dieta DASH.</string>
+    <string name="recipe_18_ing_1">200 g de pechuga de pollo, en tiras finas</string>
+    <string name="recipe_18_ing_2">1 taza de ramilletes de br\u00f3coli</string>
+    <string name="recipe_18_ing_3">1 pimiento en rodajas</string>
+    <string name="recipe_18_ing_4">\u00bd taza de tirabeques</string>
+    <string name="recipe_18_ing_5">2 cucharadas de salsa de soja baja en sodio</string>
+    <string name="recipe_18_ing_6">1 cucharadita de jengibre fresco, ajo, aceite de s\u00e9samo</string>
+    <string name="recipe_18_step_1">Saltea el pollo en aceite de s\u00e9samo hasta que est\u00e9 dorado. Ret\u00edralo y res\u00e9rvalo.</string>
+    <string name="recipe_18_step_2">Saltea el br\u00f3coli, el pimiento y los tirabeques durante 3 minutos.</string>
+    <string name="recipe_18_step_3">Devuelve el pollo. A\u00f1ade la salsa de soja, el jengibre y el ajo. Saltea durante 2 minutos.</string>
+    <string name="recipe_18_step_4">Sirve sobre arroz integral o fideos integrales.</string>
+
+    <!-- 19. Baked Cod -->
+    <string name="recipe_19_title">Bacalao al Horno con Verduras</string>
+    <string name="recipe_19_desc">Tierno bacalao horneado con tomates cherry y calabac\u00edn. Ligero, sabroso y saludable para el coraz\u00f3n.</string>
+    <string name="recipe_19_ing_1">2 filetes de bacalao (150 g cada uno)</string>
+    <string name="recipe_19_ing_2">1 taza de tomates cherry</string>
+    <string name="recipe_19_ing_3">1 calabac\u00edn, en rodajas</string>
+    <string name="recipe_19_ing_4">2 cucharadas de aceite de oliva</string>
+    <string name="recipe_19_ing_5">Tomillo y or\u00e9gano frescos</string>
+    <string name="recipe_19_ing_6">Gajos de lim\u00f3n, pimienta negra</string>
+    <string name="recipe_19_step_1">Precalienta el horno a 200 \u00b0C.</string>
+    <string name="recipe_19_step_2">Coloca el bacalao en una fuente para hornear. Rodea con tomates y calabac\u00edn.</string>
+    <string name="recipe_19_step_3">Roc\u00eda con aceite de oliva, sazona con hierbas y pimienta.</string>
+    <string name="recipe_19_step_4">Hornea durante 18\u201320 minutos hasta que el pescado se deshaga f\u00e1cilmente. Sirve con lim\u00f3n.</string>
+
+    <!-- 20. Turkey Meatballs -->
+    <string name="recipe_20_title">Alb\u00f3ndigas de Pavo con Marinara</string>
+    <string name="recipe_20_desc">Alb\u00f3ndigas de pavo magro en salsa marinara casera baja en sodio. Servidas sobre espaguetis integrales.</string>
+    <string name="recipe_20_ing_1">300 g de pavo molido magro</string>
+    <string name="recipe_20_ing_2">\u00bc de taza de pan rallado integral</string>
+    <string name="recipe_20_ing_3">1 clara de huevo</string>
+    <string name="recipe_20_ing_4">2 tazas de tomate triturado sin sal a\u00f1adida</string>
+    <string name="recipe_20_ing_5">Hierbas italianas (albahaca, or\u00e9gano, perejil)</string>
+    <string name="recipe_20_ing_6">Espaguetis integrales, ajo</string>
+    <string name="recipe_20_step_1">Mezcla el pavo, el pan rallado, la clara de huevo y las hierbas. Forma las alb\u00f3ndigas.</string>
+    <string name="recipe_20_step_2">Hornea las alb\u00f3ndigas a 190 \u00b0C durante 20 minutos.</string>
+    <string name="recipe_20_step_3">Cocina a fuego lento el tomate triturado con ajo y hierbas para la salsa marinara.</string>
+    <string name="recipe_20_step_4">A\u00f1ade las alb\u00f3ndigas a la marinara. Sirve sobre espaguetis integrales.</string>
+
+    <!-- 21. Vegetable Curry -->
+    <string name="recipe_21_title">Curry de Verduras con Garbanzos</string>
+    <string name="recipe_21_desc">Un curry fragante con garbanzos, espinacas y tomates. Rico en fibra y potasio.</string>
+    <string name="recipe_21_ing_1">1 lata de garbanzos, enjuagados</string>
+    <string name="recipe_21_ing_2">2 tazas de espinacas frescas</string>
+    <string name="recipe_21_ing_3">1 lata de tomates en cubos sin sal a\u00f1adida</string>
+    <string name="recipe_21_ing_4">\u00bd taza de leche de coco ligera</string>
+    <string name="recipe_21_ing_5">2 cucharaditas de curry en polvo</string>
+    <string name="recipe_21_ing_6">Ajo, jengibre, c\u00farcuma, arroz integral para servir</string>
+    <string name="recipe_21_step_1">Saltea el ajo y el jengibre en aceite de oliva. A\u00f1ade el curry en polvo y la c\u00farcuma.</string>
+    <string name="recipe_21_step_2">A\u00f1ade los tomates y la leche de coco. Cocina a fuego lento durante 5 minutos.</string>
+    <string name="recipe_21_step_3">A\u00f1ade los garbanzos y las espinacas. Cocina hasta que las espinacas se marchiten, unos 3 minutos.</string>
+    <string name="recipe_21_step_4">Sirve sobre arroz integral.</string>
+
+    <!-- 22. Lean Beef Stew -->
+    <string name="recipe_22_title">Estofado de Res Magra con Tub\u00e9rculos</string>
+    <string name="recipe_22_desc">Tierna carne de res magra cocinada a fuego lento con patatas, zanahorias y hierbas. Comida reconfortante al estilo DASH.</string>
+    <string name="recipe_22_ing_1">300 g de carne de res magra para estofado, en cubos</string>
+    <string name="recipe_22_ing_2">2 patatas, en cubos</string>
+    <string name="recipe_22_ing_3">2 zanahorias, en rodajas</string>
+    <string name="recipe_22_ing_4">4 tazas de caldo de res bajo en sodio</string>
+    <string name="recipe_22_ing_5">1 taza de cebolla en cubos</string>
+    <string name="recipe_22_ing_6">Hojas de laurel, tomillo, ajo, pimienta negra</string>
+    <string name="recipe_22_step_1">Dora los cubos de carne en aceite de oliva a fuego alto. Retira y reserva.</string>
+    <string name="recipe_22_step_2">Saltea las cebollas y el ajo. A\u00f1ade el caldo, las hojas de laurel y el tomillo. Lleva a ebullici\u00f3n.</string>
+    <string name="recipe_22_step_3">Devuelve la carne. A\u00f1ade las patatas y las zanahorias. Cocina a fuego lento durante 45\u201360 minutos.</string>
+    <string name="recipe_22_step_4">Retira las hojas de laurel, sazona con pimienta y sirve caliente.</string>
+
+    <!-- 23. Stuffed Bell Peppers -->
+    <string name="recipe_23_title">Pimientos Rellenos</string>
+    <string name="recipe_23_desc">Pimientos coloridos rellenos de arroz integral, pavo magro y verduras. Una comida DASH completa.</string>
+    <string name="recipe_23_ing_1">4 pimientos, sin la parte superior y sin semillas</string>
+    <string name="recipe_23_ing_2">200 g de pavo molido magro</string>
+    <string name="recipe_23_ing_3">1 taza de arroz integral cocido</string>
+    <string name="recipe_23_ing_4">\u00bd taza de tomates en cubos sin sal a\u00f1adida</string>
+    <string name="recipe_23_ing_5">\u00bc de taza de queso bajo en grasa</string>
+    <string name="recipe_23_ing_6">Comino, ajo en polvo, pimienta negra</string>
+    <string name="recipe_23_step_1">Precalienta el horno a 190 \u00b0C. Cocina el pavo con las especias hasta que se dore.</string>
+    <string name="recipe_23_step_2">Mezcla el pavo con el arroz integral y los tomates en cubos.</string>
+    <string name="recipe_23_step_3">Rellena los pimientos con la mezcla. Col\u00f3calos en una fuente para hornear con un poco de agua.</string>
+    <string name="recipe_23_step_4">Hornea 25\u201330 minutos. A\u00f1ade el queso en los \u00faltimos 5 minutos. Sirve.</string>
+
+    <!-- 24. Herb Roasted Chicken -->
+    <string name="recipe_24_title">Pechuga de Pollo Asada con Hierbas</string>
+    <string name="recipe_24_desc">Jugosa pechuga de pollo asada con hierbas frescas y servida con verduras asadas.</string>
+    <string name="recipe_24_ing_1">2 pechugas de pollo deshuesadas y sin piel</string>
+    <string name="recipe_24_ing_2">2 cucharadas de aceite de oliva</string>
+    <string name="recipe_24_ing_3">Romero, tomillo y salvia frescos</string>
+    <string name="recipe_24_ing_4">2 tazas de verduras mixtas (coles de Bruselas, zanahorias, cebollas)</string>
+    <string name="recipe_24_ing_5">3 dientes de ajo</string>
+    <string name="recipe_24_ing_6">Pimienta negra, ralladura de lim\u00f3n</string>
+    <string name="recipe_24_step_1">Precalienta el horno a 220 \u00b0C. Frota el pollo con aceite de oliva, hierbas, ajo y ralladura de lim\u00f3n.</string>
+    <string name="recipe_24_step_2">Mezcla las verduras con aceite de oliva y pimienta. Exti\u00e9ndelas en una bandeja para hornear.</string>
+    <string name="recipe_24_step_3">Coloca el pollo sobre las verduras. Asa durante 25\u201330 minutos hasta que el pollo alcance 74 \u00b0C.</string>
+    <string name="recipe_24_step_4">Deja reposar 5 minutos antes de cortar. Sirve con las verduras asadas.</string>
+
+    <!-- === SNACK RECIPES === -->
+
+    <!-- 25. Hummus and Veggie Sticks -->
+    <string name="recipe_25_title">Hummus con Palitos de Verduras</string>
+    <string name="recipe_25_desc">Hummus casero cremoso servido con palitos de verduras crujientes. Un aperitivo DASH rico en fibra y potasio.</string>
+    <string name="recipe_25_ing_1">1 lata de garbanzos, enjuagados</string>
+    <string name="recipe_25_ing_2">2 cucharadas de tahini</string>
+    <string name="recipe_25_ing_3">Jugo de 1 lim\u00f3n</string>
+    <string name="recipe_25_ing_4">1 diente de ajo</string>
+    <string name="recipe_25_ing_5">Palitos de zanahoria, apio y pepino</string>
+    <string name="recipe_25_ing_6">Piment\u00f3n, aceite de oliva para rociar</string>
+    <string name="recipe_25_step_1">Licua los garbanzos, el tahini, el jugo de lim\u00f3n, el ajo y un chorrito de agua hasta obtener una mezcla suave.</string>
+    <string name="recipe_25_step_2">Transfiere a un bol y roc\u00eda con aceite de oliva y piment\u00f3n.</string>
+    <string name="recipe_25_step_3">Corta las zanahorias, el apio y el pepino en palitos.</string>
+    <string name="recipe_25_step_4">Sirve el hummus con los palitos de verduras para mojar.</string>
+
+    <!-- 26. Heart-Healthy Trail Mix -->
+    <string name="recipe_26_title">Mezcla de Frutos Secos Saludable para el Coraz\u00f3n</string>
+    <string name="recipe_26_desc">Una mezcla personalizada de frutos secos sin sal, semillas y frutas deshidratadas. Perfecto para picar siguiendo la dieta DASH.</string>
+    <string name="recipe_26_ing_1">\u00bc de taza de almendras sin sal</string>
+    <string name="recipe_26_ing_2">\u00bc de taza de nueces sin sal</string>
+    <string name="recipe_26_ing_3">2 cucharadas de semillas de calabaza</string>
+    <string name="recipe_26_ing_4">2 cucharadas de ar\u00e1ndanos rojos secos</string>
+    <string name="recipe_26_ing_5">2 cucharadas de chips de chocolate oscuro</string>
+    <string name="recipe_26_ing_6">2 cucharadas de albaricoques secos, picados</string>
+    <string name="recipe_26_step_1">Mide todos los ingredientes.</string>
+    <string name="recipe_26_step_2">Combina todos los frutos secos, semillas y frutas deshidratadas en un bol.</string>
+    <string name="recipe_26_step_3">Mezcla suavemente para distribuir uniformemente.</string>
+    <string name="recipe_26_step_4">Guarda en un recipiente herm\u00e9tico. Divide en porciones de \u00bc de taza.</string>
+
+    <!-- 27. Apple Slices with Almond Butter -->
+    <string name="recipe_27_title">Manzana con Mantequilla de Almendras</string>
+    <string name="recipe_27_desc">Rodajas crujientes de manzana acompa\u00f1adas de cremosa mantequilla de almendras natural. Simple, satisfactorio y saludable para el coraz\u00f3n.</string>
+    <string name="recipe_27_ing_1">1 manzana mediana</string>
+    <string name="recipe_27_ing_2">2 cucharadas de mantequilla de almendras natural</string>
+    <string name="recipe_27_ing_3">Pizca de canela</string>
+    <string name="recipe_27_ing_4">1 cucharadita de semillas de ch\u00eda (opcional)</string>
+    <string name="recipe_27_step_1">Lava y descorazona la manzana. C\u00f3rtala en rodajas.</string>
+    <string name="recipe_27_step_2">Coloca la mantequilla de almendras en un plato peque\u00f1o.</string>
+    <string name="recipe_27_step_3">Espolvorea canela sobre la mantequilla de almendras.</string>
+    <string name="recipe_27_step_4">Moja las rodajas de manzana en la mantequilla de almendras y disfruta.</string>
+
+    <!-- 28. Greek Yogurt Dip -->
+    <string name="recipe_28_title">Dip de Yogur Griego con Hierbas</string>
+    <string name="recipe_28_desc">Yogur griego \u00e1cido sazonado con hierbas y ajo. Una alternativa saludable a los dips de crema agria.</string>
+    <string name="recipe_28_ing_1">1 taza de yogur griego natural bajo en grasa</string>
+    <string name="recipe_28_ing_2">1 cucharada de eneldo fresco, picado</string>
+    <string name="recipe_28_ing_3">1 diente de ajo, picado</string>
+    <string name="recipe_28_ing_4">Jugo de \u00bd lim\u00f3n</string>
+    <string name="recipe_28_ing_5">Pimienta negra al gusto</string>
+    <string name="recipe_28_ing_6">Galletas integrales o palitos de verduras</string>
+    <string name="recipe_28_step_1">Combina el yogur, el eneldo, el ajo y el jugo de lim\u00f3n en un bol.</string>
+    <string name="recipe_28_step_2">Sazona con pimienta negra y mezcla bien.</string>
+    <string name="recipe_28_step_3">Refrigera durante 30 minutos para que se mezclen los sabores.</string>
+    <string name="recipe_28_step_4">Sirve con galletas integrales o palitos de verduras.</string>
+
+    <!-- 29. Mixed Berry Bowl -->
+    <string name="recipe_29_title">Bol de Frutos Rojos Variados</string>
+    <string name="recipe_29_desc">Un simple bol de frutos rojos variados ricos en antioxidantes con un toque de yogur. Naturalmente dulce y refrescante.</string>
+    <string name="recipe_29_ing_1">\u00bd taza de fresas</string>
+    <string name="recipe_29_ing_2">\u00bd taza de ar\u00e1ndanos</string>
+    <string name="recipe_29_ing_3">\u00bd taza de frambuesas</string>
+    <string name="recipe_29_ing_4">2 cucharadas de yogur griego bajo en grasa</string>
+    <string name="recipe_29_ing_5">1 cucharadita de miel</string>
+    <string name="recipe_29_ing_6">Menta fresca para decorar</string>
+    <string name="recipe_29_step_1">Lava todos los frutos rojos y s\u00e9calos.</string>
+    <string name="recipe_29_step_2">Dispone los frutos rojos en un bol.</string>
+    <string name="recipe_29_step_3">Cubre con una cucharada de yogur griego y roc\u00eda con miel.</string>
+    <string name="recipe_29_step_4">Decora con hojas de menta fresca.</string>
+
+    <!-- 30. Rice Cakes with Toppings -->
+    <string name="recipe_30_title">Tortitas de Arroz con Toppings</string>
+    <string name="recipe_30_desc">Tortitas de arroz crujientes bajas en sodio con varios toppings saludables aptos para la dieta DASH.</string>
+    <string name="recipe_30_ing_1">4 tortitas de arroz sin sal</string>
+    <string name="recipe_30_ing_2">2 cucharadas de mantequilla de man\u00ed natural</string>
+    <string name="recipe_30_ing_3">\u00bd pl\u00e1tano, en rodajas</string>
+    <string name="recipe_30_ing_4">\u00bc de aguacate, machacado</string>
+    <string name="recipe_30_ing_5">Tomates cherry, en rodajas</string>
+    <string name="recipe_30_ing_6">Condimento everything bagel (bajo en sodio)</string>
+    <string name="recipe_30_step_1">Prepara dos tipos: unta mantequilla de man\u00ed en 2 tortitas y aguacate en las otras 2.</string>
+    <string name="recipe_30_step_2">Cubre las tortitas con mantequilla de man\u00ed con rodajas de pl\u00e1tano.</string>
+    <string name="recipe_30_step_3">Cubre las tortitas con aguacate con rodajas de tomate y condimento.</string>
+    <string name="recipe_30_step_4">Sirve como un plato de aperitivos satisfactorio.</string>
+</resources>

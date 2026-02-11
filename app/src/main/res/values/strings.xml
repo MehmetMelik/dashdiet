@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">DashDiet</string>
+    <string name="app_tagline">Healthy Eating, Healthy Living</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_recipes">Recipes</string>
+    <string name="nav_meal_plan">Meal Plan</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Auth Screen -->
+    <string name="auth_welcome">Welcome to DashDiet</string>
+    <string name="auth_subtitle">Your guide to the DASH diet for a healthier heart and life</string>
+    <string name="auth_sign_in_google">Sign in with Google</string>
+    <string name="auth_sign_in_apple">Sign in with Apple</string>
+    <string name="auth_skip">Continue as Guest</string>
+    <string name="auth_terms">By signing in, you agree to our Terms of Service and Privacy Policy</string>
+    <string name="auth_signing_in">Signing in…</string>
+    <string name="auth_error">Sign in failed. Please try again.</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">Hello, %1$s!</string>
+    <string name="home_greeting_guest">Hello!</string>
+    <string name="home_daily_tip">Daily DASH Tip</string>
+    <string name="home_featured_recipes">Featured Recipes</string>
+    <string name="home_categories">Categories</string>
+    <string name="home_quick_start">Quick Start</string>
+    <string name="home_view_all">View All</string>
+    <string name="home_dash_score">Your DASH Score</string>
+    <string name="home_what_is_dash">What is the DASH Diet?</string>
+    <string name="home_learn_more">Learn More</string>
+
+    <!-- Categories -->
+    <string name="category_breakfast">Breakfast</string>
+    <string name="category_lunch">Lunch</string>
+    <string name="category_dinner">Dinner</string>
+    <string name="category_snacks">Snacks</string>
+    <string name="category_all">All</string>
+
+    <!-- Recipe List -->
+    <string name="recipes_title">DASH Recipes</string>
+    <string name="recipes_search">Search recipes…</string>
+    <string name="recipes_no_results">No recipes found</string>
+    <string name="recipes_count">%1$d recipes</string>
+    <string name="recipes_filter">Filter</string>
+
+    <!-- Recipe Detail -->
+    <string name="recipe_ingredients">Ingredients</string>
+    <string name="recipe_steps">Instructions</string>
+    <string name="recipe_nutrition">Nutrition Info</string>
+    <string name="recipe_prep_time">Prep Time</string>
+    <string name="recipe_cook_time">Cook Time</string>
+    <string name="recipe_total_time">Total Time</string>
+    <string name="recipe_servings">Servings</string>
+    <string name="recipe_minutes">%1$d min</string>
+    <string name="recipe_step_number">Step %1$d</string>
+    <string name="recipe_add_to_plan">Add to Meal Plan</string>
+    <string name="recipe_added_to_plan">Added to meal plan!</string>
+
+    <!-- Nutrition Labels -->
+    <string name="nutrition_calories">Calories</string>
+    <string name="nutrition_sodium">Sodium</string>
+    <string name="nutrition_potassium">Potassium</string>
+    <string name="nutrition_fiber">Fiber</string>
+    <string name="nutrition_protein">Protein</string>
+    <string name="nutrition_fat">Fat</string>
+    <string name="nutrition_carbs">Carbs</string>
+    <string name="nutrition_cal">%1$d kcal</string>
+    <string name="nutrition_mg">%1$d mg</string>
+    <string name="nutrition_g">%1$d g</string>
+
+    <!-- Meal Plan -->
+    <string name="meal_plan_title">Weekly Meal Plan</string>
+    <string name="meal_plan_empty">Tap + to add a meal</string>
+    <string name="meal_plan_add">Add Meal</string>
+    <string name="meal_plan_remove">Remove</string>
+    <string name="meal_plan_clear">Clear Day</string>
+    <string name="meal_plan_clear_all">Clear All</string>
+    <string name="meal_plan_select_recipe">Select a Recipe</string>
+    <string name="meal_plan_select_slot">Select meal slot</string>
+    <string name="meal_plan_daily_total">Daily Total</string>
+    <string name="meal_plan_weekly_overview">Weekly Overview</string>
+
+    <!-- Days of Week -->
+    <string name="day_monday">Monday</string>
+    <string name="day_tuesday">Tuesday</string>
+    <string name="day_wednesday">Wednesday</string>
+    <string name="day_thursday">Thursday</string>
+    <string name="day_friday">Friday</string>
+    <string name="day_saturday">Saturday</string>
+    <string name="day_sunday">Sunday</string>
+    <string name="day_mon">Mon</string>
+    <string name="day_tue">Tue</string>
+    <string name="day_wed">Wed</string>
+    <string name="day_thu">Thu</string>
+    <string name="day_fri">Fri</string>
+    <string name="day_sat">Sat</string>
+    <string name="day_sun">Sun</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_account">Account</string>
+    <string name="profile_guest">Guest User</string>
+    <string name="profile_sign_out">Sign Out</string>
+    <string name="profile_sign_in">Sign In</string>
+    <string name="profile_settings">Settings</string>
+    <string name="profile_language">Language</string>
+    <string name="profile_dark_mode">Dark Mode</string>
+    <string name="profile_notifications">Notifications</string>
+    <string name="profile_about">About DASH Diet</string>
+    <string name="profile_version">Version %1$s</string>
+    <string name="profile_about_app">About DashDiet</string>
+    <string name="profile_rate">Rate Us</string>
+    <string name="profile_share">Share App</string>
+    <string name="profile_privacy">Privacy Policy</string>
+    <string name="profile_terms">Terms of Service</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_chinese">中文</string>
+    <string name="lang_hindi">हिन्दी</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_select">Select Language</string>
+
+    <!-- DASH Diet Info -->
+    <string name="dash_info_title">About the DASH Diet</string>
+    <string name="dash_info_what">What is the DASH Diet?</string>
+    <string name="dash_info_what_desc">DASH stands for Dietary Approaches to Stop Hypertension. It is a lifelong approach to healthy eating designed to help treat or prevent high blood pressure (hypertension).</string>
+    <string name="dash_info_benefits">Key Benefits</string>
+    <string name="dash_info_benefit_1">Lowers blood pressure</string>
+    <string name="dash_info_benefit_2">Reduces cholesterol levels</string>
+    <string name="dash_info_benefit_3">Improves insulin sensitivity</string>
+    <string name="dash_info_benefit_4">Supports healthy weight</string>
+    <string name="dash_info_benefit_5">Reduces risk of heart disease</string>
+    <string name="dash_info_benefit_6">May lower cancer risk</string>
+    <string name="dash_info_guidelines">DASH Guidelines</string>
+    <string name="dash_info_guideline_1">Eat more fruits and vegetables</string>
+    <string name="dash_info_guideline_2">Choose whole grains over refined</string>
+    <string name="dash_info_guideline_3">Include fat-free or low-fat dairy</string>
+    <string name="dash_info_guideline_4">Choose lean proteins (fish, poultry, beans)</string>
+    <string name="dash_info_guideline_5">Limit sodium to 2,300mg daily (or 1,500mg)</string>
+    <string name="dash_info_guideline_6">Reduce saturated fats and sweets</string>
+    <string name="dash_info_guideline_7">Include nuts, seeds, and legumes</string>
+    <string name="dash_info_daily_servings">Recommended Daily Servings</string>
+    <string name="dash_info_grains">Grains: 6–8 servings</string>
+    <string name="dash_info_vegetables">Vegetables: 4–5 servings</string>
+    <string name="dash_info_fruits">Fruits: 4–5 servings</string>
+    <string name="dash_info_dairy">Dairy (low-fat): 2–3 servings</string>
+    <string name="dash_info_meat">Lean meat/fish: 6 or fewer servings</string>
+    <string name="dash_info_nuts">Nuts/seeds/legumes: 4–5 per week</string>
+    <string name="dash_info_fats">Fats/oils: 2–3 servings</string>
+    <string name="dash_info_sweets">Sweets: 5 or fewer per week</string>
+
+    <!-- Daily Tips -->
+    <string name="tip_1">Try replacing table salt with herbs and spices for flavor.</string>
+    <string name="tip_2">Aim for at least 4–5 servings of fruits and vegetables daily.</string>
+    <string name="tip_3">Choose whole grains like brown rice, whole wheat, and oats.</string>
+    <string name="tip_4">Snack on unsalted nuts instead of chips or crackers.</string>
+    <string name="tip_5">Read nutrition labels and choose foods with less sodium.</string>
+    <string name="tip_6">Include a serving of low-fat dairy like yogurt each day.</string>
+    <string name="tip_7">Grill, bake, or steam food instead of frying.</string>
+    <string name="tip_8">Drink water instead of sugary beverages.</string>
+    <string name="tip_9">Add beans or lentils to soups and salads for extra fiber.</string>
+    <string name="tip_10">Plan your meals ahead to make healthier choices.</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="no_connection">No internet connection</string>
+
+    <!-- ==================== RECIPES ==================== -->
+
+    <!-- === BREAKFAST RECIPES === -->
+
+    <!-- 1. Oatmeal with Berries -->
+    <string name="recipe_1_title">Oatmeal with Fresh Berries</string>
+    <string name="recipe_1_desc">Heart-healthy oatmeal topped with fresh berries and a drizzle of honey. A perfect DASH diet breakfast.</string>
+    <string name="recipe_1_ing_1">1 cup rolled oats</string>
+    <string name="recipe_1_ing_2">2 cups water or low-fat milk</string>
+    <string name="recipe_1_ing_3">½ cup mixed berries (blueberries, strawberries, raspberries)</string>
+    <string name="recipe_1_ing_4">1 tablespoon honey</string>
+    <string name="recipe_1_ing_5">¼ teaspoon cinnamon</string>
+    <string name="recipe_1_ing_6">1 tablespoon chopped walnuts</string>
+    <string name="recipe_1_step_1">Bring water or milk to a boil in a saucepan.</string>
+    <string name="recipe_1_step_2">Add oats and reduce heat. Cook for 5 minutes, stirring occasionally.</string>
+    <string name="recipe_1_step_3">Pour into a bowl and top with fresh berries.</string>
+    <string name="recipe_1_step_4">Drizzle with honey, sprinkle cinnamon and walnuts. Serve warm.</string>
+
+    <!-- 2. Greek Yogurt Parfait -->
+    <string name="recipe_2_title">Greek Yogurt Parfait</string>
+    <string name="recipe_2_desc">Layers of creamy low-fat Greek yogurt, crunchy granola, and fresh fruit for a protein-rich start.</string>
+    <string name="recipe_2_ing_1">1 cup low-fat Greek yogurt</string>
+    <string name="recipe_2_ing_2">¼ cup low-sodium granola</string>
+    <string name="recipe_2_ing_3">½ cup sliced strawberries</string>
+    <string name="recipe_2_ing_4">¼ cup blueberries</string>
+    <string name="recipe_2_ing_5">1 tablespoon chia seeds</string>
+    <string name="recipe_2_ing_6">1 teaspoon honey</string>
+    <string name="recipe_2_step_1">Add half the yogurt to a glass or bowl.</string>
+    <string name="recipe_2_step_2">Layer with half the granola and half the fruits.</string>
+    <string name="recipe_2_step_3">Repeat layers with remaining ingredients.</string>
+    <string name="recipe_2_step_4">Top with chia seeds and a drizzle of honey.</string>
+
+    <!-- 3. Whole Grain Toast with Avocado -->
+    <string name="recipe_3_title">Whole Grain Avocado Toast</string>
+    <string name="recipe_3_desc">Crispy whole grain toast topped with mashed avocado, tomato, and a squeeze of lemon.</string>
+    <string name="recipe_3_ing_1">2 slices whole grain bread</string>
+    <string name="recipe_3_ing_2">1 ripe avocado</string>
+    <string name="recipe_3_ing_3">1 small tomato, sliced</string>
+    <string name="recipe_3_ing_4">Juice of ½ lemon</string>
+    <string name="recipe_3_ing_5">Pinch of black pepper</string>
+    <string name="recipe_3_ing_6">Red pepper flakes (optional)</string>
+    <string name="recipe_3_step_1">Toast the bread slices until golden and crispy.</string>
+    <string name="recipe_3_step_2">Mash the avocado in a bowl with lemon juice and pepper.</string>
+    <string name="recipe_3_step_3">Spread the avocado mixture on each toast.</string>
+    <string name="recipe_3_step_4">Top with tomato slices and optional red pepper flakes.</string>
+
+    <!-- 4. Berry Smoothie Bowl -->
+    <string name="recipe_4_title">Berry Smoothie Bowl</string>
+    <string name="recipe_4_desc">Thick and creamy smoothie bowl loaded with antioxidant-rich berries and nutritious toppings.</string>
+    <string name="recipe_4_ing_1">1 cup frozen mixed berries</string>
+    <string name="recipe_4_ing_2">1 banana</string>
+    <string name="recipe_4_ing_3">½ cup low-fat milk</string>
+    <string name="recipe_4_ing_4">1 tablespoon flaxseed</string>
+    <string name="recipe_4_ing_5">2 tablespoons granola</string>
+    <string name="recipe_4_ing_6">Fresh fruit for topping</string>
+    <string name="recipe_4_step_1">Blend frozen berries, banana, and milk until thick and smooth.</string>
+    <string name="recipe_4_step_2">Pour into a bowl (it should be thicker than a regular smoothie).</string>
+    <string name="recipe_4_step_3">Top with granola, flaxseed, and fresh fruit.</string>
+    <string name="recipe_4_step_4">Serve immediately and enjoy with a spoon.</string>
+
+    <!-- 5. Egg White Omelet -->
+    <string name="recipe_5_title">Veggie Egg White Omelet</string>
+    <string name="recipe_5_desc">Light and fluffy egg white omelet packed with colorful vegetables for a low-fat, high-protein meal.</string>
+    <string name="recipe_5_ing_1">4 egg whites</string>
+    <string name="recipe_5_ing_2">¼ cup diced bell peppers</string>
+    <string name="recipe_5_ing_3">¼ cup chopped spinach</string>
+    <string name="recipe_5_ing_4">2 tablespoons diced tomato</string>
+    <string name="recipe_5_ing_5">2 tablespoons low-fat cheese</string>
+    <string name="recipe_5_ing_6">1 teaspoon olive oil</string>
+    <string name="recipe_5_step_1">Whisk egg whites until slightly frothy.</string>
+    <string name="recipe_5_step_2">Heat olive oil in a non-stick pan over medium heat.</string>
+    <string name="recipe_5_step_3">Pour in egg whites and cook until edges set. Add vegetables to one half.</string>
+    <string name="recipe_5_step_4">Fold omelet in half, top with cheese, and serve.</string>
+
+    <!-- 6. Banana Oat Pancakes -->
+    <string name="recipe_6_title">Banana Oat Pancakes</string>
+    <string name="recipe_6_desc">Fluffy pancakes made with whole grain oats and ripe bananas. Naturally sweet without added sugar.</string>
+    <string name="recipe_6_ing_1">1 cup whole wheat flour</string>
+    <string name="recipe_6_ing_2">½ cup rolled oats</string>
+    <string name="recipe_6_ing_3">1 ripe banana, mashed</string>
+    <string name="recipe_6_ing_4">1 cup low-fat milk</string>
+    <string name="recipe_6_ing_5">1 egg</string>
+    <string name="recipe_6_ing_6">1 teaspoon baking powder</string>
+    <string name="recipe_6_step_1">Mix flour, oats, and baking powder in a bowl.</string>
+    <string name="recipe_6_step_2">In another bowl, combine mashed banana, milk, and egg.</string>
+    <string name="recipe_6_step_3">Fold wet ingredients into dry until just combined.</string>
+    <string name="recipe_6_step_4">Cook on a non-stick pan over medium heat. Flip when bubbles form. Serve with fresh fruit.</string>
+
+    <!-- 7. Fresh Fruit Salad -->
+    <string name="recipe_7_title">Fresh Fruit Salad</string>
+    <string name="recipe_7_desc">A colorful mix of seasonal fruits with a light citrus and mint dressing. Rich in potassium and vitamins.</string>
+    <string name="recipe_7_ing_1">1 cup strawberries, halved</string>
+    <string name="recipe_7_ing_2">1 cup blueberries</string>
+    <string name="recipe_7_ing_3">1 banana, sliced</string>
+    <string name="recipe_7_ing_4">1 orange, segmented</string>
+    <string name="recipe_7_ing_5">1 kiwi, diced</string>
+    <string name="recipe_7_ing_6">Fresh mint leaves and lime juice</string>
+    <string name="recipe_7_step_1">Wash and prepare all fruits.</string>
+    <string name="recipe_7_step_2">Combine all fruits in a large bowl.</string>
+    <string name="recipe_7_step_3">Squeeze lime juice over the fruits and toss gently.</string>
+    <string name="recipe_7_step_4">Garnish with fresh mint leaves. Chill before serving.</string>
+
+    <!-- 8. Granola Bowl -->
+    <string name="recipe_8_title">Low-Sodium Granola Bowl</string>
+    <string name="recipe_8_desc">Crunchy homemade low-sodium granola with dried fruits and seeds over low-fat milk.</string>
+    <string name="recipe_8_ing_1">½ cup low-sodium granola</string>
+    <string name="recipe_8_ing_2">1 cup low-fat milk</string>
+    <string name="recipe_8_ing_3">2 tablespoons dried cranberries</string>
+    <string name="recipe_8_ing_4">1 tablespoon pumpkin seeds</string>
+    <string name="recipe_8_ing_5">1 tablespoon sunflower seeds</string>
+    <string name="recipe_8_ing_6">½ banana, sliced</string>
+    <string name="recipe_8_step_1">Pour granola into a bowl.</string>
+    <string name="recipe_8_step_2">Add low-fat milk.</string>
+    <string name="recipe_8_step_3">Top with dried cranberries, seeds, and banana slices.</string>
+    <string name="recipe_8_step_4">Serve immediately for maximum crunch.</string>
+
+    <!-- === LUNCH RECIPES === -->
+
+    <!-- 9. Quinoa Vegetable Salad -->
+    <string name="recipe_9_title">Quinoa Vegetable Salad</string>
+    <string name="recipe_9_desc">Protein-packed quinoa with fresh vegetables and a light lemon vinaigrette. A perfect DASH lunch.</string>
+    <string name="recipe_9_ing_1">1 cup cooked quinoa</string>
+    <string name="recipe_9_ing_2">½ cup diced cucumber</string>
+    <string name="recipe_9_ing_3">½ cup cherry tomatoes, halved</string>
+    <string name="recipe_9_ing_4">¼ cup diced red onion</string>
+    <string name="recipe_9_ing_5">2 tablespoons olive oil</string>
+    <string name="recipe_9_ing_6">Juice of 1 lemon, fresh parsley</string>
+    <string name="recipe_9_step_1">Cook quinoa according to package directions. Let it cool.</string>
+    <string name="recipe_9_step_2">Combine cooled quinoa with cucumber, tomatoes, and onion.</string>
+    <string name="recipe_9_step_3">Whisk olive oil and lemon juice together for dressing.</string>
+    <string name="recipe_9_step_4">Toss salad with dressing and garnish with parsley.</string>
+
+    <!-- 10. Turkey Lettuce Wrap -->
+    <string name="recipe_10_title">Turkey Lettuce Wrap</string>
+    <string name="recipe_10_desc">Lean turkey wrapped in crisp lettuce leaves with fresh vegetables. Low-carb and DASH-friendly.</string>
+    <string name="recipe_10_ing_1">200g lean ground turkey</string>
+    <string name="recipe_10_ing_2">4 large butter lettuce leaves</string>
+    <string name="recipe_10_ing_3">½ cup shredded carrots</string>
+    <string name="recipe_10_ing_4">¼ cup diced water chestnuts</string>
+    <string name="recipe_10_ing_5">1 tablespoon low-sodium soy sauce</string>
+    <string name="recipe_10_ing_6">1 teaspoon sesame oil, garlic, ginger</string>
+    <string name="recipe_10_step_1">Cook ground turkey with garlic and ginger until browned.</string>
+    <string name="recipe_10_step_2">Add carrots, water chestnuts, soy sauce, and sesame oil. Stir-fry for 2 minutes.</string>
+    <string name="recipe_10_step_3">Wash and pat dry lettuce leaves.</string>
+    <string name="recipe_10_step_4">Spoon turkey mixture into lettuce cups and serve.</string>
+
+    <!-- 11. Lentil Soup -->
+    <string name="recipe_11_title">Hearty Lentil Soup</string>
+    <string name="recipe_11_desc">Warming lentil soup rich in fiber and potassium. A comforting DASH-approved meal.</string>
+    <string name="recipe_11_ing_1">1 cup dried lentils, rinsed</string>
+    <string name="recipe_11_ing_2">4 cups low-sodium vegetable broth</string>
+    <string name="recipe_11_ing_3">1 cup diced carrots</string>
+    <string name="recipe_11_ing_4">1 cup diced celery</string>
+    <string name="recipe_11_ing_5">1 diced onion</string>
+    <string name="recipe_11_ing_6">2 cloves garlic, cumin, turmeric</string>
+    <string name="recipe_11_step_1">Sauté onion, carrots, celery, and garlic in olive oil for 5 minutes.</string>
+    <string name="recipe_11_step_2">Add lentils, broth, cumin, and turmeric. Bring to a boil.</string>
+    <string name="recipe_11_step_3">Reduce heat and simmer for 25–30 minutes until lentils are tender.</string>
+    <string name="recipe_11_step_4">Season with pepper and serve with a squeeze of lemon.</string>
+
+    <!-- 12. Grilled Chicken Salad -->
+    <string name="recipe_12_title">Grilled Chicken Salad</string>
+    <string name="recipe_12_desc">Fresh mixed greens with grilled chicken breast, avocado, and a light balsamic dressing.</string>
+    <string name="recipe_12_ing_1">150g grilled chicken breast, sliced</string>
+    <string name="recipe_12_ing_2">3 cups mixed salad greens</string>
+    <string name="recipe_12_ing_3">½ avocado, sliced</string>
+    <string name="recipe_12_ing_4">¼ cup cherry tomatoes</string>
+    <string name="recipe_12_ing_5">2 tablespoons balsamic vinaigrette</string>
+    <string name="recipe_12_ing_6">1 tablespoon sunflower seeds</string>
+    <string name="recipe_12_step_1">Season chicken breast with herbs and grill until cooked through. Slice.</string>
+    <string name="recipe_12_step_2">Arrange salad greens on a plate.</string>
+    <string name="recipe_12_step_3">Top with chicken, avocado, and tomatoes.</string>
+    <string name="recipe_12_step_4">Drizzle with balsamic vinaigrette and sprinkle sunflower seeds.</string>
+
+    <!-- 13. Veggie Buddha Bowl -->
+    <string name="recipe_13_title">Veggie Buddha Bowl</string>
+    <string name="recipe_13_desc">A colorful bowl of roasted vegetables, chickpeas, and brown rice with tahini dressing.</string>
+    <string name="recipe_13_ing_1">1 cup cooked brown rice</string>
+    <string name="recipe_13_ing_2">½ cup roasted sweet potato cubes</string>
+    <string name="recipe_13_ing_3">½ cup cooked chickpeas</string>
+    <string name="recipe_13_ing_4">½ cup steamed broccoli</string>
+    <string name="recipe_13_ing_5">¼ avocado, sliced</string>
+    <string name="recipe_13_ing_6">2 tablespoons tahini dressing</string>
+    <string name="recipe_13_step_1">Cook brown rice and roast sweet potato cubes at 400°F for 20 minutes.</string>
+    <string name="recipe_13_step_2">Steam broccoli and warm chickpeas.</string>
+    <string name="recipe_13_step_3">Arrange rice, vegetables, and chickpeas in a bowl.</string>
+    <string name="recipe_13_step_4">Top with avocado and drizzle with tahini dressing.</string>
+
+    <!-- 14. Tuna Salad Sandwich -->
+    <string name="recipe_14_title">Tuna Salad Sandwich</string>
+    <string name="recipe_14_desc">Light tuna salad with Greek yogurt instead of mayo, on whole grain bread. Low-sodium and protein-rich.</string>
+    <string name="recipe_14_ing_1">1 can low-sodium tuna, drained</string>
+    <string name="recipe_14_ing_2">2 tablespoons plain Greek yogurt</string>
+    <string name="recipe_14_ing_3">¼ cup diced celery</string>
+    <string name="recipe_14_ing_4">1 tablespoon diced red onion</string>
+    <string name="recipe_14_ing_5">2 slices whole grain bread</string>
+    <string name="recipe_14_ing_6">Lettuce leaves, black pepper</string>
+    <string name="recipe_14_step_1">Mix tuna, Greek yogurt, celery, and onion in a bowl.</string>
+    <string name="recipe_14_step_2">Season with black pepper.</string>
+    <string name="recipe_14_step_3">Spread mixture on whole grain bread.</string>
+    <string name="recipe_14_step_4">Add lettuce leaves, top with second slice, and serve.</string>
+
+    <!-- 15. Minestrone Soup -->
+    <string name="recipe_15_title">Minestrone Soup</string>
+    <string name="recipe_15_desc">Classic Italian vegetable soup with beans and whole grain pasta. Low sodium and full of flavor.</string>
+    <string name="recipe_15_ing_1">4 cups low-sodium vegetable broth</string>
+    <string name="recipe_15_ing_2">1 can no-salt-added diced tomatoes</string>
+    <string name="recipe_15_ing_3">½ cup whole wheat pasta</string>
+    <string name="recipe_15_ing_4">½ cup kidney beans, rinsed</string>
+    <string name="recipe_15_ing_5">1 cup mixed vegetables (zucchini, carrots, green beans)</string>
+    <string name="recipe_15_ing_6">Italian herbs (basil, oregano), garlic</string>
+    <string name="recipe_15_step_1">Sauté garlic and onion in olive oil. Add mixed vegetables and cook 3 minutes.</string>
+    <string name="recipe_15_step_2">Add broth, tomatoes, and herbs. Bring to a boil.</string>
+    <string name="recipe_15_step_3">Add pasta and beans. Simmer 10–12 minutes until pasta is tender.</string>
+    <string name="recipe_15_step_4">Serve hot with a sprinkle of fresh basil.</string>
+
+    <!-- 16. Mediterranean Plate -->
+    <string name="recipe_16_title">Mediterranean Plate</string>
+    <string name="recipe_16_desc">A vibrant plate of hummus, whole grain pita, olives, vegetables, and feta. Heart-healthy Mediterranean flavors.</string>
+    <string name="recipe_16_ing_1">¼ cup hummus</string>
+    <string name="recipe_16_ing_2">1 whole grain pita, cut into wedges</string>
+    <string name="recipe_16_ing_3">½ cup cucumber slices</string>
+    <string name="recipe_16_ing_4">¼ cup cherry tomatoes</string>
+    <string name="recipe_16_ing_5">2 tablespoons crumbled feta cheese</string>
+    <string name="recipe_16_ing_6">Kalamata olives, fresh mint</string>
+    <string name="recipe_16_step_1">Spread hummus on a plate or into a bowl.</string>
+    <string name="recipe_16_step_2">Arrange pita wedges, cucumber, and tomatoes around the hummus.</string>
+    <string name="recipe_16_step_3">Add olives and crumble feta on top.</string>
+    <string name="recipe_16_step_4">Garnish with fresh mint and serve.</string>
+
+    <!-- === DINNER RECIPES === -->
+
+    <!-- 17. Grilled Salmon -->
+    <string name="recipe_17_title">Grilled Salmon with Herbs</string>
+    <string name="recipe_17_desc">Omega-3 rich salmon fillet grilled with lemon and fresh herbs. A cornerstone DASH diet dinner.</string>
+    <string name="recipe_17_ing_1">2 salmon fillets (150g each)</string>
+    <string name="recipe_17_ing_2">2 tablespoons olive oil</string>
+    <string name="recipe_17_ing_3">Juice of 1 lemon</string>
+    <string name="recipe_17_ing_4">2 cloves garlic, minced</string>
+    <string name="recipe_17_ing_5">Fresh dill and parsley</string>
+    <string name="recipe_17_ing_6">Black pepper, steamed asparagus for serving</string>
+    <string name="recipe_17_step_1">Marinate salmon in olive oil, lemon juice, garlic, and herbs for 15 minutes.</string>
+    <string name="recipe_17_step_2">Preheat grill to medium-high heat.</string>
+    <string name="recipe_17_step_3">Grill salmon for 4–5 minutes per side until flaky.</string>
+    <string name="recipe_17_step_4">Serve with steamed asparagus and lemon wedges.</string>
+
+    <!-- 18. Chicken Stir-Fry -->
+    <string name="recipe_18_title">Chicken Vegetable Stir-Fry</string>
+    <string name="recipe_18_desc">Colorful stir-fry with lean chicken and crisp vegetables in a light ginger sauce. Quick and DASH-friendly.</string>
+    <string name="recipe_18_ing_1">200g chicken breast, sliced thin</string>
+    <string name="recipe_18_ing_2">1 cup broccoli florets</string>
+    <string name="recipe_18_ing_3">1 sliced bell pepper</string>
+    <string name="recipe_18_ing_4">½ cup snap peas</string>
+    <string name="recipe_18_ing_5">2 tablespoons low-sodium soy sauce</string>
+    <string name="recipe_18_ing_6">1 teaspoon fresh ginger, garlic, sesame oil</string>
+    <string name="recipe_18_step_1">Stir-fry chicken in sesame oil until golden. Remove and set aside.</string>
+    <string name="recipe_18_step_2">Stir-fry broccoli, bell pepper, and snap peas for 3 minutes.</string>
+    <string name="recipe_18_step_3">Return chicken. Add soy sauce, ginger, and garlic. Toss for 2 minutes.</string>
+    <string name="recipe_18_step_4">Serve over brown rice or whole grain noodles.</string>
+
+    <!-- 19. Baked Cod -->
+    <string name="recipe_19_title">Baked Cod with Vegetables</string>
+    <string name="recipe_19_desc">Tender cod baked with cherry tomatoes and zucchini. Light, flavorful, and heart-healthy.</string>
+    <string name="recipe_19_ing_1">2 cod fillets (150g each)</string>
+    <string name="recipe_19_ing_2">1 cup cherry tomatoes</string>
+    <string name="recipe_19_ing_3">1 zucchini, sliced</string>
+    <string name="recipe_19_ing_4">2 tablespoons olive oil</string>
+    <string name="recipe_19_ing_5">Fresh thyme and oregano</string>
+    <string name="recipe_19_ing_6">Lemon wedges, black pepper</string>
+    <string name="recipe_19_step_1">Preheat oven to 400°F (200°C).</string>
+    <string name="recipe_19_step_2">Arrange cod in a baking dish. Surround with tomatoes and zucchini.</string>
+    <string name="recipe_19_step_3">Drizzle with olive oil, season with herbs and pepper.</string>
+    <string name="recipe_19_step_4">Bake for 18–20 minutes until fish flakes easily. Serve with lemon.</string>
+
+    <!-- 20. Turkey Meatballs -->
+    <string name="recipe_20_title">Turkey Meatballs with Marinara</string>
+    <string name="recipe_20_desc">Lean turkey meatballs in homemade low-sodium marinara sauce. Served over whole wheat spaghetti.</string>
+    <string name="recipe_20_ing_1">300g lean ground turkey</string>
+    <string name="recipe_20_ing_2">¼ cup whole wheat breadcrumbs</string>
+    <string name="recipe_20_ing_3">1 egg white</string>
+    <string name="recipe_20_ing_4">2 cups no-salt-added crushed tomatoes</string>
+    <string name="recipe_20_ing_5">Italian herbs (basil, oregano, parsley)</string>
+    <string name="recipe_20_ing_6">Whole wheat spaghetti, garlic</string>
+    <string name="recipe_20_step_1">Mix turkey, breadcrumbs, egg white, and herbs. Form into meatballs.</string>
+    <string name="recipe_20_step_2">Bake meatballs at 375°F for 20 minutes.</string>
+    <string name="recipe_20_step_3">Simmer crushed tomatoes with garlic and herbs for marinara sauce.</string>
+    <string name="recipe_20_step_4">Toss meatballs in marinara. Serve over whole wheat spaghetti.</string>
+
+    <!-- 21. Vegetable Curry -->
+    <string name="recipe_21_title">Vegetable Chickpea Curry</string>
+    <string name="recipe_21_desc">A fragrant curry with chickpeas, spinach, and tomatoes. Rich in fiber and potassium.</string>
+    <string name="recipe_21_ing_1">1 can chickpeas, rinsed</string>
+    <string name="recipe_21_ing_2">2 cups fresh spinach</string>
+    <string name="recipe_21_ing_3">1 can no-salt-added diced tomatoes</string>
+    <string name="recipe_21_ing_4">½ cup light coconut milk</string>
+    <string name="recipe_21_ing_5">2 teaspoons curry powder</string>
+    <string name="recipe_21_ing_6">Garlic, ginger, turmeric, brown rice for serving</string>
+    <string name="recipe_21_step_1">Sauté garlic and ginger in olive oil. Add curry powder and turmeric.</string>
+    <string name="recipe_21_step_2">Add tomatoes and coconut milk. Simmer for 5 minutes.</string>
+    <string name="recipe_21_step_3">Add chickpeas and spinach. Cook until spinach wilts, about 3 minutes.</string>
+    <string name="recipe_21_step_4">Serve over brown rice.</string>
+
+    <!-- 22. Lean Beef Stew -->
+    <string name="recipe_22_title">Lean Beef and Root Vegetable Stew</string>
+    <string name="recipe_22_desc">Tender lean beef slowly simmered with potatoes, carrots, and herbs. Comfort food the DASH way.</string>
+    <string name="recipe_22_ing_1">300g lean beef stew meat, cubed</string>
+    <string name="recipe_22_ing_2">2 potatoes, cubed</string>
+    <string name="recipe_22_ing_3">2 carrots, sliced</string>
+    <string name="recipe_22_ing_4">4 cups low-sodium beef broth</string>
+    <string name="recipe_22_ing_5">1 cup diced onion</string>
+    <string name="recipe_22_ing_6">Bay leaves, thyme, garlic, black pepper</string>
+    <string name="recipe_22_step_1">Brown beef cubes in olive oil over high heat. Remove and set aside.</string>
+    <string name="recipe_22_step_2">Sauté onions and garlic. Add broth, bay leaves, and thyme. Bring to boil.</string>
+    <string name="recipe_22_step_3">Return beef. Add potatoes and carrots. Simmer for 45–60 minutes.</string>
+    <string name="recipe_22_step_4">Remove bay leaves, season with pepper, and serve hot.</string>
+
+    <!-- 23. Stuffed Bell Peppers -->
+    <string name="recipe_23_title">Stuffed Bell Peppers</string>
+    <string name="recipe_23_desc">Colorful bell peppers stuffed with brown rice, lean turkey, and vegetables. A complete DASH meal.</string>
+    <string name="recipe_23_ing_1">4 bell peppers, tops removed and seeded</string>
+    <string name="recipe_23_ing_2">200g lean ground turkey</string>
+    <string name="recipe_23_ing_3">1 cup cooked brown rice</string>
+    <string name="recipe_23_ing_4">½ cup no-salt-added diced tomatoes</string>
+    <string name="recipe_23_ing_5">¼ cup low-fat cheese</string>
+    <string name="recipe_23_ing_6">Cumin, garlic powder, black pepper</string>
+    <string name="recipe_23_step_1">Preheat oven to 375°F. Cook turkey with spices until browned.</string>
+    <string name="recipe_23_step_2">Mix turkey with brown rice and diced tomatoes.</string>
+    <string name="recipe_23_step_3">Fill peppers with mixture. Place in a baking dish with a little water.</string>
+    <string name="recipe_23_step_4">Bake 25–30 minutes. Top with cheese in last 5 minutes. Serve.</string>
+
+    <!-- 24. Herb Roasted Chicken -->
+    <string name="recipe_24_title">Herb Roasted Chicken Breast</string>
+    <string name="recipe_24_desc">Juicy chicken breast roasted with fresh herbs and served with roasted vegetables.</string>
+    <string name="recipe_24_ing_1">2 boneless skinless chicken breasts</string>
+    <string name="recipe_24_ing_2">2 tablespoons olive oil</string>
+    <string name="recipe_24_ing_3">Fresh rosemary, thyme, and sage</string>
+    <string name="recipe_24_ing_4">2 cups mixed vegetables (Brussels sprouts, carrots, onions)</string>
+    <string name="recipe_24_ing_5">3 cloves garlic</string>
+    <string name="recipe_24_ing_6">Black pepper, lemon zest</string>
+    <string name="recipe_24_step_1">Preheat oven to 425°F. Rub chicken with olive oil, herbs, garlic, and lemon zest.</string>
+    <string name="recipe_24_step_2">Toss vegetables with olive oil and pepper. Spread on baking sheet.</string>
+    <string name="recipe_24_step_3">Place chicken on vegetables. Roast 25–30 minutes until chicken reaches 165°F.</string>
+    <string name="recipe_24_step_4">Let rest 5 minutes before slicing. Serve with roasted vegetables.</string>
+
+    <!-- === SNACK RECIPES === -->
+
+    <!-- 25. Hummus and Veggie Sticks -->
+    <string name="recipe_25_title">Hummus with Veggie Sticks</string>
+    <string name="recipe_25_desc">Creamy homemade hummus served with crisp vegetable sticks. A fiber and potassium-rich DASH snack.</string>
+    <string name="recipe_25_ing_1">1 can chickpeas, rinsed</string>
+    <string name="recipe_25_ing_2">2 tablespoons tahini</string>
+    <string name="recipe_25_ing_3">Juice of 1 lemon</string>
+    <string name="recipe_25_ing_4">1 clove garlic</string>
+    <string name="recipe_25_ing_5">Carrots, celery, cucumber sticks</string>
+    <string name="recipe_25_ing_6">Paprika, olive oil for drizzle</string>
+    <string name="recipe_25_step_1">Blend chickpeas, tahini, lemon juice, garlic, and a splash of water until smooth.</string>
+    <string name="recipe_25_step_2">Transfer to a bowl and drizzle with olive oil and paprika.</string>
+    <string name="recipe_25_step_3">Cut carrots, celery, and cucumber into sticks.</string>
+    <string name="recipe_25_step_4">Serve hummus with vegetable sticks for dipping.</string>
+
+    <!-- 26. Heart-Healthy Trail Mix -->
+    <string name="recipe_26_title">Heart-Healthy Trail Mix</string>
+    <string name="recipe_26_desc">A custom blend of unsalted nuts, seeds, and dried fruits. Perfect DASH-friendly snacking.</string>
+    <string name="recipe_26_ing_1">¼ cup unsalted almonds</string>
+    <string name="recipe_26_ing_2">¼ cup unsalted walnuts</string>
+    <string name="recipe_26_ing_3">2 tablespoons pumpkin seeds</string>
+    <string name="recipe_26_ing_4">2 tablespoons dried cranberries</string>
+    <string name="recipe_26_ing_5">2 tablespoons dark chocolate chips</string>
+    <string name="recipe_26_ing_6">2 tablespoons dried apricots, chopped</string>
+    <string name="recipe_26_step_1">Measure out all ingredients.</string>
+    <string name="recipe_26_step_2">Combine all nuts, seeds, and dried fruits in a bowl.</string>
+    <string name="recipe_26_step_3">Toss gently to mix evenly.</string>
+    <string name="recipe_26_step_4">Store in an airtight container. Portion into ¼ cup servings.</string>
+
+    <!-- 27. Apple Slices with Almond Butter -->
+    <string name="recipe_27_title">Apple with Almond Butter</string>
+    <string name="recipe_27_desc">Crisp apple slices paired with creamy natural almond butter. Simple, satisfying, and heart-healthy.</string>
+    <string name="recipe_27_ing_1">1 medium apple</string>
+    <string name="recipe_27_ing_2">2 tablespoons natural almond butter</string>
+    <string name="recipe_27_ing_3">Pinch of cinnamon</string>
+    <string name="recipe_27_ing_4">1 teaspoon chia seeds (optional)</string>
+    <string name="recipe_27_step_1">Wash and core the apple. Cut into slices.</string>
+    <string name="recipe_27_step_2">Place almond butter in a small dish.</string>
+    <string name="recipe_27_step_3">Sprinkle cinnamon over the almond butter.</string>
+    <string name="recipe_27_step_4">Dip apple slices into almond butter and enjoy.</string>
+
+    <!-- 28. Greek Yogurt Dip -->
+    <string name="recipe_28_title">Herbed Greek Yogurt Dip</string>
+    <string name="recipe_28_desc">Tangy Greek yogurt seasoned with herbs and garlic. A healthy alternative to sour cream dips.</string>
+    <string name="recipe_28_ing_1">1 cup plain low-fat Greek yogurt</string>
+    <string name="recipe_28_ing_2">1 tablespoon fresh dill, chopped</string>
+    <string name="recipe_28_ing_3">1 clove garlic, minced</string>
+    <string name="recipe_28_ing_4">Juice of ½ lemon</string>
+    <string name="recipe_28_ing_5">Black pepper to taste</string>
+    <string name="recipe_28_ing_6">Whole grain crackers or veggie sticks</string>
+    <string name="recipe_28_step_1">Combine yogurt, dill, garlic, and lemon juice in a bowl.</string>
+    <string name="recipe_28_step_2">Season with black pepper and mix well.</string>
+    <string name="recipe_28_step_3">Refrigerate for 30 minutes to let flavors blend.</string>
+    <string name="recipe_28_step_4">Serve with whole grain crackers or vegetable sticks.</string>
+
+    <!-- 29. Mixed Berry Bowl -->
+    <string name="recipe_29_title">Mixed Berry Bowl</string>
+    <string name="recipe_29_desc">A simple bowl of antioxidant-rich mixed berries with a light yogurt drizzle. Naturally sweet and refreshing.</string>
+    <string name="recipe_29_ing_1">½ cup strawberries</string>
+    <string name="recipe_29_ing_2">½ cup blueberries</string>
+    <string name="recipe_29_ing_3">½ cup raspberries</string>
+    <string name="recipe_29_ing_4">2 tablespoons low-fat Greek yogurt</string>
+    <string name="recipe_29_ing_5">1 teaspoon honey</string>
+    <string name="recipe_29_ing_6">Fresh mint for garnish</string>
+    <string name="recipe_29_step_1">Wash all berries and pat dry.</string>
+    <string name="recipe_29_step_2">Arrange berries in a bowl.</string>
+    <string name="recipe_29_step_3">Top with a dollop of Greek yogurt and drizzle honey.</string>
+    <string name="recipe_29_step_4">Garnish with fresh mint leaves.</string>
+
+    <!-- 30. Rice Cakes with Toppings -->
+    <string name="recipe_30_title">Rice Cakes with Toppings</string>
+    <string name="recipe_30_desc">Crunchy low-sodium rice cakes with various healthy DASH-friendly toppings.</string>
+    <string name="recipe_30_ing_1">4 unsalted rice cakes</string>
+    <string name="recipe_30_ing_2">2 tablespoons natural peanut butter</string>
+    <string name="recipe_30_ing_3">½ banana, sliced</string>
+    <string name="recipe_30_ing_4">¼ avocado, mashed</string>
+    <string name="recipe_30_ing_5">Cherry tomatoes, sliced</string>
+    <string name="recipe_30_ing_6">Everything bagel seasoning (low sodium)</string>
+    <string name="recipe_30_step_1">Prepare two types: spread peanut butter on 2 rice cakes, avocado on the other 2.</string>
+    <string name="recipe_30_step_2">Top peanut butter rice cakes with banana slices.</string>
+    <string name="recipe_30_step_3">Top avocado rice cakes with tomato slices and seasoning.</string>
+    <string name="recipe_30_step_4">Serve as a satisfying snack platter.</string>
+</resources>

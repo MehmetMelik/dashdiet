@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">DashDiet</string>
+    <string name="app_tagline">Sağlıklı Beslenme, Sağlıklı Yaşam</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_recipes">Tarifler</string>
+    <string name="nav_meal_plan">Yemek Planı</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Auth Screen -->
+    <string name="auth_welcome">DashDiet\'e Hoş Geldiniz</string>
+    <string name="auth_subtitle">Daha sağlıklı bir kalp ve yaşam için DASH diyeti rehberiniz</string>
+    <string name="auth_sign_in_google">Google ile Giriş Yap</string>
+    <string name="auth_sign_in_apple">Apple ile Giriş Yap</string>
+    <string name="auth_skip">Misafir Olarak Devam Et</string>
+    <string name="auth_terms">Giriş yaparak Hizmet Şartlarımızı ve Gizlilik Politikamızı kabul etmiş olursunuz</string>
+    <string name="auth_signing_in">Giriş yapılıyor…</string>
+    <string name="auth_error">Giriş başarısız oldu. Lütfen tekrar deneyin.</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">Merhaba, %1$s!</string>
+    <string name="home_greeting_guest">Merhaba!</string>
+    <string name="home_daily_tip">Günlük DASH İpucu</string>
+    <string name="home_featured_recipes">Öne Çıkan Tarifler</string>
+    <string name="home_categories">Kategoriler</string>
+    <string name="home_quick_start">Hızlı Başlangıç</string>
+    <string name="home_view_all">Tümünü Gör</string>
+    <string name="home_dash_score">DASH Puanınız</string>
+    <string name="home_what_is_dash">DASH Diyeti Nedir?</string>
+    <string name="home_learn_more">Daha Fazla Bilgi</string>
+
+    <!-- Categories -->
+    <string name="category_breakfast">Kahvaltı</string>
+    <string name="category_lunch">Öğle Yemeği</string>
+    <string name="category_dinner">Akşam Yemeği</string>
+    <string name="category_snacks">Atıştırmalıklar</string>
+    <string name="category_all">Tümü</string>
+
+    <!-- Recipe List -->
+    <string name="recipes_title">DASH Tarifleri</string>
+    <string name="recipes_search">Tarif ara…</string>
+    <string name="recipes_no_results">Tarif bulunamadı</string>
+    <string name="recipes_count">%1$d tarif</string>
+    <string name="recipes_filter">Filtrele</string>
+
+    <!-- Recipe Detail -->
+    <string name="recipe_ingredients">Malzemeler</string>
+    <string name="recipe_steps">Hazırlanışı</string>
+    <string name="recipe_nutrition">Besin Değerleri</string>
+    <string name="recipe_prep_time">Hazırlık Süresi</string>
+    <string name="recipe_cook_time">Pişirme Süresi</string>
+    <string name="recipe_total_time">Toplam Süre</string>
+    <string name="recipe_servings">Porsiyon</string>
+    <string name="recipe_minutes">%1$d dk</string>
+    <string name="recipe_step_number">Adım %1$d</string>
+    <string name="recipe_add_to_plan">Yemek Planına Ekle</string>
+    <string name="recipe_added_to_plan">Yemek planına eklendi!</string>
+
+    <!-- Nutrition Labels -->
+    <string name="nutrition_calories">Kalori</string>
+    <string name="nutrition_sodium">Sodyum</string>
+    <string name="nutrition_potassium">Potasyum</string>
+    <string name="nutrition_fiber">Lif</string>
+    <string name="nutrition_protein">Protein</string>
+    <string name="nutrition_fat">Yağ</string>
+    <string name="nutrition_carbs">Karbonhidrat</string>
+    <string name="nutrition_cal">%1$d kcal</string>
+    <string name="nutrition_mg">%1$d mg</string>
+    <string name="nutrition_g">%1$d g</string>
+
+    <!-- Meal Plan -->
+    <string name="meal_plan_title">Haftalık Yemek Planı</string>
+    <string name="meal_plan_empty">Öğün eklemek için + simgesine dokunun</string>
+    <string name="meal_plan_add">Öğün Ekle</string>
+    <string name="meal_plan_remove">Kaldır</string>
+    <string name="meal_plan_clear">Günü Temizle</string>
+    <string name="meal_plan_clear_all">Tümünü Temizle</string>
+    <string name="meal_plan_select_recipe">Bir Tarif Seçin</string>
+    <string name="meal_plan_select_slot">Öğün seçin</string>
+    <string name="meal_plan_daily_total">Günlük Toplam</string>
+    <string name="meal_plan_weekly_overview">Haftalık Özet</string>
+
+    <!-- Days of Week -->
+    <string name="day_monday">Pazartesi</string>
+    <string name="day_tuesday">Salı</string>
+    <string name="day_wednesday">Çarşamba</string>
+    <string name="day_thursday">Perşembe</string>
+    <string name="day_friday">Cuma</string>
+    <string name="day_saturday">Cumartesi</string>
+    <string name="day_sunday">Pazar</string>
+    <string name="day_mon">Pzt</string>
+    <string name="day_tue">Sal</string>
+    <string name="day_wed">Çar</string>
+    <string name="day_thu">Per</string>
+    <string name="day_fri">Cum</string>
+    <string name="day_sat">Cmt</string>
+    <string name="day_sun">Paz</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_account">Hesap</string>
+    <string name="profile_guest">Misafir Kullanıcı</string>
+    <string name="profile_sign_out">Çıkış Yap</string>
+    <string name="profile_sign_in">Giriş Yap</string>
+    <string name="profile_settings">Ayarlar</string>
+    <string name="profile_language">Dil</string>
+    <string name="profile_dark_mode">Karanlık Mod</string>
+    <string name="profile_notifications">Bildirimler</string>
+    <string name="profile_about">DASH Diyeti Hakkında</string>
+    <string name="profile_version">Sürüm %1$s</string>
+    <string name="profile_about_app">DashDiet Hakkında</string>
+    <string name="profile_rate">Bizi Değerlendirin</string>
+    <string name="profile_share">Uygulamayı Paylaş</string>
+    <string name="profile_privacy">Gizlilik Politikası</string>
+    <string name="profile_terms">Hizmet Şartları</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_chinese">中文</string>
+    <string name="lang_hindi">हिन्दी</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_select">Dil Seçin</string>
+
+    <!-- DASH Diet Info -->
+    <string name="dash_info_title">DASH Diyeti Hakkında</string>
+    <string name="dash_info_what">DASH Diyeti Nedir?</string>
+    <string name="dash_info_what_desc">DASH, Hipertansiyonu Durdurmak için Diyet Yaklaşımları anlamına gelir. Yüksek tansiyon (hipertansiyon) tedavisine veya önlenmesine yardımcı olmak için tasarlanmış, ömür boyu sürdürülebilir sağlıklı beslenme yaklaşımıdır.</string>
+    <string name="dash_info_benefits">Temel Faydaları</string>
+    <string name="dash_info_benefit_1">Tansiyonu düşürür</string>
+    <string name="dash_info_benefit_2">Kolesterol seviyesini azaltır</string>
+    <string name="dash_info_benefit_3">İnsülin duyarlılığını artırır</string>
+    <string name="dash_info_benefit_4">Sağlıklı kiloyu destekler</string>
+    <string name="dash_info_benefit_5">Kalp hastalığı riskini azaltır</string>
+    <string name="dash_info_benefit_6">Kanser riskini azaltabilir</string>
+    <string name="dash_info_guidelines">DASH Kuralları</string>
+    <string name="dash_info_guideline_1">Daha fazla meyve ve sebze tüketin</string>
+    <string name="dash_info_guideline_2">Rafine tahıllar yerine tam tahılları tercih edin</string>
+    <string name="dash_info_guideline_3">Yağsız veya az yağlı süt ürünleri tüketin</string>
+    <string name="dash_info_guideline_4">Yağsız protein kaynaklarını seçin (balık, kümes hayvanları, baklagiller)</string>
+    <string name="dash_info_guideline_5">Günlük sodyum alımını 2.300 mg ile sınırlayın (veya 1.500 mg)</string>
+    <string name="dash_info_guideline_6">Doymuş yağları ve tatlıları azaltın</string>
+    <string name="dash_info_guideline_7">Kuruyemiş, tohum ve baklagilleri diyetinize ekleyin</string>
+    <string name="dash_info_daily_servings">Önerilen Günlük Porsiyonlar</string>
+    <string name="dash_info_grains">Tahıllar: 6–8 porsiyon</string>
+    <string name="dash_info_vegetables">Sebzeler: 4–5 porsiyon</string>
+    <string name="dash_info_fruits">Meyveler: 4–5 porsiyon</string>
+    <string name="dash_info_dairy">Süt ürünleri (az yağlı): 2–3 porsiyon</string>
+    <string name="dash_info_meat">Yağsız et/balık: 6 veya daha az porsiyon</string>
+    <string name="dash_info_nuts">Kuruyemiş/tohum/baklagiller: haftada 4–5</string>
+    <string name="dash_info_fats">Yağlar: 2–3 porsiyon</string>
+    <string name="dash_info_sweets">Tatlılar: haftada 5 veya daha az</string>
+
+    <!-- Daily Tips -->
+    <string name="tip_1">Lezzet için sofra tuzunu bitkiler ve baharatlarla değiştirmeyi deneyin.</string>
+    <string name="tip_2">Günde en az 4–5 porsiyon meyve ve sebze tüketmeyi hedefleyin.</string>
+    <string name="tip_3">Esmer pirinç, tam buğday ve yulaf gibi tam tahılları tercih edin.</string>
+    <string name="tip_4">Cips veya kraker yerine tuzsuz kuruyemiş atıştırın.</string>
+    <string name="tip_5">Besin etiketlerini okuyun ve daha az sodyum içeren gıdaları seçin.</string>
+    <string name="tip_6">Her gün yoğurt gibi az yağlı bir süt ürünü tüketin.</string>
+    <string name="tip_7">Kızartma yerine ızgara, fırın veya buhar pişirme yöntemlerini tercih edin.</string>
+    <string name="tip_8">Şekerli içecekler yerine su için.</string>
+    <string name="tip_9">Ekstra lif için çorbalara ve salatalara fasulye veya mercimek ekleyin.</string>
+    <string name="tip_10">Daha sağlıklı seçimler yapmak için öğünlerinizi önceden planlayın.</string>
+
+    <!-- Common -->
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="save">Kaydet</string>
+    <string name="delete">Sil</string>
+    <string name="close">Kapat</string>
+    <string name="back">Geri</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="error_generic">Bir sorun oluştu. Lütfen tekrar deneyin.</string>
+    <string name="no_connection">İnternet bağlantısı yok</string>
+
+    <!-- ==================== RECIPES ==================== -->
+
+    <!-- === BREAKFAST RECIPES === -->
+
+    <!-- 1. Oatmeal with Berries -->
+    <string name="recipe_1_title">Taze Meyveli Yulaf Lapası</string>
+    <string name="recipe_1_desc">Taze meyveler ve bir tutam bal ile taçlandırılmış kalp dostu yulaf lapası. Mükemmel bir DASH diyeti kahvaltısı.</string>
+    <string name="recipe_1_ing_1">1 su bardağı yulaf ezmesi</string>
+    <string name="recipe_1_ing_2">2 su bardağı su veya az yağlı süt</string>
+    <string name="recipe_1_ing_3">½ su bardağı karışık meyve (yaban mersini, çilek, ahududu)</string>
+    <string name="recipe_1_ing_4">1 yemek kaşığı bal</string>
+    <string name="recipe_1_ing_5">¼ çay kaşığı tarçın</string>
+    <string name="recipe_1_ing_6">1 yemek kaşığı kıyılmış ceviz</string>
+    <string name="recipe_1_step_1">Su veya sütü bir tencerede kaynatın.</string>
+    <string name="recipe_1_step_2">Yulafı ekleyin ve ateşi kısın. Ara sıra karıştırarak 5 dakika pişirin.</string>
+    <string name="recipe_1_step_3">Bir kaseye aktarın ve üzerine taze meyveleri yerleştirin.</string>
+    <string name="recipe_1_step_4">Bal ile tatlandırın, tarçın ve ceviz serpin. Sıcak servis yapın.</string>
+
+    <!-- 2. Greek Yogurt Parfait -->
+    <string name="recipe_2_title">Yunan Yoğurdu Parfesi</string>
+    <string name="recipe_2_desc">Kremamsı az yağlı Yunan yoğurdu, çıtır granola ve taze meyve katmanları. Proteinli bir başlangıç.</string>
+    <string name="recipe_2_ing_1">1 su bardağı az yağlı Yunan yoğurdu</string>
+    <string name="recipe_2_ing_2">¼ su bardağı az sodyumlu granola</string>
+    <string name="recipe_2_ing_3">½ su bardağı dilimlenmiş çilek</string>
+    <string name="recipe_2_ing_4">¼ su bardağı yaban mersini</string>
+    <string name="recipe_2_ing_5">1 yemek kaşığı chia tohumu</string>
+    <string name="recipe_2_ing_6">1 çay kaşığı bal</string>
+    <string name="recipe_2_step_1">Yoğurdun yarısını bir bardağa veya kaseye koyun.</string>
+    <string name="recipe_2_step_2">Granola ve meyvelerin yarısını katman olarak ekleyin.</string>
+    <string name="recipe_2_step_3">Kalan malzemelerle katmanları tekrarlayın.</string>
+    <string name="recipe_2_step_4">Üzerine chia tohumu ve bir tutam bal ekleyin.</string>
+
+    <!-- 3. Whole Grain Toast with Avocado -->
+    <string name="recipe_3_title">Tam Tahıllı Avokadolu Tost</string>
+    <string name="recipe_3_desc">Ezilmiş avokado, domates ve limon sıkılmış çıtır tam tahıllı tost.</string>
+    <string name="recipe_3_ing_1">2 dilim tam tahıllı ekmek</string>
+    <string name="recipe_3_ing_2">1 olgun avokado</string>
+    <string name="recipe_3_ing_3">1 küçük domates, dilimlenmiş</string>
+    <string name="recipe_3_ing_4">½ limon suyu</string>
+    <string name="recipe_3_ing_5">Bir tutam karabiber</string>
+    <string name="recipe_3_ing_6">Kırmızı pul biber (isteğe bağlı)</string>
+    <string name="recipe_3_step_1">Ekmek dilimlerini altın rengi ve çıtır olana kadar kızartın.</string>
+    <string name="recipe_3_step_2">Avokadoyu bir kasede limon suyu ve biberle ezin.</string>
+    <string name="recipe_3_step_3">Avokado karışımını her bir tostun üzerine yayın.</string>
+    <string name="recipe_3_step_4">Domates dilimleri ve isteğe bağlı kırmızı pul biber ile süsleyin.</string>
+
+    <!-- 4. Berry Smoothie Bowl -->
+    <string name="recipe_4_title">Meyveli Smoothie Kasesi</string>
+    <string name="recipe_4_desc">Antioksidan açısından zengin meyveler ve besleyici malzemelerle dolu koyu kıvamlı smoothie kasesi.</string>
+    <string name="recipe_4_ing_1">1 su bardağı dondurulmuş karışık meyve</string>
+    <string name="recipe_4_ing_2">1 muz</string>
+    <string name="recipe_4_ing_3">½ su bardağı az yağlı süt</string>
+    <string name="recipe_4_ing_4">1 yemek kaşığı keten tohumu</string>
+    <string name="recipe_4_ing_5">2 yemek kaşığı granola</string>
+    <string name="recipe_4_ing_6">Üzeri için taze meyve</string>
+    <string name="recipe_4_step_1">Dondurulmuş meyveleri, muzu ve sütü koyu ve pürüzsüz olana kadar blenderda karıştırın.</string>
+    <string name="recipe_4_step_2">Bir kaseye aktarın (normal smoothie\'den daha koyu olmalıdır).</string>
+    <string name="recipe_4_step_3">Üzerine granola, keten tohumu ve taze meyve ekleyin.</string>
+    <string name="recipe_4_step_4">Hemen kaşıkla servis yapın ve afiyetle yiyin.</string>
+
+    <!-- 5. Egg White Omelet -->
+    <string name="recipe_5_title">Sebzeli Yumurta Akı Omleti</string>
+    <string name="recipe_5_desc">Renkli sebzelerle dolu, hafif ve kabarık yumurta akı omleti. Az yağlı, yüksek proteinli bir öğün.</string>
+    <string name="recipe_5_ing_1">4 yumurta akı</string>
+    <string name="recipe_5_ing_2">¼ su bardağı doğranmış biber</string>
+    <string name="recipe_5_ing_3">¼ su bardağı kıyılmış ıspanak</string>
+    <string name="recipe_5_ing_4">2 yemek kaşığı doğranmış domates</string>
+    <string name="recipe_5_ing_5">2 yemek kaşığı az yağlı peynir</string>
+    <string name="recipe_5_ing_6">1 çay kaşığı zeytinyağı</string>
+    <string name="recipe_5_step_1">Yumurta akını hafif köpürene kadar çırpın.</string>
+    <string name="recipe_5_step_2">Yapışmaz tavada zeytinyağını orta ateşte ısıtın.</string>
+    <string name="recipe_5_step_3">Yumurta akını dökün ve kenarları pişene kadar bekleyin. Sebzeleri bir yarısına ekleyin.</string>
+    <string name="recipe_5_step_4">Omleti ikiye katlayın, üzerine peynir ekleyin ve servis yapın.</string>
+
+    <!-- 6. Banana Oat Pancakes -->
+    <string name="recipe_6_title">Muzlu Yulaf Pankeki</string>
+    <string name="recipe_6_desc">Tam tahıllı yulaf ve olgun muzlarla yapılan kabarık pankekler. İlave şeker olmadan doğal tatlılık.</string>
+    <string name="recipe_6_ing_1">1 su bardağı tam buğday unu</string>
+    <string name="recipe_6_ing_2">½ su bardağı yulaf ezmesi</string>
+    <string name="recipe_6_ing_3">1 olgun muz, ezilmiş</string>
+    <string name="recipe_6_ing_4">1 su bardağı az yağlı süt</string>
+    <string name="recipe_6_ing_5">1 yumurta</string>
+    <string name="recipe_6_ing_6">1 çay kaşığı kabartma tozu</string>
+    <string name="recipe_6_step_1">Un, yulaf ve kabartma tozunu bir kasede karıştırın.</string>
+    <string name="recipe_6_step_2">Başka bir kasede ezilmiş muzu, sütü ve yumurtayı birleştirin.</string>
+    <string name="recipe_6_step_3">Islak malzemeleri kuru malzemelerin içine hafifçe karıştırın.</string>
+    <string name="recipe_6_step_4">Yapışmaz tavada orta ateşte pişirin. Kabarcıklar oluştuğunda çevirin. Taze meyve ile servis yapın.</string>
+
+    <!-- 7. Fresh Fruit Salad -->
+    <string name="recipe_7_title">Taze Meyve Salatası</string>
+    <string name="recipe_7_desc">Hafif narenciye ve nane sosuyla hazırlanmış renkli mevsim meyveleri karışımı. Potasyum ve vitamin açısından zengin.</string>
+    <string name="recipe_7_ing_1">1 su bardağı çilek, ikiye bölünmüş</string>
+    <string name="recipe_7_ing_2">1 su bardağı yaban mersini</string>
+    <string name="recipe_7_ing_3">1 muz, dilimlenmiş</string>
+    <string name="recipe_7_ing_4">1 portakal, dilimlenmiş</string>
+    <string name="recipe_7_ing_5">1 kivi, doğranmış</string>
+    <string name="recipe_7_ing_6">Taze nane yaprakları ve misket limonu suyu</string>
+    <string name="recipe_7_step_1">Tüm meyveleri yıkayın ve hazırlayın.</string>
+    <string name="recipe_7_step_2">Tüm meyveleri büyük bir kasede birleştirin.</string>
+    <string name="recipe_7_step_3">Meyvelerin üzerine misket limonu suyu sıkın ve hafifçe karıştırın.</string>
+    <string name="recipe_7_step_4">Taze nane yaprakları ile süsleyin. Servis etmeden önce buzdolabında soğutun.</string>
+
+    <!-- 8. Granola Bowl -->
+    <string name="recipe_8_title">Az Sodyumlu Granola Kasesi</string>
+    <string name="recipe_8_desc">Kurutulmuş meyveler ve tohumlarla hazırlanmış çıtır ev yapımı az sodyumlu granola, az yağlı süt ile.</string>
+    <string name="recipe_8_ing_1">½ su bardağı az sodyumlu granola</string>
+    <string name="recipe_8_ing_2">1 su bardağı az yağlı süt</string>
+    <string name="recipe_8_ing_3">2 yemek kaşığı kuru kızılcık</string>
+    <string name="recipe_8_ing_4">1 yemek kaşığı kabak çekirdeği</string>
+    <string name="recipe_8_ing_5">1 yemek kaşığı ayçiçeği çekirdeği</string>
+    <string name="recipe_8_ing_6">½ muz, dilimlenmiş</string>
+    <string name="recipe_8_step_1">Granolayı bir kaseye koyun.</string>
+    <string name="recipe_8_step_2">Az yağlı sütü ekleyin.</string>
+    <string name="recipe_8_step_3">Üzerine kuru kızılcık, tohumlar ve muz dilimleri yerleştirin.</string>
+    <string name="recipe_8_step_4">Maksimum çıtırlık için hemen servis yapın.</string>
+
+    <!-- === LUNCH RECIPES === -->
+
+    <!-- 9. Quinoa Vegetable Salad -->
+    <string name="recipe_9_title">Kinoa Sebze Salatası</string>
+    <string name="recipe_9_desc">Taze sebzeler ve hafif limonlu sos ile protein açısından zengin kinoa. Mükemmel bir DASH öğle yemeği.</string>
+    <string name="recipe_9_ing_1">1 su bardağı pişmiş kinoa</string>
+    <string name="recipe_9_ing_2">½ su bardağı doğranmış salatalık</string>
+    <string name="recipe_9_ing_3">½ su bardağı kiraz domates, ikiye bölünmüş</string>
+    <string name="recipe_9_ing_4">¼ su bardağı doğranmış kırmızı soğan</string>
+    <string name="recipe_9_ing_5">2 yemek kaşığı zeytinyağı</string>
+    <string name="recipe_9_ing_6">1 limon suyu, taze maydanoz</string>
+    <string name="recipe_9_step_1">Kinoayı ambalaj talimatlarına göre pişirin. Soğumasını bekleyin.</string>
+    <string name="recipe_9_step_2">Soğumuş kinoayı salatalık, domates ve soğan ile birleştirin.</string>
+    <string name="recipe_9_step_3">Zeytinyağı ve limon suyunu sos olarak çırpın.</string>
+    <string name="recipe_9_step_4">Salatayı sos ile karıştırın ve maydanoz ile süsleyin.</string>
+
+    <!-- 10. Turkey Lettuce Wrap -->
+    <string name="recipe_10_title">Hindi Marul Sarması</string>
+    <string name="recipe_10_desc">Taze sebzelerle çıtır marul yapraklarına sarılmış yağsız hindi kıyma. Düşük karbonhidratlı ve DASH dostu.</string>
+    <string name="recipe_10_ing_1">200 g yağsız hindi kıyma</string>
+    <string name="recipe_10_ing_2">4 büyük kıvırcık marul yaprağı</string>
+    <string name="recipe_10_ing_3">½ su bardağı rendelenmiş havuç</string>
+    <string name="recipe_10_ing_4">¼ su bardağı doğranmış su kestanesi</string>
+    <string name="recipe_10_ing_5">1 yemek kaşığı az sodyumlu soya sosu</string>
+    <string name="recipe_10_ing_6">1 çay kaşığı susam yağı, sarımsak, zencefil</string>
+    <string name="recipe_10_step_1">Hindi kıymayı sarımsak ve zencefil ile kızarana kadar pişirin.</string>
+    <string name="recipe_10_step_2">Havuç, su kestanesi, soya sosu ve susam yağını ekleyin. 2 dakika soteleyin.</string>
+    <string name="recipe_10_step_3">Marul yapraklarını yıkayın ve kurulayın.</string>
+    <string name="recipe_10_step_4">Hindi karışımını marul yapraklarına doldurun ve servis yapın.</string>
+
+    <!-- 11. Lentil Soup -->
+    <string name="recipe_11_title">Doyurucu Mercimek Çorbası</string>
+    <string name="recipe_11_desc">Lif ve potasyum açısından zengin, ısıtan mercimek çorbası. DASH onaylı rahatlatıcı bir öğün.</string>
+    <string name="recipe_11_ing_1">1 su bardağı kuru mercimek, yıkanmış</string>
+    <string name="recipe_11_ing_2">4 su bardağı az sodyumlu sebze suyu</string>
+    <string name="recipe_11_ing_3">1 su bardağı doğranmış havuç</string>
+    <string name="recipe_11_ing_4">1 su bardağı doğranmış kereviz</string>
+    <string name="recipe_11_ing_5">1 doğranmış soğan</string>
+    <string name="recipe_11_ing_6">2 diş sarımsak, kimyon, zerdeçal</string>
+    <string name="recipe_11_step_1">Soğan, havuç, kereviz ve sarımsağı zeytinyağında 5 dakika soteleyin.</string>
+    <string name="recipe_11_step_2">Mercimek, et suyu, kimyon ve zerdeçalı ekleyin. Kaynatın.</string>
+    <string name="recipe_11_step_3">Ateşi kısın ve mercimekler yumuşayana kadar 25–30 dakika kaynatın.</string>
+    <string name="recipe_11_step_4">Karabiberle tatlandırın ve bir sıkım limon suyu ile servis yapın.</string>
+
+    <!-- 12. Grilled Chicken Salad -->
+    <string name="recipe_12_title">Izgara Tavuk Salatası</string>
+    <string name="recipe_12_desc">Izgara tavuk göğsü, avokado ve hafif balsamik sos ile taze karışık yeşillikler.</string>
+    <string name="recipe_12_ing_1">150 g ızgara tavuk göğsü, dilimlenmiş</string>
+    <string name="recipe_12_ing_2">3 su bardağı karışık salata yeşillikleri</string>
+    <string name="recipe_12_ing_3">½ avokado, dilimlenmiş</string>
+    <string name="recipe_12_ing_4">¼ su bardağı kiraz domates</string>
+    <string name="recipe_12_ing_5">2 yemek kaşığı balsamik vinegret</string>
+    <string name="recipe_12_ing_6">1 yemek kaşığı ayçiçeği çekirdeği</string>
+    <string name="recipe_12_step_1">Tavuk göğsünü baharatlarla tatlandırın ve iyice pişene kadar ızgarada pişirin. Dilimleyin.</string>
+    <string name="recipe_12_step_2">Salata yeşilliklerini bir tabağa yerleştirin.</string>
+    <string name="recipe_12_step_3">Üzerine tavuk, avokado ve domatesleri ekleyin.</string>
+    <string name="recipe_12_step_4">Balsamik vinegret ile süsleyin ve ayçiçeği çekirdeği serpin.</string>
+
+    <!-- 13. Veggie Buddha Bowl -->
+    <string name="recipe_13_title">Sebzeli Buda Kasesi</string>
+    <string name="recipe_13_desc">Kavrulmuş sebzeler, nohut ve esmer pirinçten oluşan renkli bir kase, tahin sosu ile.</string>
+    <string name="recipe_13_ing_1">1 su bardağı pişmiş esmer pirinç</string>
+    <string name="recipe_13_ing_2">½ su bardağı kavrulmuş tatlı patates küpleri</string>
+    <string name="recipe_13_ing_3">½ su bardağı pişmiş nohut</string>
+    <string name="recipe_13_ing_4">½ su bardağı buharda pişmiş brokoli</string>
+    <string name="recipe_13_ing_5">¼ avokado, dilimlenmiş</string>
+    <string name="recipe_13_ing_6">2 yemek kaşığı tahin sosu</string>
+    <string name="recipe_13_step_1">Esmer pirinci pişirin ve tatlı patates küplerini 200°C\'de 20 dakika kavurun.</string>
+    <string name="recipe_13_step_2">Brokoliyi buharda pişirin ve nohutları ısıtın.</string>
+    <string name="recipe_13_step_3">Pirinç, sebzeler ve nohutu bir kaseye yerleştirin.</string>
+    <string name="recipe_13_step_4">Üzerine avokado ekleyin ve tahin sosu ile süsleyin.</string>
+
+    <!-- 14. Tuna Salad Sandwich -->
+    <string name="recipe_14_title">Ton Balığı Salatalı Sandviç</string>
+    <string name="recipe_14_desc">Mayonez yerine Yunan yoğurdu ile hazırlanmış hafif ton balığı salatası, tam tahıllı ekmek üzerinde. Az sodyumlu ve protein açısından zengin.</string>
+    <string name="recipe_14_ing_1">1 kutu az sodyumlu ton balığı, süzülmüş</string>
+    <string name="recipe_14_ing_2">2 yemek kaşığı sade Yunan yoğurdu</string>
+    <string name="recipe_14_ing_3">¼ su bardağı doğranmış kereviz</string>
+    <string name="recipe_14_ing_4">1 yemek kaşığı doğranmış kırmızı soğan</string>
+    <string name="recipe_14_ing_5">2 dilim tam tahıllı ekmek</string>
+    <string name="recipe_14_ing_6">Marul yaprakları, karabiber</string>
+    <string name="recipe_14_step_1">Ton balığı, Yunan yoğurdu, kereviz ve soğanı bir kasede karıştırın.</string>
+    <string name="recipe_14_step_2">Karabiber ile tatlandırın.</string>
+    <string name="recipe_14_step_3">Karışımı tam tahıllı ekmeğe yayın.</string>
+    <string name="recipe_14_step_4">Marul yaprakları ekleyin, ikinci dilimi kapatın ve servis yapın.</string>
+
+    <!-- 15. Minestrone Soup -->
+    <string name="recipe_15_title">Minestrone Çorbası</string>
+    <string name="recipe_15_desc">Fasulye ve tam tahıllı makarna ile hazırlanan klasik İtalyan sebze çorbası. Az sodyumlu ve lezzet dolu.</string>
+    <string name="recipe_15_ing_1">4 su bardağı az sodyumlu sebze suyu</string>
+    <string name="recipe_15_ing_2">1 kutu tuzsuz doğranmış domates</string>
+    <string name="recipe_15_ing_3">½ su bardağı tam buğday makarna</string>
+    <string name="recipe_15_ing_4">½ su bardağı barbunya, yıkanmış</string>
+    <string name="recipe_15_ing_5">1 su bardağı karışık sebze (kabak, havuç, taze fasulye)</string>
+    <string name="recipe_15_ing_6">İtalyan otları (fesleğen, kekik), sarımsak</string>
+    <string name="recipe_15_step_1">Sarımsak ve soğanı zeytinyağında soteleyin. Karışık sebzeleri ekleyin ve 3 dakika pişirin.</string>
+    <string name="recipe_15_step_2">Et suyu, domates ve otları ekleyin. Kaynatın.</string>
+    <string name="recipe_15_step_3">Makarna ve fasulyeyi ekleyin. Makarna yumuşayana kadar 10–12 dakika pişirin.</string>
+    <string name="recipe_15_step_4">Taze fesleğen serperek sıcak servis yapın.</string>
+
+    <!-- 16. Mediterranean Plate -->
+    <string name="recipe_16_title">Akdeniz Tabağı</string>
+    <string name="recipe_16_desc">Humus, tam tahıllı pide, zeytin, sebzeler ve beyaz peynirden oluşan canlı bir tabak. Kalp dostu Akdeniz lezzetleri.</string>
+    <string name="recipe_16_ing_1">¼ su bardağı humus</string>
+    <string name="recipe_16_ing_2">1 tam tahıllı pide, dilimlere kesilmiş</string>
+    <string name="recipe_16_ing_3">½ su bardağı salatalık dilimleri</string>
+    <string name="recipe_16_ing_4">¼ su bardağı kiraz domates</string>
+    <string name="recipe_16_ing_5">2 yemek kaşığı ufalanmış beyaz peynir</string>
+    <string name="recipe_16_ing_6">Kalamata zeytini, taze nane</string>
+    <string name="recipe_16_step_1">Humusu bir tabağa veya kaseye yayın.</string>
+    <string name="recipe_16_step_2">Pide dilimlerini, salatalık ve domatesleri humusun etrafına yerleştirin.</string>
+    <string name="recipe_16_step_3">Zeytinleri ekleyin ve üzerine beyaz peynir ufalayın.</string>
+    <string name="recipe_16_step_4">Taze nane ile süsleyin ve servis yapın.</string>
+
+    <!-- === DINNER RECIPES === -->
+
+    <!-- 17. Grilled Salmon -->
+    <string name="recipe_17_title">Otlu Izgara Somon</string>
+    <string name="recipe_17_desc">Limon ve taze otlarla ızgara edilmiş Omega-3 açısından zengin somon fileto. DASH diyetinin temel akşam yemeği.</string>
+    <string name="recipe_17_ing_1">2 somon fileto (her biri 150 g)</string>
+    <string name="recipe_17_ing_2">2 yemek kaşığı zeytinyağı</string>
+    <string name="recipe_17_ing_3">1 limon suyu</string>
+    <string name="recipe_17_ing_4">2 diş sarımsak, kıyılmış</string>
+    <string name="recipe_17_ing_5">Taze dereotu ve maydanoz</string>
+    <string name="recipe_17_ing_6">Karabiber, servis için buharda kuşkonmaz</string>
+    <string name="recipe_17_step_1">Somonu zeytinyağı, limon suyu, sarımsak ve otlar ile 15 dakika marine edin.</string>
+    <string name="recipe_17_step_2">Izgarayı orta-yüksek ateşte ön ısıtmaya alın.</string>
+    <string name="recipe_17_step_3">Somonu her tarafı 4–5 dakika olacak şekilde kolay ayrılana kadar ızgarada pişirin.</string>
+    <string name="recipe_17_step_4">Buharda pişmiş kuşkonmaz ve limon dilimleri ile servis yapın.</string>
+
+    <!-- 18. Chicken Stir-Fry -->
+    <string name="recipe_18_title">Tavuklu Sebze Sote</string>
+    <string name="recipe_18_desc">Hafif zencefil sosu ile yağsız tavuk ve çıtır sebzelerden oluşan renkli sote. Hızlı ve DASH dostu.</string>
+    <string name="recipe_18_ing_1">200 g tavuk göğsü, ince dilimlenmiş</string>
+    <string name="recipe_18_ing_2">1 su bardağı brokoli çiçeği</string>
+    <string name="recipe_18_ing_3">1 dilimlenmiş biber</string>
+    <string name="recipe_18_ing_4">½ su bardağı şeker bezelye</string>
+    <string name="recipe_18_ing_5">2 yemek kaşığı az sodyumlu soya sosu</string>
+    <string name="recipe_18_ing_6">1 çay kaşığı taze zencefil, sarımsak, susam yağı</string>
+    <string name="recipe_18_step_1">Tavuğu susam yağında altın rengine dönene kadar soteleyin. Çıkarın ve kenara koyun.</string>
+    <string name="recipe_18_step_2">Brokoli, biber ve şeker bezelyeyi 3 dakika soteleyin.</string>
+    <string name="recipe_18_step_3">Tavuğu geri ekleyin. Soya sosu, zencefil ve sarımsak ekleyin. 2 dakika karıştırın.</string>
+    <string name="recipe_18_step_4">Esmer pirinç veya tam tahıllı erişte üzerinde servis yapın.</string>
+
+    <!-- 19. Baked Cod -->
+    <string name="recipe_19_title">Sebzeli Fırın Morina</string>
+    <string name="recipe_19_desc">Kiraz domates ve kabakla fırında pişirilmiş yumuşak morina. Hafif, lezzetli ve kalp dostu.</string>
+    <string name="recipe_19_ing_1">2 morina fileto (her biri 150 g)</string>
+    <string name="recipe_19_ing_2">1 su bardağı kiraz domates</string>
+    <string name="recipe_19_ing_3">1 kabak, dilimlenmiş</string>
+    <string name="recipe_19_ing_4">2 yemek kaşığı zeytinyağı</string>
+    <string name="recipe_19_ing_5">Taze kekik ve mercanköşk</string>
+    <string name="recipe_19_ing_6">Limon dilimleri, karabiber</string>
+    <string name="recipe_19_step_1">Fırını 200°C\'ye ön ısıtmaya alın.</string>
+    <string name="recipe_19_step_2">Morinayı bir fırın kabına yerleştirin. Etrafına domates ve kabağı dizin.</string>
+    <string name="recipe_19_step_3">Zeytinyağı gezdirin, otlar ve biberle tatlandırın.</string>
+    <string name="recipe_19_step_4">Balık kolayca ayrılana kadar 18–20 dakika pişirin. Limon ile servis yapın.</string>
+
+    <!-- 20. Turkey Meatballs -->
+    <string name="recipe_20_title">Marinara Soslu Hindi Köfte</string>
+    <string name="recipe_20_desc">Ev yapımı az sodyumlu marinara sosunda yağsız hindi köfte. Tam buğday spagetti üzerinde servis edilir.</string>
+    <string name="recipe_20_ing_1">300 g yağsız hindi kıyma</string>
+    <string name="recipe_20_ing_2">¼ su bardağı tam buğday galeta unu</string>
+    <string name="recipe_20_ing_3">1 yumurta akı</string>
+    <string name="recipe_20_ing_4">2 su bardağı tuzsuz ezilmiş domates</string>
+    <string name="recipe_20_ing_5">İtalyan otları (fesleğen, mercanköşk, maydanoz)</string>
+    <string name="recipe_20_ing_6">Tam buğday spagetti, sarımsak</string>
+    <string name="recipe_20_step_1">Hindi kıymayı galeta unu, yumurta akı ve otlarla karıştırın. Köfte şekli verin.</string>
+    <string name="recipe_20_step_2">Köfteleri 190°C\'de 20 dakika fırınlayın.</string>
+    <string name="recipe_20_step_3">Ezilmiş domatesi sarımsak ve otlarla marinara sosu olarak kaynatın.</string>
+    <string name="recipe_20_step_4">Köfteleri marinara sosuna ekleyin. Tam buğday spagetti üzerinde servis yapın.</string>
+
+    <!-- 21. Vegetable Curry -->
+    <string name="recipe_21_title">Nohutlu Sebze Körisi</string>
+    <string name="recipe_21_desc">Nohut, ıspanak ve domatesle hazırlanmış aromatik köri. Lif ve potasyum açısından zengin.</string>
+    <string name="recipe_21_ing_1">1 kutu nohut, yıkanmış</string>
+    <string name="recipe_21_ing_2">2 su bardağı taze ıspanak</string>
+    <string name="recipe_21_ing_3">1 kutu tuzsuz doğranmış domates</string>
+    <string name="recipe_21_ing_4">½ su bardağı hafif hindistancevizi sütü</string>
+    <string name="recipe_21_ing_5">2 çay kaşığı köri tozu</string>
+    <string name="recipe_21_ing_6">Sarımsak, zencefil, zerdeçal, servis için esmer pirinç</string>
+    <string name="recipe_21_step_1">Sarımsak ve zencefili zeytinyağında soteleyin. Köri tozu ve zerdeçal ekleyin.</string>
+    <string name="recipe_21_step_2">Domates ve hindistancevizi sütünü ekleyin. 5 dakika kaynatın.</string>
+    <string name="recipe_21_step_3">Nohut ve ıspanağı ekleyin. Ispanak solana kadar yaklaşık 3 dakika pişirin.</string>
+    <string name="recipe_21_step_4">Esmer pirinç üzerinde servis yapın.</string>
+
+    <!-- 22. Lean Beef Stew -->
+    <string name="recipe_22_title">Yağsız Et ve Kök Sebze Yahnisi</string>
+    <string name="recipe_22_desc">Patates, havuç ve otlarla yavaş pişirilmiş yumuşacık yağsız et. DASH tarzında ev yemeği konforu.</string>
+    <string name="recipe_22_ing_1">300 g yağsız kuşbaşı et</string>
+    <string name="recipe_22_ing_2">2 patates, küp doğranmış</string>
+    <string name="recipe_22_ing_3">2 havuç, dilimlenmiş</string>
+    <string name="recipe_22_ing_4">4 su bardağı az sodyumlu et suyu</string>
+    <string name="recipe_22_ing_5">1 su bardağı doğranmış soğan</string>
+    <string name="recipe_22_ing_6">Defne yaprakları, kekik, sarımsak, karabiber</string>
+    <string name="recipe_22_step_1">Et küplerini zeytinyağında yüksek ateşte kızartın. Çıkarın ve kenara koyun.</string>
+    <string name="recipe_22_step_2">Soğan ve sarımsağı soteleyin. Et suyu, defne yaprakları ve kekik ekleyin. Kaynatın.</string>
+    <string name="recipe_22_step_3">Eti geri ekleyin. Patates ve havuçları ilave edin. 45–60 dakika kaynatın.</string>
+    <string name="recipe_22_step_4">Defne yapraklarını çıkarın, karabiberle tatlandırın ve sıcak servis yapın.</string>
+
+    <!-- 23. Stuffed Bell Peppers -->
+    <string name="recipe_23_title">Etli Biber Dolması</string>
+    <string name="recipe_23_desc">Esmer pirinç, yağsız hindi kıyma ve sebzelerle doldurulmuş renkli biberler. Eksiksiz bir DASH öğünü.</string>
+    <string name="recipe_23_ing_1">4 biber, üstleri kesilmiş ve çekirdekleri çıkarılmış</string>
+    <string name="recipe_23_ing_2">200 g yağsız hindi kıyma</string>
+    <string name="recipe_23_ing_3">1 su bardağı pişmiş esmer pirinç</string>
+    <string name="recipe_23_ing_4">½ su bardağı tuzsuz doğranmış domates</string>
+    <string name="recipe_23_ing_5">¼ su bardağı az yağlı peynir</string>
+    <string name="recipe_23_ing_6">Kimyon, sarımsak tozu, karabiber</string>
+    <string name="recipe_23_step_1">Fırını 190°C\'ye ön ısıtın. Hindi kıymayı baharatlarla kızarana kadar pişirin.</string>
+    <string name="recipe_23_step_2">Hindiyi esmer pirinç ve doğranmış domates ile karıştırın.</string>
+    <string name="recipe_23_step_3">Biberleri karışımla doldurun. Biraz su eklenmiş bir fırın kabına yerleştirin.</string>
+    <string name="recipe_23_step_4">25–30 dakika pişirin. Son 5 dakikada üzerine peynir ekleyin. Servis yapın.</string>
+
+    <!-- 24. Herb Roasted Chicken -->
+    <string name="recipe_24_title">Otlu Fırın Tavuk Göğsü</string>
+    <string name="recipe_24_desc">Taze otlarla kavrulmuş sulu tavuk göğsü, fırınlanmış sebzelerle servis edilir.</string>
+    <string name="recipe_24_ing_1">2 kemiksiz, derisiz tavuk göğsü</string>
+    <string name="recipe_24_ing_2">2 yemek kaşığı zeytinyağı</string>
+    <string name="recipe_24_ing_3">Taze biberiye, kekik ve adaçayı</string>
+    <string name="recipe_24_ing_4">2 su bardağı karışık sebze (brüksel lahanası, havuç, soğan)</string>
+    <string name="recipe_24_ing_5">3 diş sarımsak</string>
+    <string name="recipe_24_ing_6">Karabiber, limon kabuğu rendesi</string>
+    <string name="recipe_24_step_1">Fırını 220°C\'ye ön ısıtın. Tavuğu zeytinyağı, otlar, sarımsak ve limon kabuğu rendesi ile ovun.</string>
+    <string name="recipe_24_step_2">Sebzeleri zeytinyağı ve biberle karıştırın. Fırın tepsisine yayın.</string>
+    <string name="recipe_24_step_3">Tavuğu sebzelerin üzerine yerleştirin. Tavuk 74°C\'ye ulaşana kadar 25–30 dakika pişirin.</string>
+    <string name="recipe_24_step_4">Dilimlemeden önce 5 dakika dinlendirin. Fırınlanmış sebzelerle servis yapın.</string>
+
+    <!-- === SNACK RECIPES === -->
+
+    <!-- 25. Hummus and Veggie Sticks -->
+    <string name="recipe_25_title">Sebze Çubukları ile Humus</string>
+    <string name="recipe_25_desc">Çıtır sebze çubuklarıyla servis edilen kremamsı ev yapımı humus. Lif ve potasyum açısından zengin DASH atıştırmalığı.</string>
+    <string name="recipe_25_ing_1">1 kutu nohut, yıkanmış</string>
+    <string name="recipe_25_ing_2">2 yemek kaşığı tahin</string>
+    <string name="recipe_25_ing_3">1 limon suyu</string>
+    <string name="recipe_25_ing_4">1 diş sarımsak</string>
+    <string name="recipe_25_ing_5">Havuç, kereviz, salatalık çubukları</string>
+    <string name="recipe_25_ing_6">Kırmızı toz biber, üzeri için zeytinyağı</string>
+    <string name="recipe_25_step_1">Nohut, tahin, limon suyu, sarımsak ve bir miktar suyu pürüzsüz olana kadar blenderda karıştırın.</string>
+    <string name="recipe_25_step_2">Bir kaseye aktarın ve üzerine zeytinyağı ve kırmızı toz biber gezdirin.</string>
+    <string name="recipe_25_step_3">Havuç, kereviz ve salatalığı çubuklar halinde kesin.</string>
+    <string name="recipe_25_step_4">Humusu sebze çubuklarıyla birlikte servis yapın.</string>
+
+    <!-- 26. Heart-Healthy Trail Mix -->
+    <string name="recipe_26_title">Kalp Dostu Karışık Kuruyemiş</string>
+    <string name="recipe_26_desc">Tuzsuz kuruyemiş, tohum ve kurutulmuş meyvelerin özel karışımı. Mükemmel DASH dostu atıştırmalık.</string>
+    <string name="recipe_26_ing_1">¼ su bardağı tuzsuz badem</string>
+    <string name="recipe_26_ing_2">¼ su bardağı tuzsuz ceviz</string>
+    <string name="recipe_26_ing_3">2 yemek kaşığı kabak çekirdeği</string>
+    <string name="recipe_26_ing_4">2 yemek kaşığı kuru kızılcık</string>
+    <string name="recipe_26_ing_5">2 yemek kaşığı bitter çikolata parçaları</string>
+    <string name="recipe_26_ing_6">2 yemek kaşığı kuru kayısı, doğranmış</string>
+    <string name="recipe_26_step_1">Tüm malzemeleri ölçün.</string>
+    <string name="recipe_26_step_2">Tüm kuruyemiş, tohum ve kurutulmuş meyveleri bir kasede birleştirin.</string>
+    <string name="recipe_26_step_3">Eşit dağılım için hafifçe karıştırın.</string>
+    <string name="recipe_26_step_4">Hava geçirmez bir kapta saklayın. ¼ su bardağı porsiyonlara ayırın.</string>
+
+    <!-- 27. Apple Slices with Almond Butter -->
+    <string name="recipe_27_title">Badem Ezmeli Elma</string>
+    <string name="recipe_27_desc">Kremamsı doğal badem ezmesi ile çıtır elma dilimleri. Basit, doyurucu ve kalp dostu.</string>
+    <string name="recipe_27_ing_1">1 orta boy elma</string>
+    <string name="recipe_27_ing_2">2 yemek kaşığı doğal badem ezmesi</string>
+    <string name="recipe_27_ing_3">Bir tutam tarçın</string>
+    <string name="recipe_27_ing_4">1 çay kaşığı chia tohumu (isteğe bağlı)</string>
+    <string name="recipe_27_step_1">Elmayı yıkayın ve çekirdeklerini çıkarın. Dilimlere ayırın.</string>
+    <string name="recipe_27_step_2">Badem ezmesini küçük bir kaseye koyun.</string>
+    <string name="recipe_27_step_3">Badem ezmesinin üzerine tarçın serpin.</string>
+    <string name="recipe_27_step_4">Elma dilimlerini badem ezmesine batırarak afiyetle yiyin.</string>
+
+    <!-- 28. Greek Yogurt Dip -->
+    <string name="recipe_28_title">Otlu Yunan Yoğurdu Dip</string>
+    <string name="recipe_28_desc">Otlar ve sarımsakla tatlandırılmış ekşi Yunan yoğurdu. Ekşi krema diplerinin sağlıklı alternatifi.</string>
+    <string name="recipe_28_ing_1">1 su bardağı sade az yağlı Yunan yoğurdu</string>
+    <string name="recipe_28_ing_2">1 yemek kaşığı taze dereotu, kıyılmış</string>
+    <string name="recipe_28_ing_3">1 diş sarımsak, kıyılmış</string>
+    <string name="recipe_28_ing_4">½ limon suyu</string>
+    <string name="recipe_28_ing_5">Karabiber</string>
+    <string name="recipe_28_ing_6">Tam tahıllı kraker veya sebze çubukları</string>
+    <string name="recipe_28_step_1">Yoğurt, dereotu, sarımsak ve limon suyunu bir kasede birleştirin.</string>
+    <string name="recipe_28_step_2">Karabiberle tatlandırın ve iyice karıştırın.</string>
+    <string name="recipe_28_step_3">Lezzetlerin karışması için 30 dakika buzdolabında bekletin.</string>
+    <string name="recipe_28_step_4">Tam tahıllı kraker veya sebze çubukları ile servis yapın.</string>
+
+    <!-- 29. Mixed Berry Bowl -->
+    <string name="recipe_29_title">Karışık Meyve Kasesi</string>
+    <string name="recipe_29_desc">Hafif yoğurt sosu ile antioksidan açısından zengin karışık meyvelerin basit bir kasesi. Doğal tatlılık ve ferahlık.</string>
+    <string name="recipe_29_ing_1">½ su bardağı çilek</string>
+    <string name="recipe_29_ing_2">½ su bardağı yaban mersini</string>
+    <string name="recipe_29_ing_3">½ su bardağı ahududu</string>
+    <string name="recipe_29_ing_4">2 yemek kaşığı az yağlı Yunan yoğurdu</string>
+    <string name="recipe_29_ing_5">1 çay kaşığı bal</string>
+    <string name="recipe_29_ing_6">Süsleme için taze nane</string>
+    <string name="recipe_29_step_1">Tüm meyveleri yıkayın ve kurulayın.</string>
+    <string name="recipe_29_step_2">Meyveleri bir kaseye yerleştirin.</string>
+    <string name="recipe_29_step_3">Üzerine bir kaşık Yunan yoğurdu ekleyin ve bal gezdirin.</string>
+    <string name="recipe_29_step_4">Taze nane yaprakları ile süsleyin.</string>
+
+    <!-- 30. Rice Cakes with Toppings -->
+    <string name="recipe_30_title">Malzemeli Pirinç Patlakları</string>
+    <string name="recipe_30_desc">Çeşitli sağlıklı DASH dostu malzemelerle çıtır az sodyumlu pirinç patlakları.</string>
+    <string name="recipe_30_ing_1">4 tuzsuz pirinç patlağı</string>
+    <string name="recipe_30_ing_2">2 yemek kaşığı doğal fıstık ezmesi</string>
+    <string name="recipe_30_ing_3">½ muz, dilimlenmiş</string>
+    <string name="recipe_30_ing_4">¼ avokado, ezilmiş</string>
+    <string name="recipe_30_ing_5">Kiraz domates, dilimlenmiş</string>
+    <string name="recipe_30_ing_6">Çeşnili baharat karışımı (az sodyumlu)</string>
+    <string name="recipe_30_step_1">İki çeşit hazırlayın: 2 pirinç patlağına fıstık ezmesi, diğer 2\'sine avokado sürün.</string>
+    <string name="recipe_30_step_2">Fıstık ezmeli pirinç patlaklarının üzerine muz dilimleri yerleştirin.</string>
+    <string name="recipe_30_step_3">Avokadolu pirinç patlaklarının üzerine domates dilimleri ve baharat ekleyin.</string>
+    <string name="recipe_30_step_4">Doyurucu bir atıştırmalık tabağı olarak servis yapın.</string>
+</resources>
